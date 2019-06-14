@@ -1,1 +1,0 @@
-*One concept at a time.*

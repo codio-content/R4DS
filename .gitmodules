@@ -1,0 +1,4 @@
+[submodule "book-converter"]
+	path = book-converter
+	url = git@github.com:codio/book-converter.git
+	branch = master

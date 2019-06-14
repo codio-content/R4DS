@@ -1,1 +1,0 @@
-In this exercise, you will draw “Moire&#x301; patterns” that seem to shift around as you move.
