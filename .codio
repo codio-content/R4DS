@@ -1,0 +1,19 @@
+{
+// Configure your Run and Preview buttons here.
+
+// Run button configuration
+  "commands": {
+        "Start RStudio": "sudo service rstudio-server-codio start",
+        "Restart RStudio": "sudo service rstudio-server-codio restart",
+        "Stop RStudio": "sudo service rstudio-server-codio stop"
+  },
+
+// Preview button configuration
+  "preview": {
+        "Run RStudio": "https://{{domain8787}}/",
+        "Project Index (static)": "https://{{domain}}/{{index}}",
+        "Current File (static)": "https://{{domain}}/{{filepath}}",
+        "Box URL": "http://{{domain3000}}/",
+        "Box URL SSL": "https://{{domain3000}}/"
+  }
+}

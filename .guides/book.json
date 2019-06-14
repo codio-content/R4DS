@@ -1,0 +1,1201 @@
+{
+ "children": [
+  {
+   "children": [],
+   "id": "index-welcome",
+   "pageId": "index-welcome",
+   "title": "Welcome",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "intro-introduction-intro-what-you-will-learn",
+     "pageId": "intro-introduction-intro-what-you-will-learn",
+     "title": "What you will learn",
+     "type": "page"
+    },
+    {
+     "id": "intro-introduction-intro-how-this-book-is-organised",
+     "pageId": "intro-introduction-intro-how-this-book-is-organised",
+     "title": "How this book is organised",
+     "type": "page"
+    },
+    {
+     "id": "intro-introduction-intro-what-you-won-t-learn",
+     "pageId": "intro-introduction-intro-what-you-won-t-learn",
+     "title": "What you won't learn",
+     "type": "page"
+    },
+    {
+     "id": "intro-introduction-intro-prerequisites",
+     "pageId": "intro-introduction-intro-prerequisites",
+     "title": "Prerequisites",
+     "type": "page"
+    },
+    {
+     "id": "intro-introduction-intro-running-r-code",
+     "pageId": "intro-introduction-intro-running-r-code",
+     "title": "Running R code",
+     "type": "page"
+    },
+    {
+     "id": "intro-introduction-intro-getting-help-and-learning-more",
+     "pageId": "intro-introduction-intro-getting-help-and-learning-more",
+     "title": "Getting help and learning more",
+     "type": "page"
+    },
+    {
+     "id": "intro-introduction-intro-acknowledgements",
+     "pageId": "intro-introduction-intro-acknowledgements",
+     "title": "Acknowledgements",
+     "type": "page"
+    },
+    {
+     "id": "intro-introduction-intro-colophon",
+     "pageId": "intro-introduction-intro-colophon",
+     "title": "Colophon",
+     "type": "page"
+    }
+   ],
+   "id": "intro-introduction",
+   "pageId": "intro-introduction",
+   "title": "Introduction",
+   "type": "chapter"
+  },
+  {
+   "children": [],
+   "id": "explore-part-explore",
+   "title": "(PART) Explore",
+   "type": "chapter"
+  },
+  {
+   "children": [],
+   "id": "explore-introduction",
+   "pageId": "explore-introduction",
+   "title": "Introduction",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "visualize-data-visualisation-visualize-introduction",
+     "pageId": "visualize-data-visualisation-visualize-introduction",
+     "title": "Introduction",
+     "type": "page"
+    },
+    {
+     "id": "visualize-data-visualisation-visualize-first-steps",
+     "pageId": "visualize-data-visualisation-visualize-first-steps",
+     "title": "First steps",
+     "type": "page"
+    },
+    {
+     "id": "visualize-data-visualisation-visualize-aesthetic-mappings",
+     "pageId": "visualize-data-visualisation-visualize-aesthetic-mappings",
+     "title": "Aesthetic mappings",
+     "type": "page"
+    },
+    {
+     "id": "visualize-data-visualisation-visualize-common-problems",
+     "pageId": "visualize-data-visualisation-visualize-common-problems",
+     "title": "Common problems",
+     "type": "page"
+    },
+    {
+     "id": "visualize-data-visualisation-visualize-facets",
+     "pageId": "visualize-data-visualisation-visualize-facets",
+     "title": "Facets",
+     "type": "page"
+    },
+    {
+     "id": "visualize-data-visualisation-visualize-geometric-objects",
+     "pageId": "visualize-data-visualisation-visualize-geometric-objects",
+     "title": "Geometric objects",
+     "type": "page"
+    },
+    {
+     "id": "visualize-data-visualisation-visualize-statistical-transformations",
+     "pageId": "visualize-data-visualisation-visualize-statistical-transformations",
+     "title": "Statistical transformations",
+     "type": "page"
+    },
+    {
+     "id": "visualize-data-visualisation-visualize-position-adjustments",
+     "pageId": "visualize-data-visualisation-visualize-position-adjustments",
+     "title": "Position adjustments",
+     "type": "page"
+    },
+    {
+     "id": "visualize-data-visualisation-visualize-coordinate-systems",
+     "pageId": "visualize-data-visualisation-visualize-coordinate-systems",
+     "title": "Coordinate systems",
+     "type": "page"
+    },
+    {
+     "id": "visualize-data-visualisation-visualize-the-layered-grammar-of-graphics",
+     "pageId": "visualize-data-visualisation-visualize-the-layered-grammar-of-graphics",
+     "title": "The layered grammar of graphics",
+     "type": "page"
+    }
+   ],
+   "id": "visualize-data-visualisation",
+   "title": "Data visualisation",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "workflow-basics-workflow-basics-workflow-basics-coding-basics",
+     "pageId": "workflow-basics-workflow-basics-workflow-basics-coding-basics",
+     "title": "Coding basics",
+     "type": "page"
+    },
+    {
+     "id": "workflow-basics-workflow-basics-workflow-basics-what-s-in-a-name-",
+     "pageId": "workflow-basics-workflow-basics-workflow-basics-what-s-in-a-name-",
+     "title": "What's in a name?",
+     "type": "page"
+    },
+    {
+     "id": "workflow-basics-workflow-basics-workflow-basics-calling-functions",
+     "pageId": "workflow-basics-workflow-basics-workflow-basics-calling-functions",
+     "title": "Calling functions",
+     "type": "page"
+    },
+    {
+     "id": "workflow-basics-workflow-basics-workflow-basics-practice",
+     "pageId": "workflow-basics-workflow-basics-workflow-basics-practice",
+     "title": "Practice",
+     "type": "page"
+    }
+   ],
+   "id": "workflow-basics-workflow-basics",
+   "pageId": "workflow-basics-workflow-basics",
+   "title": "Workflow: basics",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "transform-data-transformation-transform-introduction",
+     "pageId": "transform-data-transformation-transform-introduction",
+     "title": "Introduction",
+     "type": "page"
+    },
+    {
+     "id": "transform-data-transformation-transform-filter-rows-with-filter-",
+     "pageId": "transform-data-transformation-transform-filter-rows-with-filter-",
+     "title": "Filter rows with `filter()`",
+     "type": "page"
+    },
+    {
+     "id": "transform-data-transformation-transform-arrange-rows-with-arrange-",
+     "pageId": "transform-data-transformation-transform-arrange-rows-with-arrange-",
+     "title": "Arrange rows with `arrange()`",
+     "type": "page"
+    },
+    {
+     "id": "transform-data-transformation-transform-select-columns-with-select-",
+     "pageId": "transform-data-transformation-transform-select-columns-with-select-",
+     "title": "Select columns with `select()`",
+     "type": "page"
+    },
+    {
+     "id": "transform-data-transformation-transform-add-new-variables-with-mutate-",
+     "pageId": "transform-data-transformation-transform-add-new-variables-with-mutate-",
+     "title": "Add new variables with `mutate()`",
+     "type": "page"
+    },
+    {
+     "id": "transform-data-transformation-transform-grouped-summaries-with-summarise-",
+     "pageId": "transform-data-transformation-transform-grouped-summaries-with-summarise-",
+     "title": "Grouped summaries with `summarise()`",
+     "type": "page"
+    },
+    {
+     "id": "transform-data-transformation-transform-grouped-mutates-and-filters-",
+     "pageId": "transform-data-transformation-transform-grouped-mutates-and-filters-",
+     "title": "Grouped mutates (and filters)",
+     "type": "page"
+    }
+   ],
+   "id": "transform-data-transformation",
+   "title": "Data transformation",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "workflow-scripts-workflow-scripts-workflow-scripts-running-code",
+     "pageId": "workflow-scripts-workflow-scripts-workflow-scripts-running-code",
+     "title": "Running code",
+     "type": "page"
+    },
+    {
+     "id": "workflow-scripts-workflow-scripts-workflow-scripts-rstudio-diagnostics",
+     "pageId": "workflow-scripts-workflow-scripts-workflow-scripts-rstudio-diagnostics",
+     "title": "RStudio diagnostics",
+     "type": "page"
+    },
+    {
+     "id": "workflow-scripts-workflow-scripts-workflow-scripts-practice",
+     "pageId": "workflow-scripts-workflow-scripts-workflow-scripts-practice",
+     "title": "Practice",
+     "type": "page"
+    }
+   ],
+   "id": "workflow-scripts-workflow-scripts",
+   "pageId": "workflow-scripts-workflow-scripts",
+   "title": "Workflow: scripts",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "eda-exploratory-data-analysis-eda-introduction",
+     "pageId": "eda-exploratory-data-analysis-eda-introduction",
+     "title": "Introduction",
+     "type": "page"
+    },
+    {
+     "id": "eda-exploratory-data-analysis-eda-questions",
+     "pageId": "eda-exploratory-data-analysis-eda-questions",
+     "title": "Questions",
+     "type": "page"
+    },
+    {
+     "id": "eda-exploratory-data-analysis-eda-variation",
+     "pageId": "eda-exploratory-data-analysis-eda-variation",
+     "title": "Variation",
+     "type": "page"
+    },
+    {
+     "id": "eda-exploratory-data-analysis-eda-missing-values",
+     "pageId": "eda-exploratory-data-analysis-eda-missing-values",
+     "title": "Missing values",
+     "type": "page"
+    },
+    {
+     "id": "eda-exploratory-data-analysis-eda-covariation",
+     "pageId": "eda-exploratory-data-analysis-eda-covariation",
+     "title": "Covariation",
+     "type": "page"
+    },
+    {
+     "id": "eda-exploratory-data-analysis-eda-patterns-and-models",
+     "pageId": "eda-exploratory-data-analysis-eda-patterns-and-models",
+     "title": "Patterns and models",
+     "type": "page"
+    },
+    {
+     "id": "eda-exploratory-data-analysis-eda-ggplot2-calls",
+     "pageId": "eda-exploratory-data-analysis-eda-ggplot2-calls",
+     "title": "ggplot2 calls",
+     "type": "page"
+    },
+    {
+     "id": "eda-exploratory-data-analysis-eda-learning-more",
+     "pageId": "eda-exploratory-data-analysis-eda-learning-more",
+     "title": "Learning more",
+     "type": "page"
+    }
+   ],
+   "id": "eda-exploratory-data-analysis",
+   "title": "Exploratory Data Analysis",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "workflow-projects-workflow-projects-workflow-projects-what-is-real-",
+     "pageId": "workflow-projects-workflow-projects-workflow-projects-what-is-real-",
+     "title": "What is real?",
+     "type": "page"
+    },
+    {
+     "id": "workflow-projects-workflow-projects-workflow-projects-where-does-your-analysis-live-",
+     "pageId": "workflow-projects-workflow-projects-workflow-projects-where-does-your-analysis-live-",
+     "title": "Where does your analysis live?",
+     "type": "page"
+    },
+    {
+     "id": "workflow-projects-workflow-projects-workflow-projects-paths-and-directories",
+     "pageId": "workflow-projects-workflow-projects-workflow-projects-paths-and-directories",
+     "title": "Paths and directories",
+     "type": "page"
+    },
+    {
+     "id": "workflow-projects-workflow-projects-workflow-projects-rstudio-projects",
+     "pageId": "workflow-projects-workflow-projects-workflow-projects-rstudio-projects",
+     "title": "RStudio projects",
+     "type": "page"
+    },
+    {
+     "id": "workflow-projects-workflow-projects-workflow-projects-summary",
+     "pageId": "workflow-projects-workflow-projects-workflow-projects-summary",
+     "title": "Summary",
+     "type": "page"
+    }
+   ],
+   "id": "workflow-projects-workflow-projects",
+   "pageId": "workflow-projects-workflow-projects",
+   "title": "Workflow: projects",
+   "type": "chapter"
+  },
+  {
+   "children": [],
+   "id": "wrangle-part-wrangle",
+   "title": "(PART) Wrangle",
+   "type": "chapter"
+  },
+  {
+   "children": [],
+   "id": "wrangle-introduction",
+   "pageId": "wrangle-introduction",
+   "title": "Introduction",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "tibble-tibbles-tibble-introduction",
+     "pageId": "tibble-tibbles-tibble-introduction",
+     "title": "Introduction",
+     "type": "page"
+    },
+    {
+     "id": "tibble-tibbles-tibble-creating-tibbles",
+     "pageId": "tibble-tibbles-tibble-creating-tibbles",
+     "title": "Creating tibbles",
+     "type": "page"
+    },
+    {
+     "id": "tibble-tibbles-tibble-tibbles-vs-data-frame",
+     "pageId": "tibble-tibbles-tibble-tibbles-vs-data-frame",
+     "title": "Tibbles vs. data.frame",
+     "type": "page"
+    },
+    {
+     "id": "tibble-tibbles-tibble-interacting-with-older-code",
+     "pageId": "tibble-tibbles-tibble-interacting-with-older-code",
+     "title": "Interacting with older code",
+     "type": "page"
+    },
+    {
+     "id": "tibble-tibbles-tibble-exercises",
+     "pageId": "tibble-tibbles-tibble-exercises",
+     "title": "Exercises",
+     "type": "page"
+    }
+   ],
+   "id": "tibble-tibbles",
+   "title": "Tibbles",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "import-data-import-import-introduction",
+     "pageId": "import-data-import-import-introduction",
+     "title": "Introduction",
+     "type": "page"
+    },
+    {
+     "id": "import-data-import-import-getting-started",
+     "pageId": "import-data-import-import-getting-started",
+     "title": "Getting started",
+     "type": "page"
+    },
+    {
+     "id": "import-data-import-import-parsing-a-vector",
+     "pageId": "import-data-import-import-parsing-a-vector",
+     "title": "Parsing a vector",
+     "type": "page"
+    },
+    {
+     "id": "import-data-import-import-parsing-a-file",
+     "pageId": "import-data-import-import-parsing-a-file",
+     "title": "Parsing a file",
+     "type": "page"
+    },
+    {
+     "id": "import-data-import-import-writing-to-a-file",
+     "pageId": "import-data-import-import-writing-to-a-file",
+     "title": "Writing to a file",
+     "type": "page"
+    },
+    {
+     "id": "import-data-import-import-other-types-of-data",
+     "pageId": "import-data-import-import-other-types-of-data",
+     "title": "Other types of data",
+     "type": "page"
+    }
+   ],
+   "id": "import-data-import",
+   "title": "Data import",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "tidy-tidy-data-tidy-introduction",
+     "pageId": "tidy-tidy-data-tidy-introduction",
+     "title": "Introduction",
+     "type": "page"
+    },
+    {
+     "id": "tidy-tidy-data-tidy-tidy-data",
+     "pageId": "tidy-tidy-data-tidy-tidy-data",
+     "title": "Tidy data",
+     "type": "page"
+    },
+    {
+     "id": "tidy-tidy-data-tidy-spreading-and-gathering",
+     "pageId": "tidy-tidy-data-tidy-spreading-and-gathering",
+     "title": "Spreading and gathering",
+     "type": "page"
+    },
+    {
+     "id": "tidy-tidy-data-tidy-separating-and-uniting",
+     "pageId": "tidy-tidy-data-tidy-separating-and-uniting",
+     "title": "Separating and uniting",
+     "type": "page"
+    },
+    {
+     "id": "tidy-tidy-data-tidy-missing-values",
+     "pageId": "tidy-tidy-data-tidy-missing-values",
+     "title": "Missing values",
+     "type": "page"
+    },
+    {
+     "id": "tidy-tidy-data-tidy-case-study",
+     "pageId": "tidy-tidy-data-tidy-case-study",
+     "title": "Case Study",
+     "type": "page"
+    },
+    {
+     "id": "tidy-tidy-data-tidy-non-tidy-data",
+     "pageId": "tidy-tidy-data-tidy-non-tidy-data",
+     "title": "Non-tidy data",
+     "type": "page"
+    }
+   ],
+   "id": "tidy-tidy-data",
+   "title": "Tidy data",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "relational-data-relational-data-relational-data-introduction",
+     "pageId": "relational-data-relational-data-relational-data-introduction",
+     "title": "Introduction",
+     "type": "page"
+    },
+    {
+     "id": "relational-data-relational-data-relational-data-nycflights13",
+     "pageId": "relational-data-relational-data-relational-data-nycflights13",
+     "title": "nycflights13",
+     "type": "page"
+    },
+    {
+     "id": "relational-data-relational-data-relational-data-keys",
+     "pageId": "relational-data-relational-data-relational-data-keys",
+     "title": "Keys",
+     "type": "page"
+    },
+    {
+     "id": "relational-data-relational-data-relational-data-mutating-joins",
+     "pageId": "relational-data-relational-data-relational-data-mutating-joins",
+     "title": "Mutating joins",
+     "type": "page"
+    },
+    {
+     "id": "relational-data-relational-data-relational-data-filtering-joins",
+     "pageId": "relational-data-relational-data-relational-data-filtering-joins",
+     "title": "Filtering joins",
+     "type": "page"
+    },
+    {
+     "id": "relational-data-relational-data-relational-data-join-problems",
+     "pageId": "relational-data-relational-data-relational-data-join-problems",
+     "title": "Join problems",
+     "type": "page"
+    },
+    {
+     "id": "relational-data-relational-data-relational-data-set-operations",
+     "pageId": "relational-data-relational-data-relational-data-set-operations",
+     "title": "Set operations",
+     "type": "page"
+    }
+   ],
+   "id": "relational-data-relational-data",
+   "title": "Relational data",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "strings-strings-strings-introduction",
+     "pageId": "strings-strings-strings-introduction",
+     "title": "Introduction",
+     "type": "page"
+    },
+    {
+     "id": "strings-strings-strings-string-basics",
+     "pageId": "strings-strings-strings-string-basics",
+     "title": "String basics",
+     "type": "page"
+    },
+    {
+     "id": "strings-strings-strings-matching-patterns-with-regular-expressions",
+     "pageId": "strings-strings-strings-matching-patterns-with-regular-expressions",
+     "title": "Matching patterns with regular expressions",
+     "type": "page"
+    },
+    {
+     "id": "strings-strings-strings-tools",
+     "pageId": "strings-strings-strings-tools",
+     "title": "Tools",
+     "type": "page"
+    },
+    {
+     "id": "strings-strings-strings-other-types-of-pattern",
+     "pageId": "strings-strings-strings-other-types-of-pattern",
+     "title": "Other types of pattern",
+     "type": "page"
+    },
+    {
+     "id": "strings-strings-strings-other-uses-of-regular-expressions",
+     "pageId": "strings-strings-strings-other-uses-of-regular-expressions",
+     "title": "Other uses of regular expressions",
+     "type": "page"
+    },
+    {
+     "id": "strings-strings-strings-stringi",
+     "pageId": "strings-strings-strings-stringi",
+     "title": "stringi",
+     "type": "page"
+    }
+   ],
+   "id": "strings-strings",
+   "title": "Strings",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "factors-factors-factors-introduction",
+     "pageId": "factors-factors-factors-introduction",
+     "title": "Introduction",
+     "type": "page"
+    },
+    {
+     "id": "factors-factors-factors-creating-factors",
+     "pageId": "factors-factors-factors-creating-factors",
+     "title": "Creating factors",
+     "type": "page"
+    },
+    {
+     "id": "factors-factors-factors-general-social-survey",
+     "pageId": "factors-factors-factors-general-social-survey",
+     "title": "General Social Survey",
+     "type": "page"
+    },
+    {
+     "id": "factors-factors-factors-modifying-factor-order",
+     "pageId": "factors-factors-factors-modifying-factor-order",
+     "title": "Modifying factor order",
+     "type": "page"
+    },
+    {
+     "id": "factors-factors-factors-modifying-factor-levels",
+     "pageId": "factors-factors-factors-modifying-factor-levels",
+     "title": "Modifying factor levels",
+     "type": "page"
+    }
+   ],
+   "id": "factors-factors",
+   "title": "Factors",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "datetimes-dates-and-times-datetimes-introduction",
+     "pageId": "datetimes-dates-and-times-datetimes-introduction",
+     "title": "Introduction",
+     "type": "page"
+    },
+    {
+     "id": "datetimes-dates-and-times-datetimes-creating-date-times",
+     "pageId": "datetimes-dates-and-times-datetimes-creating-date-times",
+     "title": "Creating date/times",
+     "type": "page"
+    },
+    {
+     "id": "datetimes-dates-and-times-datetimes-date-time-components",
+     "pageId": "datetimes-dates-and-times-datetimes-date-time-components",
+     "title": "Date-time components",
+     "type": "page"
+    },
+    {
+     "id": "datetimes-dates-and-times-datetimes-time-spans",
+     "pageId": "datetimes-dates-and-times-datetimes-time-spans",
+     "title": "Time spans",
+     "type": "page"
+    },
+    {
+     "id": "datetimes-dates-and-times-datetimes-time-zones",
+     "pageId": "datetimes-dates-and-times-datetimes-time-zones",
+     "title": "Time zones",
+     "type": "page"
+    }
+   ],
+   "id": "datetimes-dates-and-times",
+   "title": "Dates and times",
+   "type": "chapter"
+  },
+  {
+   "children": [],
+   "id": "program-part-program",
+   "title": "(PART) Program",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "program-introduction-program-learning-more",
+     "pageId": "program-introduction-program-learning-more",
+     "title": "Learning more",
+     "type": "page"
+    }
+   ],
+   "id": "program-introduction",
+   "pageId": "program-introduction",
+   "title": "Introduction",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "pipes-pipes-pipes-introduction",
+     "pageId": "pipes-pipes-pipes-introduction",
+     "title": "Introduction",
+     "type": "page"
+    },
+    {
+     "id": "pipes-pipes-pipes-piping-alternatives",
+     "pageId": "pipes-pipes-pipes-piping-alternatives",
+     "title": "Piping alternatives",
+     "type": "page"
+    },
+    {
+     "id": "pipes-pipes-pipes-when-not-to-use-the-pipe",
+     "pageId": "pipes-pipes-pipes-when-not-to-use-the-pipe",
+     "title": "When not to use the pipe",
+     "type": "page"
+    },
+    {
+     "id": "pipes-pipes-pipes-other-tools-from-magrittr",
+     "pageId": "pipes-pipes-pipes-other-tools-from-magrittr",
+     "title": "Other tools from magrittr",
+     "type": "page"
+    }
+   ],
+   "id": "pipes-pipes",
+   "title": "Pipes",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "functions-functions-functions-introduction",
+     "pageId": "functions-functions-functions-introduction",
+     "title": "Introduction",
+     "type": "page"
+    },
+    {
+     "id": "functions-functions-functions-when-should-you-write-a-function-",
+     "pageId": "functions-functions-functions-when-should-you-write-a-function-",
+     "title": "When should you write a function?",
+     "type": "page"
+    },
+    {
+     "id": "functions-functions-functions-functions-are-for-humans-and-computers",
+     "pageId": "functions-functions-functions-functions-are-for-humans-and-computers",
+     "title": "Functions are for humans and computers",
+     "type": "page"
+    },
+    {
+     "id": "functions-functions-functions-conditional-execution",
+     "pageId": "functions-functions-functions-conditional-execution",
+     "title": "Conditional execution",
+     "type": "page"
+    },
+    {
+     "id": "functions-functions-functions-function-arguments",
+     "pageId": "functions-functions-functions-function-arguments",
+     "title": "Function arguments",
+     "type": "page"
+    },
+    {
+     "id": "functions-functions-functions-return-values",
+     "pageId": "functions-functions-functions-return-values",
+     "title": "Return values",
+     "type": "page"
+    },
+    {
+     "id": "functions-functions-functions-environment",
+     "pageId": "functions-functions-functions-environment",
+     "title": "Environment",
+     "type": "page"
+    }
+   ],
+   "id": "functions-functions",
+   "title": "Functions",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "vectors-vectors-vectors-introduction",
+     "pageId": "vectors-vectors-vectors-introduction",
+     "title": "Introduction",
+     "type": "page"
+    },
+    {
+     "id": "vectors-vectors-vectors-vector-basics",
+     "pageId": "vectors-vectors-vectors-vector-basics",
+     "title": "Vector basics",
+     "type": "page"
+    },
+    {
+     "id": "vectors-vectors-vectors-important-types-of-atomic-vector",
+     "pageId": "vectors-vectors-vectors-important-types-of-atomic-vector",
+     "title": "Important types of atomic vector",
+     "type": "page"
+    },
+    {
+     "id": "vectors-vectors-vectors-using-atomic-vectors",
+     "pageId": "vectors-vectors-vectors-using-atomic-vectors",
+     "title": "Using atomic vectors",
+     "type": "page"
+    },
+    {
+     "id": "vectors-vectors-vectors-recursive-vectors-lists-",
+     "pageId": "vectors-vectors-vectors-recursive-vectors-lists-",
+     "title": "Recursive vectors (lists)",
+     "type": "page"
+    },
+    {
+     "id": "vectors-vectors-vectors-attributes",
+     "pageId": "vectors-vectors-vectors-attributes",
+     "title": "Attributes",
+     "type": "page"
+    },
+    {
+     "id": "vectors-vectors-vectors-augmented-vectors",
+     "pageId": "vectors-vectors-vectors-augmented-vectors",
+     "title": "Augmented vectors",
+     "type": "page"
+    }
+   ],
+   "id": "vectors-vectors",
+   "title": "Vectors",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "iteration-iteration-iteration-introduction",
+     "pageId": "iteration-iteration-iteration-introduction",
+     "title": "Introduction",
+     "type": "page"
+    },
+    {
+     "id": "iteration-iteration-iteration-for-loops",
+     "pageId": "iteration-iteration-iteration-for-loops",
+     "title": "For loops",
+     "type": "page"
+    },
+    {
+     "id": "iteration-iteration-iteration-for-loop-variations",
+     "pageId": "iteration-iteration-iteration-for-loop-variations",
+     "title": "For loop variations",
+     "type": "page"
+    },
+    {
+     "id": "iteration-iteration-iteration-for-loops-vs-functionals",
+     "pageId": "iteration-iteration-iteration-for-loops-vs-functionals",
+     "title": "For loops vs. functionals",
+     "type": "page"
+    },
+    {
+     "id": "iteration-iteration-iteration-the-map-functions",
+     "pageId": "iteration-iteration-iteration-the-map-functions",
+     "title": "The map functions",
+     "type": "page"
+    },
+    {
+     "id": "iteration-iteration-iteration-dealing-with-failure",
+     "pageId": "iteration-iteration-iteration-dealing-with-failure",
+     "title": "Dealing with failure",
+     "type": "page"
+    },
+    {
+     "id": "iteration-iteration-iteration-mapping-over-multiple-arguments",
+     "pageId": "iteration-iteration-iteration-mapping-over-multiple-arguments",
+     "title": "Mapping over multiple arguments",
+     "type": "page"
+    },
+    {
+     "id": "iteration-iteration-iteration-walk",
+     "pageId": "iteration-iteration-iteration-walk",
+     "title": "Walk",
+     "type": "page"
+    },
+    {
+     "id": "iteration-iteration-iteration-other-patterns-of-for-loops",
+     "pageId": "iteration-iteration-iteration-other-patterns-of-for-loops",
+     "title": "Other patterns of for loops",
+     "type": "page"
+    }
+   ],
+   "id": "iteration-iteration",
+   "title": "Iteration",
+   "type": "chapter"
+  },
+  {
+   "children": [],
+   "id": "model-part-model",
+   "title": "(PART) Model",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "model-introduction-model-hypothesis-generation-vs-hypothesis-confirmation",
+     "pageId": "model-introduction-model-hypothesis-generation-vs-hypothesis-confirmation",
+     "title": "Hypothesis generation vs. hypothesis confirmation",
+     "type": "page"
+    }
+   ],
+   "id": "model-introduction",
+   "pageId": "model-introduction",
+   "title": "Introduction",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "model-basics-model-basics-model-basics-introduction",
+     "pageId": "model-basics-model-basics-model-basics-introduction",
+     "title": "Introduction",
+     "type": "page"
+    },
+    {
+     "id": "model-basics-model-basics-model-basics-a-simple-model",
+     "pageId": "model-basics-model-basics-model-basics-a-simple-model",
+     "title": "A simple model",
+     "type": "page"
+    },
+    {
+     "id": "model-basics-model-basics-model-basics-visualising-models",
+     "pageId": "model-basics-model-basics-model-basics-visualising-models",
+     "title": "Visualising models",
+     "type": "page"
+    },
+    {
+     "id": "model-basics-model-basics-model-basics-formulas-and-model-families",
+     "pageId": "model-basics-model-basics-model-basics-formulas-and-model-families",
+     "title": "Formulas and model families",
+     "type": "page"
+    },
+    {
+     "id": "model-basics-model-basics-model-basics-missing-values",
+     "pageId": "model-basics-model-basics-model-basics-missing-values",
+     "title": "Missing values",
+     "type": "page"
+    },
+    {
+     "id": "model-basics-model-basics-model-basics-other-model-families",
+     "pageId": "model-basics-model-basics-model-basics-other-model-families",
+     "title": "Other model families",
+     "type": "page"
+    }
+   ],
+   "id": "model-basics-model-basics",
+   "title": "Model basics",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "model-building-model-building-model-building-introduction",
+     "pageId": "model-building-model-building-model-building-introduction",
+     "title": "Introduction",
+     "type": "page"
+    },
+    {
+     "id": "model-building-model-building-model-building-why-are-low-quality-diamonds-more-expensive-",
+     "pageId": "model-building-model-building-model-building-why-are-low-quality-diamonds-more-expensive-",
+     "title": "Why are low quality diamonds more expensive?",
+     "type": "page"
+    },
+    {
+     "id": "model-building-model-building-model-building-what-affects-the-number-of-daily-flights-",
+     "pageId": "model-building-model-building-model-building-what-affects-the-number-of-daily-flights-",
+     "title": "What affects the number of daily flights?",
+     "type": "page"
+    },
+    {
+     "id": "model-building-model-building-model-building-learning-more-about-models",
+     "pageId": "model-building-model-building-model-building-learning-more-about-models",
+     "title": "Learning more about models",
+     "type": "page"
+    }
+   ],
+   "id": "model-building-model-building",
+   "title": "Model building",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "model-many-many-models-model-many-introduction",
+     "pageId": "model-many-many-models-model-many-introduction",
+     "title": "Introduction",
+     "type": "page"
+    },
+    {
+     "id": "model-many-many-models-model-many-gapminder",
+     "pageId": "model-many-many-models-model-many-gapminder",
+     "title": "gapminder",
+     "type": "page"
+    },
+    {
+     "id": "model-many-many-models-model-many-list-columns",
+     "pageId": "model-many-many-models-model-many-list-columns",
+     "title": "List-columns",
+     "type": "page"
+    },
+    {
+     "id": "model-many-many-models-model-many-creating-list-columns",
+     "pageId": "model-many-many-models-model-many-creating-list-columns",
+     "title": "Creating list-columns",
+     "type": "page"
+    },
+    {
+     "id": "model-many-many-models-model-many-simplifying-list-columns",
+     "pageId": "model-many-many-models-model-many-simplifying-list-columns",
+     "title": "Simplifying list-columns",
+     "type": "page"
+    },
+    {
+     "id": "model-many-many-models-model-many-making-tidy-data-with-broom",
+     "pageId": "model-many-many-models-model-many-making-tidy-data-with-broom",
+     "title": "Making tidy data with broom",
+     "type": "page"
+    }
+   ],
+   "id": "model-many-many-models",
+   "title": "Many models",
+   "type": "chapter"
+  },
+  {
+   "children": [],
+   "id": "communicate-part-communicate",
+   "title": "(PART) Communicate",
+   "type": "chapter"
+  },
+  {
+   "children": [],
+   "id": "communicate-introduction",
+   "pageId": "communicate-introduction",
+   "title": "Introduction",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "rmarkdown-r-markdown-rmarkdown-introduction",
+     "pageId": "rmarkdown-r-markdown-rmarkdown-introduction",
+     "title": "Introduction",
+     "type": "page"
+    },
+    {
+     "id": "rmarkdown-r-markdown-rmarkdown-r-markdown-basics",
+     "pageId": "rmarkdown-r-markdown-rmarkdown-r-markdown-basics",
+     "title": "R Markdown basics",
+     "type": "page"
+    }
+   ],
+   "id": "rmarkdown-r-markdown",
+   "title": "R Markdown",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "rmarkdown-1st-level-header-rmarkdown-2nd-level-header",
+     "pageId": "rmarkdown-1st-level-header-rmarkdown-2nd-level-header",
+     "title": "2nd Level Header",
+     "type": "page"
+    },
+    {
+     "id": "rmarkdown-1st-level-header-rmarkdown-troubleshooting",
+     "pageId": "rmarkdown-1st-level-header-rmarkdown-troubleshooting",
+     "title": "Troubleshooting",
+     "type": "page"
+    },
+    {
+     "id": "rmarkdown-1st-level-header-rmarkdown-yaml-header",
+     "pageId": "rmarkdown-1st-level-header-rmarkdown-yaml-header",
+     "title": "YAML header",
+     "type": "page"
+    },
+    {
+     "id": "rmarkdown-1st-level-header-rmarkdown-learning-more",
+     "pageId": "rmarkdown-1st-level-header-rmarkdown-learning-more",
+     "title": "Learning more",
+     "type": "page"
+    }
+   ],
+   "id": "rmarkdown-1st-level-header",
+   "title": "1st Level Header",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "communicate-plots-graphics-for-communication-communicate-plots-introduction",
+     "pageId": "communicate-plots-graphics-for-communication-communicate-plots-introduction",
+     "title": "Introduction",
+     "type": "page"
+    },
+    {
+     "id": "communicate-plots-graphics-for-communication-communicate-plots-label",
+     "pageId": "communicate-plots-graphics-for-communication-communicate-plots-label",
+     "title": "Label",
+     "type": "page"
+    },
+    {
+     "id": "communicate-plots-graphics-for-communication-communicate-plots-annotations",
+     "pageId": "communicate-plots-graphics-for-communication-communicate-plots-annotations",
+     "title": "Annotations",
+     "type": "page"
+    },
+    {
+     "id": "communicate-plots-graphics-for-communication-communicate-plots-scales",
+     "pageId": "communicate-plots-graphics-for-communication-communicate-plots-scales",
+     "title": "Scales",
+     "type": "page"
+    },
+    {
+     "id": "communicate-plots-graphics-for-communication-communicate-plots-zooming",
+     "pageId": "communicate-plots-graphics-for-communication-communicate-plots-zooming",
+     "title": "Zooming",
+     "type": "page"
+    },
+    {
+     "id": "communicate-plots-graphics-for-communication-communicate-plots-themes",
+     "pageId": "communicate-plots-graphics-for-communication-communicate-plots-themes",
+     "title": "Themes",
+     "type": "page"
+    },
+    {
+     "id": "communicate-plots-graphics-for-communication-communicate-plots-saving-your-plots",
+     "pageId": "communicate-plots-graphics-for-communication-communicate-plots-saving-your-plots",
+     "title": "Saving your plots",
+     "type": "page"
+    },
+    {
+     "id": "communicate-plots-graphics-for-communication-communicate-plots-learning-more",
+     "pageId": "communicate-plots-graphics-for-communication-communicate-plots-learning-more",
+     "title": "Learning more",
+     "type": "page"
+    }
+   ],
+   "id": "communicate-plots-graphics-for-communication",
+   "title": "Graphics for communication",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "rmarkdown-formats-r-markdown-formats-rmarkdown-formats-introduction",
+     "pageId": "rmarkdown-formats-r-markdown-formats-rmarkdown-formats-introduction",
+     "title": "Introduction",
+     "type": "page"
+    },
+    {
+     "id": "rmarkdown-formats-r-markdown-formats-rmarkdown-formats-output-options",
+     "pageId": "rmarkdown-formats-r-markdown-formats-rmarkdown-formats-output-options",
+     "title": "Output options",
+     "type": "page"
+    },
+    {
+     "id": "rmarkdown-formats-r-markdown-formats-rmarkdown-formats-documents",
+     "pageId": "rmarkdown-formats-r-markdown-formats-rmarkdown-formats-documents",
+     "title": "Documents",
+     "type": "page"
+    },
+    {
+     "id": "rmarkdown-formats-r-markdown-formats-rmarkdown-formats-notebooks",
+     "pageId": "rmarkdown-formats-r-markdown-formats-rmarkdown-formats-notebooks",
+     "title": "Notebooks",
+     "type": "page"
+    },
+    {
+     "id": "rmarkdown-formats-r-markdown-formats-rmarkdown-formats-presentations",
+     "pageId": "rmarkdown-formats-r-markdown-formats-rmarkdown-formats-presentations",
+     "title": "Presentations",
+     "type": "page"
+    },
+    {
+     "id": "rmarkdown-formats-r-markdown-formats-rmarkdown-formats-dashboards",
+     "pageId": "rmarkdown-formats-r-markdown-formats-rmarkdown-formats-dashboards",
+     "title": "Dashboards",
+     "type": "page"
+    },
+    {
+     "id": "rmarkdown-formats-r-markdown-formats-rmarkdown-formats-interactivity",
+     "pageId": "rmarkdown-formats-r-markdown-formats-rmarkdown-formats-interactivity",
+     "title": "Interactivity",
+     "type": "page"
+    },
+    {
+     "id": "rmarkdown-formats-r-markdown-formats-rmarkdown-formats-websites",
+     "pageId": "rmarkdown-formats-r-markdown-formats-rmarkdown-formats-websites",
+     "title": "Websites",
+     "type": "page"
+    },
+    {
+     "id": "rmarkdown-formats-r-markdown-formats-rmarkdown-formats-other-formats",
+     "pageId": "rmarkdown-formats-r-markdown-formats-rmarkdown-formats-other-formats",
+     "title": "Other formats",
+     "type": "page"
+    },
+    {
+     "id": "rmarkdown-formats-r-markdown-formats-rmarkdown-formats-learning-more",
+     "pageId": "rmarkdown-formats-r-markdown-formats-rmarkdown-formats-learning-more",
+     "title": "Learning more",
+     "type": "page"
+    }
+   ],
+   "id": "rmarkdown-formats-r-markdown-formats",
+   "title": "R Markdown formats",
+   "type": "chapter"
+  },
+  {
+   "children": [],
+   "id": "rmarkdown-workflow-r-markdown-workflow",
+   "pageId": "rmarkdown-workflow-r-markdown-workflow",
+   "title": "R Markdown workflow",
+   "type": "chapter"
+  }
+ ],
+ "name": "R for Data Science"
+}

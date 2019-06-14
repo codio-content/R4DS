@@ -1,0 +1,490 @@
+workspace:
+  directory: /home/codio/workspace/codio-student-unit-exclude/r4ds
+  bookdown: _bookdown.yml
+assets:
+  - images
+  - diagrams
+metadata:
+  hideMenu: false
+  protectLayout: false
+  suppressPageNumbering: true
+sections:
+  - name: "index----Welcome"
+    type: chapter
+    configuration:
+        layout: 1-panel
+        files:
+            - path: "#tabs"
+              action: close
+  - name: "intro----Introduction"
+    type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: "intro----What you will learn"
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: "intro----How this book is organised"
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: "intro----What you won't learn"
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: "intro----Prerequisites"
+    type: section
+    transformations:
+        - add:  |
+             **For Codio users, all of this setup has been done for you and you can proceed to the next page.**
+  
+          position: 101
+        - add:  |javascript:void(0)
+            **For Codio users** you can *Start RStudio* and then *Run RStudio* using the buttons in the top tool bar to launch RStudio within Codio.
+  
+          position: 118
+    configuration:
+      layout: 1-panel
+      files:
+        - path: "#tabs"
+          action: close
+  - name: "intro----Running R code"
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: "intro----Getting help and learning more"
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: "intro----Acknowledgements"
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: "intro----Colophon"
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: "explore----(PART) Explore"
+    type: chapter
+  - name: "explore----Introduction"
+    type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: "visualize----Data visualisation"
+    type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: "visualize----Introduction"
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "#terminal: R"
+          panel: 0
+          action: open
+  - name: "visualize----First steps"
+    type: section
+    transformations:
+        - add:  |
+             {Refresh plot}()
+  
+          position: 87
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "#terminal: R"
+          panel: 0
+          action: open
+        - path: "#preview: Rplots.pdf"
+          panel: 1
+          action: open
+  - name: "visualize----Aesthetic mappings"
+    type: section
+  - name: "visualize----Common problems"
+    type: section
+  - name: "visualize----Facets"
+    type: section
+  - name: "visualize----Geometric objects"
+    type: section
+  - name: "visualize----Statistical transformations"
+    type: section
+  - name: "visualize----Position adjustments"
+    type: section
+  - name: "visualize----Coordinate systems"
+    type: section
+  - name: "visualize----The layered grammar of graphics"
+    type: section
+  - name: "workflow-basics----Workflow: basics"
+    type: chapter
+  - name: "workflow-basics----Coding basics"
+    type: section
+  - name: "workflow-basics----What's in a name?"
+    type: section
+  - name: "workflow-basics----Calling functions"
+    type: section
+  - name: "workflow-basics----Practice"
+    type: section
+  - name: "transform----Data transformation"
+    type: chapter
+  - name: "transform----Introduction"
+    type: section
+  - name: "transform----Filter rows with `filter()`"
+    type: section
+  - name: "transform----Arrange rows with `arrange()`"
+    type: section
+  - name: "transform----Select columns with `select()`"
+    type: section
+  - name: "transform----Add new variables with `mutate()`"
+    type: section
+  - name: "transform----Grouped summaries with `summarise()`"
+    type: section
+  - name: "transform----Grouped mutates (and filters)"
+    type: section
+  - name: "workflow-scripts----Workflow: scripts"
+    type: chapter
+  - name: "workflow-scripts----Running code"
+    type: section
+  - name: "workflow-scripts----RStudio diagnostics"
+    type: section
+  - name: "workflow-scripts----Practice"
+    type: section
+  - name: "EDA----Exploratory Data Analysis"
+    type: chapter
+  - name: "EDA----Introduction"
+    type: section
+  - name: "EDA----Questions"
+    type: section
+  - name: "EDA----Variation"
+    type: section
+  - name: "EDA----Missing values"
+    type: section
+  - name: "EDA----Covariation"
+    type: section
+  - name: "EDA----Patterns and models"
+    type: section
+  - name: "EDA----ggplot2 calls"
+    type: section
+  - name: "EDA----Learning more"
+    type: section
+  - name: "workflow-projects----Workflow: projects"
+    type: chapter
+  - name: "workflow-projects----What is real?"
+    type: section
+  - name: "workflow-projects----Where does your analysis live?"
+    type: section
+  - name: "workflow-projects----Paths and directories"
+    type: section
+  - name: "workflow-projects----RStudio projects"
+    type: section
+  - name: "workflow-projects----Summary"
+    type: section
+  - name: "wrangle----(PART) Wrangle"
+    type: chapter
+  - name: "wrangle----Introduction"
+    type: chapter
+  - name: "tibble----Tibbles"
+    type: chapter
+  - name: "tibble----Introduction"
+    type: section
+  - name: "tibble----Creating tibbles"
+    type: section
+  - name: "tibble----Tibbles vs. data.frame"
+    type: section
+  - name: "tibble----Interacting with older code"
+    type: section
+  - name: "tibble----Exercises"
+    type: section
+  - name: "import----Data import"
+    type: chapter
+  - name: "import----Introduction"
+    type: section
+  - name: "import----Getting started"
+    type: section
+  - name: "import----Parsing a vector"
+    type: section
+  - name: "import----Parsing a file"
+    type: section
+  - name: "import----Writing to a file"
+    type: section
+  - name: "import----Other types of data"
+    type: section
+  - name: "tidy----Tidy data"
+    type: chapter
+  - name: "tidy----Introduction"
+    type: section
+  - name: "tidy----Tidy data"
+    type: section
+  - name: "tidy----Spreading and gathering"
+    type: section
+  - name: "tidy----Separating and uniting"
+    type: section
+  - name: "tidy----Missing values"
+    type: section
+  - name: "tidy----Case Study"
+    type: section
+  - name: "tidy----Non-tidy data"
+    type: section
+  - name: "relational-data----Relational data"
+    type: chapter
+  - name: "relational-data----Introduction"
+    type: section
+  - name: "relational-data----nycflights13"
+    type: section
+  - name: "relational-data----Keys"
+    type: section
+  - name: "relational-data----Mutating joins"
+    type: section
+  - name: "relational-data----Filtering joins"
+    type: section
+  - name: "relational-data----Join problems"
+    type: section
+  - name: "relational-data----Set operations"
+    type: section
+  - name: "strings----Strings"
+    type: chapter
+  - name: "strings----Introduction"
+    type: section
+  - name: "strings----String basics"
+    type: section
+  - name: "strings----Matching patterns with regular expressions"
+    type: section
+  - name: "strings----Tools"
+    type: section
+  - name: "strings----Other types of pattern"
+    type: section
+  - name: "strings----Other uses of regular expressions"
+    type: section
+  - name: "strings----stringi"
+    type: section
+  - name: "factors----Factors"
+    type: chapter
+  - name: "factors----Introduction"
+    type: section
+  - name: "factors----Creating factors"
+    type: section
+  - name: "factors----General Social Survey"
+    type: section
+  - name: "factors----Modifying factor order"
+    type: section
+  - name: "factors----Modifying factor levels"
+    type: section
+  - name: "datetimes----Dates and times"
+    type: chapter
+  - name: "datetimes----Introduction"
+    type: section
+  - name: "datetimes----Creating date/times"
+    type: section
+  - name: "datetimes----Date-time components"
+    type: section
+  - name: "datetimes----Time spans"
+    type: section
+  - name: "datetimes----Time zones"
+    type: section
+  - name: "program----(PART) Program"
+    type: chapter
+  - name: "program----Introduction"
+    type: chapter
+  - name: "program----Learning more"
+    type: section
+  - name: "pipes----Pipes"
+    type: chapter
+  - name: "pipes----Introduction"
+    type: section
+  - name: "pipes----Piping alternatives"
+    type: section
+  - name: "pipes----When not to use the pipe"
+    type: section
+  - name: "pipes----Other tools from magrittr"
+    type: section
+  - name: "functions----Functions"
+    type: chapter
+  - name: "functions----Introduction"
+    type: section
+  - name: "functions----When should you write a function?"
+    type: section
+  - name: "functions----Functions are for humans and computers"
+    type: section
+  - name: "functions----Conditional execution"
+    type: section
+  - name: "functions----Function arguments"
+    type: section
+  - name: "functions----Return values"
+    type: section
+  - name: "functions----Environment"
+    type: section
+  - name: "vectors----Vectors"
+    type: chapter
+  - name: "vectors----Introduction"
+    type: section
+  - name: "vectors----Vector basics"
+    type: section
+  - name: "vectors----Important types of atomic vector"
+    type: section
+  - name: "vectors----Using atomic vectors"
+    type: section
+  - name: "vectors----Recursive vectors (lists)"
+    type: section
+  - name: "vectors----Attributes"
+    type: section
+  - name: "vectors----Augmented vectors"
+    type: section
+  - name: "iteration----Iteration"
+    type: chapter
+  - name: "iteration----Introduction"
+    type: section
+  - name: "iteration----For loops"
+    type: section
+  - name: "iteration----For loop variations"
+    type: section
+  - name: "iteration----For loops vs. functionals"
+    type: section
+  - name: "iteration----The map functions"
+    type: section
+  - name: "iteration----Dealing with failure"
+    type: section
+  - name: "iteration----Mapping over multiple arguments"
+    type: section
+  - name: "iteration----Walk"
+    type: section
+  - name: "iteration----Other patterns of for loops"
+    type: section
+  - name: "model----(PART) Model"
+    type: chapter
+  - name: "model----Introduction"
+    type: chapter
+  - name: "model----Hypothesis generation vs. hypothesis confirmation"
+    type: section
+  - name: "model-basics----Model basics"
+    type: chapter
+  - name: "model-basics----Introduction"
+    type: section
+  - name: "model-basics----A simple model"
+    type: section
+  - name: "model-basics----Visualising models"
+    type: section
+  - name: "model-basics----Formulas and model families"
+    type: section
+  - name: "model-basics----Missing values"
+    type: section
+  - name: "model-basics----Other model families"
+    type: section
+  - name: "model-building----Model building"
+    type: chapter
+  - name: "model-building----Introduction"
+    type: section
+  - name: "model-building----Why are low quality diamonds more expensive?"
+    type: section
+  - name: "model-building----What affects the number of daily flights?"
+    type: section
+  - name: "model-building----Learning more about models"
+    type: section
+  - name: "model-many----Many models"
+    type: chapter
+  - name: "model-many----Introduction"
+    type: section
+  - name: "model-many----gapminder"
+    type: section
+  - name: "model-many----List-columns"
+    type: section
+  - name: "model-many----Creating list-columns"
+    type: section
+  - name: "model-many----Simplifying list-columns"
+    type: section
+  - name: "model-many----Making tidy data with broom"
+    type: section
+  - name: "communicate----(PART) Communicate"
+    type: chapter
+  - name: "communicate----Introduction"
+    type: chapter
+  - name: "rmarkdown----R Markdown"
+    type: chapter
+  - name: "rmarkdown----Introduction"
+    type: section
+  - name: "rmarkdown----R Markdown basics"
+    type: section
+  - name: "rmarkdown----1st Level Header"
+    type: chapter
+  - name: "rmarkdown----2nd Level Header"
+    type: section
+  - name: "rmarkdown----Troubleshooting"
+    type: section
+  - name: "rmarkdown----YAML header"
+    type: section
+  - name: "rmarkdown----Learning more"
+    type: section
+  - name: "communicate-plots----Graphics for communication"
+    type: chapter
+  - name: "communicate-plots----Introduction"
+    type: section
+  - name: "communicate-plots----Label"
+    type: section
+  - name: "communicate-plots----Annotations"
+    type: section
+  - name: "communicate-plots----Scales"
+    type: section
+  - name: "communicate-plots----Zooming"
+    type: section
+  - name: "communicate-plots----Themes"
+    type: section
+  - name: "communicate-plots----Saving your plots"
+    type: section
+  - name: "communicate-plots----Learning more"
+    type: section
+  - name: "rmarkdown-formats----R Markdown formats"
+    type: chapter
+  - name: "rmarkdown-formats----Introduction"
+    type: section
+  - name: "rmarkdown-formats----Output options"
+    type: section
+  - name: "rmarkdown-formats----Documents"
+    type: section
+  - name: "rmarkdown-formats----Notebooks"
+    type: section
+  - name: "rmarkdown-formats----Presentations"
+    type: section
+  - name: "rmarkdown-formats----Dashboards"
+    type: section
+  - name: "rmarkdown-formats----Interactivity"
+    type: section
+  - name: "rmarkdown-formats----Websites"
+    type: section
+  - name: "rmarkdown-formats----Other formats"
+    type: section
+  - name: "rmarkdown-formats----Learning more"
+    type: section
+  - name: "rmarkdown-workflow----R Markdown workflow"
+    type: chapter
