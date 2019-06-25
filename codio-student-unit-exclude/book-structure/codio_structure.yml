@@ -455,16 +455,61 @@ sections:
             action: close
   - name: "workflow-basics----Workflow: basics"
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "workflow-basics----Coding basics"
     type: section
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "#terminal: R"
+          panel: 0
+          action: open
   - name: "workflow-basics----What's in a name?"
     type: section
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "#terminal: R"
+          panel: 0
+          action: open
   - name: "workflow-basics----Calling functions"
     type: section
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "#terminal: R"
+          panel: 0
+          action: open
   - name: "workflow-basics----Practice"
     type: section
+    transformations:
+        - remove: 2
+          position: 179
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "#terminal: R"
+          panel: 0
+          action: open
   - name: "transform----Data transformation"
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "transform----Introduction"
     type: section
   - name: "transform----Filter rows with `filter()`"
