@@ -2,3 +2,7 @@
 	path = book-converter
 	url = git@github.com:codio/book-converter.git
 	branch = master
+[submodule "codio-student-unit-exclude/book-converter"]
+	path = codio-student-unit-exclude/book-converter
+	url = git@github.com:codio/book-converter.git
+	branch = master
