@@ -72,21 +72,21 @@ flights %>%
 Graphically, a semi-join looks like this:
 
 
-![Figure 16.1](diagrams/join-semi)
+![Figure 16.1](diagrams/join-semi.png)
 
 **Figure 16.1**
 
 Only the existence of a match is important; it doesn't matter which observation is matched. This means that filtering joins never duplicate rows like mutating joins do:
 
 
-![Figure 16.2](diagrams/join-semi-many)
+![Figure 16.2](diagrams/join-semi-many.png)
 
 **Figure 16.2**
 
 The inverse of a semi-join is an anti-join. An anti-join keeps the rows that _don't_ have a match:
 
 
-![Figure 16.3](diagrams/join-anti)
+![Figure 16.3](diagrams/join-anti.png)
 
 **Figure 16.3**
 

@@ -19,21 +19,21 @@ The seven parameters in the template compose the grammar of graphics, a formal s
 To see how this works, consider how you could build a basic plot from scratch: you could start with a dataset and then transform it into the information that you want to display (with a stat).
 
 
-![Figure 5.1](images/visualization-grammar-1)
+![Figure 5.1](images/visualization-grammar-1.png)
 
 **Figure 5.1**
 
 Next, you could choose a geometric object to represent each observation in the transformed data. You could then use the aesthetic properties of the geoms to represent variables in the data. You would map the values of each variable to the levels of an aesthetic.
 
 
-![Figure 5.2](images/visualization-grammar-2)
+![Figure 5.2](images/visualization-grammar-2.png)
 
 **Figure 5.2**
 
 You'd then select a coordinate system to place the geoms into. You'd use the location of the objects (which is itself an aesthetic property) to display the values of the x and y variables. At that point, you would have a complete graph, but you could further adjust the positions of the geoms within the coordinate system (a position adjustment) or split the graph into subplots (faceting). You could also extend the plot by adding one or more additional layers, where each additional layer uses a dataset, a geom, a set of mappings, a stat, and a position adjustment.
 
 
-![Figure 5.3](images/visualization-grammar-3)
+![Figure 5.3](images/visualization-grammar-3.png)
 
 **Figure 5.3**
 

@@ -1,0 +1,420 @@
+[
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-4165136540",
+  "source": {
+   "name": "firstSteps1",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "With ggplot2, you begin a plot with the function `ggplot()`. `ggplot()` creates a coordinate system that you can add layers to. The first argument of `ggplot()` is the dataset to use in the graph. So `ggplot(data = mpg)` creates an empty graph, but it's not very interesting",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "instructions": "Run `ggplot(data = mpg)`. What do you see?",
+   "points": 1,
+   "incorrectPoints": 0,
+   "multipleResponse": false,
+   "learningObjectives": "",
+   "answers": [
+    {
+     "_id": "c1bac24d-de39-6ef6-191a-13ec4d87b5c8",
+     "correct": false,
+     "answer": "The same plot as before"
+    },
+    {
+     "_id": "e1e212ee-5fed-40b7-c4e1-8cc6c0fbbe7d",
+     "correct": false,
+     "answer": "A scatter plot of the first two columns of data (`manufacturer` and `model`)"
+    },
+    {
+     "_id": "f79d0fd1-0385-ef3e-3c80-b7c41f4b45a8",
+     "correct": true,
+     "answer": "An empty graph"
+    },
+    {
+     "_id": "012512c0-f157-c9d1-c6a6-d9ad7def1f02",
+     "correct": false,
+     "answer": "A scatter plot of the first two columns of numeric data (`displ` and `year`)"
+    }
+   ]
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3103509536",
+  "source": {
+   "name": "firstSteps2",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "The first row outputted when you run `mpg` lists the dimensions of the data\n\n`# A tibble: 234 x 11`\n\nThe dimensions are listed rows x columns",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "instructions": "How many rows are in `mpg`? How many columns?",
+   "points": 1,
+   "incorrectPoints": 0,
+   "multipleResponse": true,
+   "learningObjectives": "",
+   "answers": [
+    {
+     "_id": "117170fe-4f44-ead0-b8df-7a96b3f2ad1a",
+     "correct": false,
+     "answer": "12 columns"
+    },
+    {
+     "_id": "15fdc153-a62e-9f14-fb34-b71647d6214e",
+     "correct": true,
+     "answer": "11 columns"
+    },
+    {
+     "_id": "e433ff62-f293-214e-4e3c-0c541a0ec622",
+     "correct": true,
+     "answer": "234 rows"
+    },
+    {
+     "_id": "0d54f4ad-47c4-f371-9c54-697a4fd6f7df",
+     "correct": false,
+     "answer": "6 rows"
+    },
+    {
+     "_id": "ced51bb3-4fa2-c793-2782-bc835e7bbcc9",
+     "correct": false,
+     "answer": "228 rows"
+    }
+   ]
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1450015596",
+  "source": {
+   "name": "firstSteps3",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "mpg                  package:ggplot2                   R Documentation\n\nFuel economy data from 1999 and 2008 for 38 popular models of car\n\nDescription:\n\n     This dataset contains a subset of the fuel economy data that the\n     EPA makes available on <URL: http://fueleconomy.gov>. It contains\n     only models which had a new release every year between 1999 and\n     2008 - this was used as a proxy for the popularity of the car.\n\nUsage:\n\n     mpg\n\nFormat:\n\n     A data frame with 234 rows and 11 variables\n\n     manufacturer\n\n     model model name\n\n     displ engine displacement, in litres\n\n     year year of manufacture\n\n     cyl number of cylinders\n\n     trans type of transmission\n\n     drv f = front-wheel drive, r = rear wheel drive, 4 = 4wd\n\n     cty city miles per gallon\n\n     hwy highway miles per gallon\n\n     fl fuel type\n\n     class \"type\" of car",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "instructions": "What does the `drv` variable describe?  Read the help for `?mpg` to find out.",
+   "points": 1,
+   "incorrectPoints": 0,
+   "multipleResponse": false,
+   "learningObjectives": "",
+   "answers": [
+    {
+     "_id": "0cc23bbf-881f-860f-e58b-ae8ed77e9e2a",
+     "correct": false,
+     "answer": "model name"
+    },
+    {
+     "_id": "a12ade9d-866e-b9ee-42eb-908bf20374b6",
+     "correct": false,
+     "answer": "engine displacement"
+    },
+    {
+     "_id": "aa285e46-6eca-99bd-5821-e4cb8a217d1b",
+     "correct": false,
+     "answer": "fuel type"
+    },
+    {
+     "_id": "2fbf97b8-5e5b-d940-ecd7-df323b6dbbb5",
+     "correct": true,
+     "answer": "drive type"
+    }
+   ]
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-2361354842",
+  "source": {
+   "name": "firstSteps4",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "Make a scatterplot of `hwy` vs `cyl`. Complete the command you used below.",
+   "points": 1,
+   "showValues": false,
+   "learningObjectives": "",
+   "text": "    ggplot(data = mpg) + geom_point(mapping = aes(x = <<<hwy>>>, y = <<<cyl>>>))",
+   "tokens": {
+    "blank": [
+     "hwy",
+     "cyl"
+    ],
+    "text": [
+     "    ggplot(data = mpg) + geom_point(mapping = aes(x = ",
+     0,
+     ", y = ",
+     0,
+     "))"
+    ]
+   }
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-2365115141",
+  "source": {
+   "name": "firstSteps5",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "instructions": "What happens if you make a scatterplot of `class` vs `drv`? Why is the plot not useful?",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3151543202",
+  "source": {
+   "name": "aesthetic1",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "Categorical data has discrete categories. \nThis is in contrast to continuous data which is typically numerical.\n\nHow can you see this information when you run `mpg`?",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "instructions": "Which variables in `mpg` are categorical? (Hint: type `?mpg` to read the documentation for the dataset). \n",
+   "points": 1,
+   "incorrectPoints": 0,
+   "multipleResponse": true,
+   "learningObjectives": "",
+   "answers": [
+    {
+     "_id": "bb7d861a-8009-6fb8-c5ad-6f6cdd694f6e",
+     "correct": true,
+     "answer": "manufacturer"
+    },
+    {
+     "_id": "6e1467c4-9b93-053a-acc7-c8d4f69ba639",
+     "correct": true,
+     "answer": "model"
+    },
+    {
+     "_id": "af049084-147a-a663-4d3d-b02d82031dce",
+     "correct": false,
+     "answer": "displ"
+    },
+    {
+     "_id": "8b6dc41e-546c-c514-d5b5-0211bb94f6c2",
+     "correct": false,
+     "answer": "year"
+    },
+    {
+     "_id": "799c7769-9588-2a37-daf4-2068c232c426",
+     "correct": true,
+     "answer": "cyl"
+    },
+    {
+     "_id": "7e32547b-17bf-b01c-419f-8ddc18b4af65",
+     "correct": true,
+     "answer": "trans"
+    },
+    {
+     "_id": "2c3d8b5c-4fe1-163c-8913-bb5bf2b6fd53",
+     "correct": true,
+     "answer": "drv"
+    },
+    {
+     "_id": "6ff97555-d281-a837-f77a-7dc7b9d6bf35",
+     "correct": false,
+     "answer": "cty"
+    },
+    {
+     "_id": "d4f734b7-882b-5206-24fc-e0ead38ebed0",
+     "correct": false,
+     "answer": "hwy"
+    },
+    {
+     "_id": "7021e965-5537-1b62-903d-7ad5ca74e613",
+     "correct": true,
+     "answer": "fl"
+    },
+    {
+     "_id": "5ce5b7c2-3201-b1ed-60f4-f2abaa4287cc",
+     "correct": true,
+     "answer": "class"
+    }
+   ]
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-2644417677",
+  "source": {
+   "name": "aesthetic0",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "The parentheses is in the wrong place - color is not part of the aes command.\n\n```r\n    ggplot(data = mpg) + \n      geom_point(mapping = aes(x = displ, y = hwy), color = \"blue\")\n```",
+   "showGuidanceAfterResponse": true,
+   "arePartialPointsAllowed": true,
+   "oneTimeTest": true,
+   "instructions": "What's gone wrong with this code? Why are the points not blue?\n\n```r\n    ggplot(data = mpg) + \n      geom_point(mapping = aes(x = displ, y = hwy, color = \"blue\"))\n```\n    \n![Figure 5.8](visualize_files/figure-latex/unnamed-chunk-12-1.jpg)",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-2494697878",
+  "source": {
+   "name": "aesthetic2",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": true,
+   "oneTimeTest": true,
+   "instructions": "Map a continuous variable to `color`, `size`, and `shape`. How do these aesthetics behave differently for categorical vs. continuous variables? ",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-514781532",
+  "source": {
+   "name": "aesthetic3",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": true,
+   "oneTimeTest": true,
+   "instructions": "What happens if you map the same variable to multiple aesthetics? ",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1947897726",
+  "source": {
+   "name": "aesthetic4",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "Note that shapes have both stroke colour and a fill. The size of the filled part is controlled by size, the size of the stroke is controlled by stroke. Each is measured in mm, and the total size of the point is the sum of the two. ",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "instructions": "What does the `stroke` aesthetic do? What shapes does it work with?\n\n(Hint: use `?geom_point`)",
+   "points": 1,
+   "incorrectPoints": 0,
+   "multipleResponse": false,
+   "learningObjectives": "",
+   "answers": [
+    {
+     "_id": "bc8822ed-5258-e3b2-425e-7d1795c14fb5",
+     "correct": true,
+     "answer": "The width of the outline"
+    },
+    {
+     "_id": "bb09dc8a-bc98-8df1-9649-8d77c9260529",
+     "correct": false,
+     "answer": "The size of the point"
+    },
+    {
+     "_id": "acb4e530-bbe4-456c-6ee6-cf267c48a991",
+     "correct": false,
+     "answer": "The total size of the point"
+    },
+    {
+     "_id": "863b4d96-35f5-39b4-7b8f-723f436d38c2",
+     "correct": false,
+     "answer": "The pattern of the point"
+    }
+   ]
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-1352662087",
+  "source": {
+   "name": "aesthetic5",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": true,
+   "oneTimeTest": true,
+   "instructions": "What happens if you map an aesthetic to something other than a variable name, like `aes(colour = displ < 5)`?  Note, you'll also need to specify x and y.",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-898232935",
+  "source": {
+   "name": "posadj1",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": true,
+   "oneTimeTest": true,
+   "instructions": "What is the problem with this plot? How could you improve it?\n\n    \n```r\n    ggplot(data = mpg, mapping = aes(x = cty, y = hwy)) + \n      geom_point()\n```\n    \n    \n    \n![Figure 5.6](visualize_files/figure-latex/unnamed-chunk-44-1.jpg)",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-2462061477",
+  "source": {
+   "name": "posadj2",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": true,
+   "instructions": "What parameters to `geom_jitter()` control the amount of jittering?",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-4262217264",
+  "source": {
+   "name": "posadj3",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": true,
+   "oneTimeTest": true,
+   "instructions": "Compare and contrast `geom_jitter()` with `geom_count()`.",
+   "learningObjectives": "",
+   "previewType": "NONE",
+   "points": 1
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-2715920861",
+  "source": {
+   "name": "posadj4",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": true,
+   "oneTimeTest": true,
+   "instructions": "What's the default position adjustment for `geom_boxplot()`? Create a visualisation of the `mpg` dataset that demonstrates it.",
+   "learningObjectives": "",
+   "previewType": "MARKDOWN",
+   "points": 1
+  }
+ }
+]

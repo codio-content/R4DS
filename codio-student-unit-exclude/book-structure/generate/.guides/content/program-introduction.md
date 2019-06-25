@@ -2,7 +2,7 @@
 In this part of the book, you'll improve your programming skills. Programming is a cross-cutting skill needed for all data science work: you must use a computer to do data science; you cannot do it in your head, or with pencil and paper. 
 
 
-![Figure 21.1](diagrams/data-science-program)
+![Figure 21.1](diagrams/data-science-program.png)
 
 **Figure 21.1**
 

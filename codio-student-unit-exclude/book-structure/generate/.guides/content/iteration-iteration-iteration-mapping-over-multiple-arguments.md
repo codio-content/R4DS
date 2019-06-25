@@ -41,7 +41,7 @@ map2(mu, sigma, rnorm, n = 5) %>% str()
 `map2()` generates this series of function calls:
 
 
-![Figure 25.1](diagrams/lists-map2)
+![Figure 25.1](diagrams/lists-map2.png)
 
 **Figure 25.1**
 
@@ -78,7 +78,7 @@ args1 %>%
 That looks like:
 
 
-![Figure 25.2](diagrams/lists-pmap-unnamed)
+![Figure 25.2](diagrams/lists-pmap-unnamed.png)
 
 **Figure 25.2**
 
@@ -95,7 +95,7 @@ args2 %>%
 That generates longer, but safer, calls:
 
 
-![Figure 25.3](diagrams/lists-pmap-named)
+![Figure 25.3](diagrams/lists-pmap-named.png)
 
 **Figure 25.3**
 
@@ -149,7 +149,7 @@ invoke_map(f, param, n = 5) %>% str()
 ```
 
 
-![Figure 25.4](diagrams/lists-invoke)
+![Figure 25.4](diagrams/lists-invoke.png)
 
 **Figure 25.4**
 

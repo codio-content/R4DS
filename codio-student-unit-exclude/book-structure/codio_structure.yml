@@ -4,10 +4,20 @@ workspace:
 assets:
   - images
   - diagrams
+  - screenshots
+  - rmarkdown: "*.png"
 metadata:
   hideMenu: false
   protectLayout: false
   suppressPageNumbering: true
+refs:
+  overrides:
+    "data visualisation":
+      ref: "Data Visualisation Chapter"
+    "wrangle":
+      ref: "Wrangle Chapter"
+    "fig:tidy-structure":
+      ref: "Tidy Structure"
 sections:
   - name: "index----Welcome"
     type: chapter
@@ -51,9 +61,11 @@ sections:
              **For Codio users, all of this setup has been done for you and you can proceed to the next page.**
   
           position: 101
-        - add:  |javascript:void(0)
-            **For Codio users** you can *Start RStudio* and then *Run RStudio* using the buttons in the top tool bar to launch RStudio within Codio.
-  
+        - add:  |
+              javascript:void(0)
+              
+              **For Codio users** you can *Start RStudio* and then *Run RStudio* using the buttons in the top tool bar to launch RStudio within Codio.
+ 
           position: 118
     configuration:
       layout: 1-panel
@@ -118,36 +130,329 @@ sections:
     type: section
     transformations:
         - add:  |
-             {Refresh plot}()
+             {Run code | terminal}(Rscript code/firstSteps.r)
+              
+             [Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
   
           position: 87
+        - remove: 11
+          postiion: 113
+        - add:  |
+              1. {Check It!|assessment}(multiple-choice-4165136540)
+              
+              1. {Check It!|assessment}(multiple-choice-3103509536)
+              
+              1. {Check It!|assessment}(multiple-choice-1450015596)
+              
+              1. {Check It!|assessment}(fill-in-the-blanks-2361354842)
+              
+              1. {Submit Answer!|assessment}(free-text-2365115141)
+              
+ 
+          position: 124
     configuration:
       layout: 3-cell
       files:
         - path: "#tabs"
           action: close
-        - path: "#terminal: R"
+        - path: "code/firstSteps.r"
           panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
           action: open
         - path: "#preview: Rplots.pdf"
           panel: 1
           action: open
   - name: "visualize----Aesthetic mappings"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/aesthetic.r)
+              
+             [Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 150
+        - add:  |
+             {Run code | terminal}(Rscript code/aesthetic.r)
+              
+             [Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 169
+        - add:  |
+             {Run code | terminal}(Rscript code/aesthetic.r)
+              
+             [Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 185
+        - add:  |
+             {Run code | terminal}(Rscript code/aesthetic.r)
+              
+             [Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 203
+        - remove: 27
+          postiion: 226
+        - add:  |
+              1. {Submit Answer!|assessment}(free-text-2644417677)
+              
+              1. {Check It!|assessment}(multiple-choice-3151543202)
+              
+              1. {Submit Answer!|assessment}(free-text-2494697878)
+              
+              1. {Submit Answer!|assessment}(free-text-514781532)
+              
+              1. {Check It!|assessment}(multiple-choice-1947897726)
+              
+              1. {Submit Answer!|assessment}(free-text-1352662087)
+ 
+          position: 253
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/aesthetic.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
+        - path: "#preview: Rplots.pdf"
+          panel: 1
+          action: open
   - name: "visualize----Common problems"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+        - path: "#tabs"
+          action: close
   - name: "visualize----Facets"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/facets.r)
+              
+             [Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 284
+        - add:  |
+             {Run code | terminal}(Rscript code/facets.r)
+              
+             [Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 297
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/facets.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
+        - path: "#preview: Rplots.pdf"
+          panel: 1
+          action: open
   - name: "visualize----Geometric objects"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/geoObjs.r)
+              
+             [Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 372
+        - add:  |
+             {Run code | terminal}(Rscript code/geoObjs.r)
+              
+             [Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 412
+        - add:  |
+             {Run code | terminal}(Rscript code/geoObjs.r)
+              
+             [Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 447
+        - add:  |
+             {Run code | terminal}(Rscript code/geoObjs.r)
+              
+             [Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 459
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/geoObjs.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
+        - path: "#preview: Rplots.pdf"
+          panel: 1
+          action: open
   - name: "visualize----Statistical transformations"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/statTrans.r)
+              
+             [Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 515
+        - add:  |
+             {Run code | terminal}(Rscript code/statTrans.r)
+              
+             [Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 545
+        - add:  |
+             {Run code | terminal}(Rscript code/statTrans.r)
+              
+             [Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 573
+        - add:  |
+             {Run code | terminal}(Rscript code/statTrans.r)
+              
+             [Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 592
+        - add:  |
+             {Run code | terminal}(Rscript code/statTrans.r)
+              
+             [Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 615
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/statTrans.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
+        - path: "#preview: Rplots.pdf"
+          panel: 1
+          action: open
   - name: "visualize----Position adjustments"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/posAdj.r)
+              
+             [Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 659
+        - add:  |
+             {Run code | terminal}(Rscript code/posAdj.r)
+              
+             [Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 670
+        - add:  |
+             {Run code | terminal}(Rscript code/posAdj.r)
+              
+             [Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 690
+        - add:  |
+             {Run code | terminal}(Rscript code/posAdj.r)
+              
+             [Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 707
+        - add:  |
+             {Run code | terminal}(Rscript code/posAdj.r)
+              
+             [Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 720
+        - add:  |
+             {Run code | terminal}(Rscript code/posAdj.r)
+              
+             [Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 739
+        - remove: 18
+          postiion: 749
+        - add:  |
+              1.  {Submit Answer!|assessment}(free-text-898232935)
+
+              1.  {Submit Answer!|assessment}(free-text-2462061477)
+
+              1.  {Submit Answer!|assessment}(free-text-4262217264)
+
+              1.  {Submit Answer!|assessment}(free-text-2715920861)
+              
+ 
+          position: 767
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/posAdj.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
+        - path: "#preview: Rplots.pdf"
+          panel: 1
+          action: open
   - name: "visualize----Coordinate systems"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/coordSys.r)
+              
+             [Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 784
+        - add:  |
+             {Run code | terminal}(Rscript code/coordSys.r)
+              
+             [Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 803
+        - add:  |
+             {Run code | terminal}(Rscript code/coordSys.r)
+              
+             [Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 824
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/coordSys.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
+        - path: "#preview: Rplots.pdf"
+          panel: 1
+          action: open
   - name: "visualize----The layered grammar of graphics"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "workflow-basics----Workflow: basics"
     type: chapter
   - name: "workflow-basics----Coding basics"

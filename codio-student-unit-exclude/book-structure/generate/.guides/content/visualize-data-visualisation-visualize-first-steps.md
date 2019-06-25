@@ -40,6 +40,10 @@ ggplot(data = mpg) +
   geom_point(mapping = aes(x = displ, y = hwy))
 ```
 
+{Run code | terminal}(Rscript code/firstSteps.r)
+ 
+[Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 ![Figure 5.1](visualize_files/figure-latex/unnamed-chunk-4-1.jpg)

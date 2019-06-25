@@ -1,7 +1,7 @@
 
 If variation describes the behavior _within_ a variable, covariation describes the behavior _between_ variables. **Covariation** is the tendency for the values of two or more variables to vary together in a related way. The best way to spot covariation is to visualise the relationship between two or more variables. How you do that should again depend on the type of variables involved.
 
-### A categorical and continuous variable {#cat-cont}
+### A categorical and continuous variable 
 
 It's common to want to explore the distribution of a continuous variable broken down by a categorical variable, as in the previous frequency polygon. The default appearance of `geom_freqpoly()` is not that useful for that sort of comparison because the height is given by the count. That means if one of the groups is much smaller than the others, it's hard to see the differences in shape. For example, let's explore how the price of a diamond varies with its quality:
 
@@ -64,7 +64,7 @@ Another alternative to display the distribution of a continuous variable broken 
   farthest non-outlier point in the distribution.
 
 
-![Figure 9.4](images/EDA-boxplot)
+![Figure 9.4](images/EDA-boxplot.jpg)
 
 **Figure 9.4**
 
@@ -270,11 +270,15 @@ ggplot(data = smaller) +
 ```
 
 
+![Figure 9.16](EDA_files/figure-latex/unnamed-chunk-33-1.jpg)
 
+**Figure 9.16**
 
-**Figure 9.16** 
+ ![Figure 9.17](EDA_files/figure-latex/unnamed-chunk-33-2.jpg)
 
-**Figure 9.17** 
+**Figure 9.17**
+
+ 
 
 Another option is to bin one continuous variable so it acts like a categorical variable. Then you can use one of the techniques for visualising the combination of a categorical and a continuous variable that you learned about. For example, you could bin `carat` and then for each group, display a boxplot:
 

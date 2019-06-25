@@ -221,7 +221,7 @@ How do you pick between duration, periods, and intervals? As always, pick the si
 
 Figure \@ref(fig:dt-algebra) summarises permitted arithmetic operations between the different data types.
 
-![Figure 19.1The allowed arithmetic operations between pairs of date/time classes.](diagrams/datetimes-arithmetic)
+![Figure 19.1The allowed arithmetic operations between pairs of date/time classes.](diagrams/datetimes-arithmetic.png)
 
 **Figure 19.1The allowed arithmetic operations between pairs of date/time classes.**
 

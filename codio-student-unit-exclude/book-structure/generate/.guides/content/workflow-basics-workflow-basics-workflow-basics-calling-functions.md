@@ -52,7 +52,7 @@ This common action can be shortened by surrounding the assignment with parenthes
 Now look at your environment in the upper right pane:
 
 
-![Figure 6.1](screenshots/rstudio-env)
+![Figure 6.1](screenshots/rstudio-env.png)
 
 **Figure 6.1**
 

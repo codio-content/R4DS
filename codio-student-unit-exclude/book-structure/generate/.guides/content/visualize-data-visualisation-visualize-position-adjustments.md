@@ -10,11 +10,15 @@ ggplot(data = diamonds) +
 ```
 
 
+![Figure 5.7](visualize_files/figure-latex/unnamed-chunk-37-1.jpg)
 
+**Figure 5.7**
 
-**Figure 5.7** 
+ ![Figure 5.8](visualize_files/figure-latex/unnamed-chunk-37-2.jpg)
 
-**Figure 5.8** 
+**Figure 5.8**
+
+ 
 
 Note what happens if you map the fill aesthetic to another variable, like `clarity`: the bars are automatically stacked. Each colored rectangle represents a combination of `cut` and `clarity`.
 
@@ -47,11 +51,15 @@ The stacking is performed automatically by the __position adjustment__ specified
 ```
     
     
-    
+    ![Figure 5.9](visualize_files/figure-latex/unnamed-chunk-39-1.jpg)
 
-**Figure 5.9** 
+**Figure 5.9**
 
-**Figure 5.10** 
+ ![Figure 5.10](visualize_files/figure-latex/unnamed-chunk-39-2.jpg)
+
+**Figure 5.10**
+
+ 
     
     The identity position adjustment is more useful for 2d geoms, like points,
     where it is the default.

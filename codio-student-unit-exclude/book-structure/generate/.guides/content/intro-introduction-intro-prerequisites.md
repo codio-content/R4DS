@@ -2,6 +2,8 @@
 We've made a few assumptions about what you already know in order to get the most out of this book. You should be generally numerically literate, and it's helpful if you have some programming experience already. If you've never programmed before, you might find [Hands on Programming with R](http://amzn.com/1449359019) by Garrett to be a useful adjunct to this book.
 
 There are four things you need to run the code in this book: R, RStudio, a collection of R packages called the __tidyverse__, and a handful of other packages. Packages are the fundamental units of reproducible R code. They include reusable functions, the documentation that describes how to use them, and sample data. 
+**For Codio users, all of this setup has been done for you and you can proceed to the next page.**
+
 
 ### R 
 
@@ -16,11 +18,15 @@ RStudio is an integrated development environment, or IDE, for R programming. Dow
 When you start RStudio, you'll see two key regions in the interface:
 
 
-![Figure 2.1](diagrams/rstudio-console)
+![Figure 2.1](diagrams/rstudio-console.png)
 
 **Figure 2.1**
 
 For now, all you need to know is that you type R code in the console pane, and press enter to run it. You'll learn more as we go along!
+javascript:void(0)
+
+**For Codio users** you can *Start RStudio* and then *Run RStudio* using the buttons in the top tool bar to launch RStudio within Codio.
+
 
 ### The tidyverse
 

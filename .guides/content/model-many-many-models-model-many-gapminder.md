@@ -64,13 +64,19 @@ nz %>%
 ```
 
 
+![Figure 30.6](model-many_files/figure-latex/unnamed-chunk-4-1.jpg)
 
+**Figure 30.6**
 
-**Figure 30.6** 
+ ![Figure 30.7](model-many_files/figure-latex/unnamed-chunk-4-2.jpg)
 
-**Figure 30.7** 
+**Figure 30.7**
 
-**Figure 30.8** 
+ ![Figure 30.8](model-many_files/figure-latex/unnamed-chunk-4-3.jpg)
+
+**Figure 30.8**
+
+ 
 
 How can we easily fit that model to every country?
 

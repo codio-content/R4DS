@@ -4,15 +4,19 @@ R experts keep all the files associated with a project together --- input data, 
 Let's make a project for you to use while you're working through the rest of this book. Click File > New Project, then:
 
 
-![Figure 10.1](screenshots/rstudio-project-1)
+![Figure 10.1](screenshots/rstudio-project-1.png)
 
 **Figure 10.1**
 
+![Figure 10.2](screenshots/rstudio-project-2.png)
 
+**Figure 10.2**
 
-**Figure 10.2** 
+ ![Figure 10.3](screenshots/rstudio-project-3.png)
 
-**Figure 10.3** 
+**Figure 10.3**
+
+ 
 
 Call your project `r4ds` and think carefully about which _subdirectory_ you put the project in. If you don't store it somewhere sensible, it will be hard to find it in the future!
 

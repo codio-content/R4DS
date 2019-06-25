@@ -17,7 +17,7 @@ leaflet() %>%
 
 
 ![Figure 36.1](rmarkdown-formats_files/figure-latex/unnamed-chunk-7-1.jpg)
-![Figure 36.1](screenshots/rmarkdown-shiny)
+![Figure 36.1](screenshots/rmarkdown-shiny.png)
 
 **Figure 36.1**
 You can then refer to the values with `input$name` and `input$age`, and the code that uses them will be automatically re-run whenever they change. 

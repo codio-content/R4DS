@@ -215,9 +215,11 @@ str_view_all("abababa", "aba")
 
 
 
-\begin{center}
+\begin{center}![Figure 17.1](strings_files/figure-latex/unnamed-chunk-39-1.jpg)
 
 **Figure 17.1**
+
+
 
 Note the use of `str_view_all()`. As you'll shortly learn, many stringr functions come in pairs: one function works with a single match, and the other works with all matches. The second function will have the suffix `_all`.
 
@@ -283,9 +285,11 @@ str_view_all(more, colour_match)
 
 
 
-\begin{center}
+\begin{center}![Figure 17.2](strings_files/figure-latex/unnamed-chunk-43-1.jpg)
 
 **Figure 17.2**
+
+
 
 ```r
 
@@ -535,9 +539,11 @@ str_view_all(x, boundary("word"))
 
 
 
-\begin{center}
+\begin{center}![Figure 17.3](strings_files/figure-latex/unnamed-chunk-56-1.jpg)
 
 **Figure 17.3**
+
+
 
 ```r
 

@@ -60,9 +60,9 @@ There are three interrelated rules which make a dataset tidy:
 1.  Each observation must have its own row.
 1.  Each value must have its own cell.
 
-Figure \@ref(fig:tidy-structure) shows the rules visually.
+Figure Tidy Structure shows the rules visually.
 
-![Figure 15.1Following three rules makes a dataset tidy: variables are in columns, observations are in rows, and values are in cells.](images/tidy-1)
+![Figure 15.1Following three rules makes a dataset tidy: variables are in columns, observations are in rows, and values are in cells.](images/tidy-1.png)
 
 **Figure 15.1Following three rules makes a dataset tidy: variables are in columns, observations are in rows, and values are in cells.**
 

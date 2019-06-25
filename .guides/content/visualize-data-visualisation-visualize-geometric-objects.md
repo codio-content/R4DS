@@ -2,11 +2,15 @@
 How are these two plots similar? 
 
 
+![Figure 5.6](visualize_files/figure-latex/unnamed-chunk-18-1.jpg)
 
+**Figure 5.6**
 
-**Figure 5.6** 
+ ![Figure 5.7](visualize_files/figure-latex/unnamed-chunk-18-2.jpg)
 
-**Figure 5.7** 
+**Figure 5.7**
+
+ 
 
 Both plots contain the same x variable, the same y variable, and both describe the same data. But the plots are not identical. Each plot uses a different visual object to represent the data. In ggplot2 syntax, we say that they use different __geoms__.
 
@@ -70,13 +74,19 @@ ggplot(data = mpg) +
 ```
 
 
+![Figure 5.8](visualize_files/figure-latex/unnamed-chunk-22-1.jpg)
 
+**Figure 5.8**
 
-**Figure 5.8** 
+ ![Figure 5.9](visualize_files/figure-latex/unnamed-chunk-22-2.jpg)
 
-**Figure 5.9** 
+**Figure 5.9**
 
-**Figure 5.10** 
+ ![Figure 5.10](visualize_files/figure-latex/unnamed-chunk-22-3.jpg)
+
+**Figure 5.10**
+
+ 
 
 To display multiple geoms in the same plot, add multiple geom functions to `ggplot()`:
 
@@ -171,16 +181,28 @@ ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +
 1.  Recreate the R code necessary to generate the following graphs.
     
     
-    
+    ![Figure 5.11](visualize_files/figure-latex/unnamed-chunk-29-1.jpg)
 
-**Figure 5.11** 
+**Figure 5.11**
 
-**Figure 5.12** 
+ ![Figure 5.12](visualize_files/figure-latex/unnamed-chunk-29-2.jpg)
 
-**Figure 5.13** 
+**Figure 5.12**
 
-**Figure 5.14** 
+ ![Figure 5.13](visualize_files/figure-latex/unnamed-chunk-29-3.jpg)
 
-**Figure 5.15** 
+**Figure 5.13**
 
-**Figure 5.16** 
+ ![Figure 5.14](visualize_files/figure-latex/unnamed-chunk-29-4.jpg)
+
+**Figure 5.14**
+
+ ![Figure 5.15](visualize_files/figure-latex/unnamed-chunk-29-5.jpg)
+
+**Figure 5.15**
+
+ ![Figure 5.16](visualize_files/figure-latex/unnamed-chunk-29-6.jpg)
+
+**Figure 5.16**
+
+ 

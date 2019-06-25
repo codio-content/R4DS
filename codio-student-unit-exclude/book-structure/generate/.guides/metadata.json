@@ -29,8 +29,14 @@
     {
       "chapter": true,
       "content-file": ".guides/content/intro-introduction.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "intro-introduction",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -41,8 +47,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/intro-introduction-intro-what-you-will-learn.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "intro-introduction-intro-what-you-will-learn",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -53,8 +65,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/intro-introduction-intro-how-this-book-is-organised.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "intro-introduction-intro-how-this-book-is-organised",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -65,8 +83,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/intro-introduction-intro-what-you-won-t-learn.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "intro-introduction-intro-what-you-won-t-learn",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -77,8 +101,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/intro-introduction-intro-prerequisites.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "intro-introduction-intro-prerequisites",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -89,8 +119,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/intro-introduction-intro-running-r-code.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "intro-introduction-intro-running-r-code",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -101,8 +137,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/intro-introduction-intro-getting-help-and-learning-more.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "intro-introduction-intro-getting-help-and-learning-more",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -113,8 +155,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/intro-introduction-intro-acknowledgements.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "intro-introduction-intro-acknowledgements",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -125,8 +173,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/intro-introduction-intro-colophon.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "intro-introduction-intro-colophon",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -136,21 +190,15 @@
     },
     {
       "chapter": true,
-      "content-file": ".guides/content/explore-part-explore.md",
-      "files": [],
-      "id": "explore-part-explore",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "(PART) Explore",
-      "type": "markdown"
-    },
-    {
-      "chapter": true,
       "content-file": ".guides/content/explore-introduction.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "explore-introduction",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -159,22 +207,21 @@
       "type": "markdown"
     },
     {
-      "chapter": true,
-      "content-file": ".guides/content/visualize-data-visualisation.md",
-      "files": [],
-      "id": "visualize-data-visualisation",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Data visualisation",
-      "type": "markdown"
-    },
-    {
       "chapter": false,
       "content-file": ".guides/content/visualize-data-visualisation-visualize-introduction.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "#terminal: R"
+        }
+      ],
       "id": "visualize-data-visualisation-visualize-introduction",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -185,8 +232,29 @@
     {
       "chapter": false,
       "content-file": ".guides/content/visualize-data-visualisation-visualize-first-steps.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/firstSteps.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: Rplots.pdf"
+        }
+      ],
       "id": "visualize-data-visualisation-visualize-first-steps",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -351,18 +419,6 @@
       "type": "markdown"
     },
     {
-      "chapter": true,
-      "content-file": ".guides/content/transform-data-transformation.md",
-      "files": [],
-      "id": "transform-data-transformation",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Data transformation",
-      "type": "markdown"
-    },
-    {
       "chapter": false,
       "content-file": ".guides/content/transform-data-transformation-transform-introduction.md",
       "files": [],
@@ -492,18 +548,6 @@
       "reset": [],
       "teacherOnly": false,
       "title": "Practice",
-      "type": "markdown"
-    },
-    {
-      "chapter": true,
-      "content-file": ".guides/content/eda-exploratory-data-analysis.md",
-      "files": [],
-      "id": "eda-exploratory-data-analysis",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Exploratory Data Analysis",
       "type": "markdown"
     },
     {
@@ -676,18 +720,6 @@
     },
     {
       "chapter": true,
-      "content-file": ".guides/content/wrangle-part-wrangle.md",
-      "files": [],
-      "id": "wrangle-part-wrangle",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "(PART) Wrangle",
-      "type": "markdown"
-    },
-    {
-      "chapter": true,
       "content-file": ".guides/content/wrangle-introduction.md",
       "files": [],
       "id": "wrangle-introduction",
@@ -696,18 +728,6 @@
       "reset": [],
       "teacherOnly": false,
       "title": "Introduction",
-      "type": "markdown"
-    },
-    {
-      "chapter": true,
-      "content-file": ".guides/content/tibble-tibbles.md",
-      "files": [],
-      "id": "tibble-tibbles",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Tibbles",
       "type": "markdown"
     },
     {
@@ -768,18 +788,6 @@
       "reset": [],
       "teacherOnly": false,
       "title": "Exercises",
-      "type": "markdown"
-    },
-    {
-      "chapter": true,
-      "content-file": ".guides/content/import-data-import.md",
-      "files": [],
-      "id": "import-data-import",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Data import",
       "type": "markdown"
     },
     {
@@ -852,18 +860,6 @@
       "reset": [],
       "teacherOnly": false,
       "title": "Other types of data",
-      "type": "markdown"
-    },
-    {
-      "chapter": true,
-      "content-file": ".guides/content/tidy-tidy-data.md",
-      "files": [],
-      "id": "tidy-tidy-data",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Tidy data",
       "type": "markdown"
     },
     {
@@ -951,18 +947,6 @@
       "type": "markdown"
     },
     {
-      "chapter": true,
-      "content-file": ".guides/content/relational-data-relational-data.md",
-      "files": [],
-      "id": "relational-data-relational-data",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Relational data",
-      "type": "markdown"
-    },
-    {
       "chapter": false,
       "content-file": ".guides/content/relational-data-relational-data-relational-data-introduction.md",
       "files": [],
@@ -1044,18 +1028,6 @@
       "reset": [],
       "teacherOnly": false,
       "title": "Set operations",
-      "type": "markdown"
-    },
-    {
-      "chapter": true,
-      "content-file": ".guides/content/strings-strings.md",
-      "files": [],
-      "id": "strings-strings",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Strings",
       "type": "markdown"
     },
     {
@@ -1143,18 +1115,6 @@
       "type": "markdown"
     },
     {
-      "chapter": true,
-      "content-file": ".guides/content/factors-factors.md",
-      "files": [],
-      "id": "factors-factors",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Factors",
-      "type": "markdown"
-    },
-    {
       "chapter": false,
       "content-file": ".guides/content/factors-factors-factors-introduction.md",
       "files": [],
@@ -1212,18 +1172,6 @@
       "reset": [],
       "teacherOnly": false,
       "title": "Modifying factor levels",
-      "type": "markdown"
-    },
-    {
-      "chapter": true,
-      "content-file": ".guides/content/datetimes-dates-and-times.md",
-      "files": [],
-      "id": "datetimes-dates-and-times",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Dates and times",
       "type": "markdown"
     },
     {
@@ -1288,18 +1236,6 @@
     },
     {
       "chapter": true,
-      "content-file": ".guides/content/program-part-program.md",
-      "files": [],
-      "id": "program-part-program",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "(PART) Program",
-      "type": "markdown"
-    },
-    {
-      "chapter": true,
       "content-file": ".guides/content/program-introduction.md",
       "files": [],
       "id": "program-introduction",
@@ -1320,18 +1256,6 @@
       "reset": [],
       "teacherOnly": false,
       "title": "Learning more",
-      "type": "markdown"
-    },
-    {
-      "chapter": true,
-      "content-file": ".guides/content/pipes-pipes.md",
-      "files": [],
-      "id": "pipes-pipes",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Pipes",
       "type": "markdown"
     },
     {
@@ -1380,18 +1304,6 @@
       "reset": [],
       "teacherOnly": false,
       "title": "Other tools from magrittr",
-      "type": "markdown"
-    },
-    {
-      "chapter": true,
-      "content-file": ".guides/content/functions-functions.md",
-      "files": [],
-      "id": "functions-functions",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Functions",
       "type": "markdown"
     },
     {
@@ -1479,18 +1391,6 @@
       "type": "markdown"
     },
     {
-      "chapter": true,
-      "content-file": ".guides/content/vectors-vectors.md",
-      "files": [],
-      "id": "vectors-vectors",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Vectors",
-      "type": "markdown"
-    },
-    {
       "chapter": false,
       "content-file": ".guides/content/vectors-vectors-vectors-introduction.md",
       "files": [],
@@ -1572,18 +1472,6 @@
       "reset": [],
       "teacherOnly": false,
       "title": "Augmented vectors",
-      "type": "markdown"
-    },
-    {
-      "chapter": true,
-      "content-file": ".guides/content/iteration-iteration.md",
-      "files": [],
-      "id": "iteration-iteration",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Iteration",
       "type": "markdown"
     },
     {
@@ -1696,18 +1584,6 @@
     },
     {
       "chapter": true,
-      "content-file": ".guides/content/model-part-model.md",
-      "files": [],
-      "id": "model-part-model",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "(PART) Model",
-      "type": "markdown"
-    },
-    {
-      "chapter": true,
       "content-file": ".guides/content/model-introduction.md",
       "files": [],
       "id": "model-introduction",
@@ -1728,18 +1604,6 @@
       "reset": [],
       "teacherOnly": false,
       "title": "Hypothesis generation vs. hypothesis confirmation",
-      "type": "markdown"
-    },
-    {
-      "chapter": true,
-      "content-file": ".guides/content/model-basics-model-basics.md",
-      "files": [],
-      "id": "model-basics-model-basics",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Model basics",
       "type": "markdown"
     },
     {
@@ -1815,18 +1679,6 @@
       "type": "markdown"
     },
     {
-      "chapter": true,
-      "content-file": ".guides/content/model-building-model-building.md",
-      "files": [],
-      "id": "model-building-model-building",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Model building",
-      "type": "markdown"
-    },
-    {
       "chapter": false,
       "content-file": ".guides/content/model-building-model-building-model-building-introduction.md",
       "files": [],
@@ -1872,18 +1724,6 @@
       "reset": [],
       "teacherOnly": false,
       "title": "Learning more about models",
-      "type": "markdown"
-    },
-    {
-      "chapter": true,
-      "content-file": ".guides/content/model-many-many-models.md",
-      "files": [],
-      "id": "model-many-many-models",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Many models",
       "type": "markdown"
     },
     {
@@ -1960,18 +1800,6 @@
     },
     {
       "chapter": true,
-      "content-file": ".guides/content/communicate-part-communicate.md",
-      "files": [],
-      "id": "communicate-part-communicate",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "(PART) Communicate",
-      "type": "markdown"
-    },
-    {
-      "chapter": true,
       "content-file": ".guides/content/communicate-introduction.md",
       "files": [],
       "id": "communicate-introduction",
@@ -1980,18 +1808,6 @@
       "reset": [],
       "teacherOnly": false,
       "title": "Introduction",
-      "type": "markdown"
-    },
-    {
-      "chapter": true,
-      "content-file": ".guides/content/rmarkdown-r-markdown.md",
-      "files": [],
-      "id": "rmarkdown-r-markdown",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "R Markdown",
       "type": "markdown"
     },
     {
@@ -2016,18 +1832,6 @@
       "reset": [],
       "teacherOnly": false,
       "title": "R Markdown basics",
-      "type": "markdown"
-    },
-    {
-      "chapter": true,
-      "content-file": ".guides/content/rmarkdown-1st-level-header.md",
-      "files": [],
-      "id": "rmarkdown-1st-level-header",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "1st Level Header",
       "type": "markdown"
     },
     {
@@ -2076,18 +1880,6 @@
       "reset": [],
       "teacherOnly": false,
       "title": "Learning more",
-      "type": "markdown"
-    },
-    {
-      "chapter": true,
-      "content-file": ".guides/content/communicate-plots-graphics-for-communication.md",
-      "files": [],
-      "id": "communicate-plots-graphics-for-communication",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "Graphics for communication",
       "type": "markdown"
     },
     {
@@ -2184,18 +1976,6 @@
       "reset": [],
       "teacherOnly": false,
       "title": "Learning more",
-      "type": "markdown"
-    },
-    {
-      "chapter": true,
-      "content-file": ".guides/content/rmarkdown-formats-r-markdown-formats.md",
-      "files": [],
-      "id": "rmarkdown-formats-r-markdown-formats",
-      "learningObjectives": "",
-      "path": [],
-      "reset": [],
-      "teacherOnly": false,
-      "title": "R Markdown formats",
       "type": "markdown"
     },
     {

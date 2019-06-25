@@ -69,7 +69,7 @@ transmute(flights,
 #> # ... with 3.368e+05 more rows
 ```
 
-### Useful creation functions {#mutate-funs}
+### Useful creation functions 
 
 There are many functions for creating new variables that you can use with `mutate()`. The key property is that the function must be vectorised: it must take a vector of values as input, return a vector with the same number of values as output. There's no way to list every possible function that you might use, but here's a selection of functions that are frequently useful:
 

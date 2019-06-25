@@ -69,7 +69,7 @@ The following sections explain, in detail, how mutating joins work. You'll start
 To help you learn how joins work, I'm going to use a visual representation:
 
 
-![Figure 16.1](diagrams/join-setup)
+![Figure 16.1](diagrams/join-setup.png)
 
 **Figure 16.1**
 
@@ -93,7 +93,7 @@ The coloured column represents the "key" variable: these are used to match the r
 A join is a way of connecting each row in `x` to zero, one, or more rows in `y`. The following diagram shows each potential match as an intersection of a pair of lines.
 
 
-![Figure 16.2](diagrams/join-setup2)
+![Figure 16.2](diagrams/join-setup2.png)
 
 **Figure 16.2**
 
@@ -102,16 +102,16 @@ A join is a way of connecting each row in `x` to zero, one, or more rows in `y`.
 In an actual join, matches will be indicated with dots. The number of dots = the number of matches = the number of rows in the output.
 
 
-![Figure 16.3](diagrams/join-inner)
+![Figure 16.3](diagrams/join-inner.png)
 
 **Figure 16.3**
 
-### Inner join {#inner-join}
+### Inner join 
 
 The simplest type of join is the __inner join__. An inner join matches pairs of observations whenever their keys are equal:
 
 
-![Figure 16.4](diagrams/join-inner)
+![Figure 16.4](diagrams/join-inner.png)
 
 **Figure 16.4**
 
@@ -132,7 +132,7 @@ x %>%
 
 The most important property of an inner join is that unmatched rows are not included in the result. This means that generally inner joins are usually not appropriate for use in analysis because it's too easy to lose observations.
 
-### Outer joins {#outer-join}
+### Outer joins 
 
 An inner join keeps observations that appear in both tables. An __outer join__ keeps observations that appear in at least one of the tables. There are three types of outer joins:
 
@@ -145,7 +145,7 @@ These joins work by adding an additional "virtual" observation to each table. Th
 Graphically, that looks like:
 
 
-![Figure 16.5](diagrams/join-outer)
+![Figure 16.5](diagrams/join-outer.png)
 
 **Figure 16.5**
 
@@ -154,13 +154,13 @@ The most commonly used join is the left join: you use this whenever you look up 
 Another way to depict the different types of joins is with a Venn diagram:
 
 
-![Figure 16.6](diagrams/join-venn)
+![Figure 16.6](diagrams/join-venn.png)
 
 **Figure 16.6**
 
 However, this is not a great representation. It might jog your memory about which join preserves the observations in which table, but it suffers from a major limitation: a Venn diagram can't show what happens when keys don't uniquely identify an observation.
 
-### Duplicate keys {#join-matches}
+### Duplicate keys 
 
 So far all the diagrams have assumed that the keys are unique. But that's not always the case. This section explains what happens when the keys are not unique. There are two possibilities:
 
@@ -169,7 +169,7 @@ So far all the diagrams have assumed that the keys are unique. But that's not al
     relationship.
 
     
-![Figure 16.7](diagrams/join-one-to-many)
+![Figure 16.7](diagrams/join-one-to-many.png)
 
 **Figure 16.7**
 
@@ -206,7 +206,7 @@ So far all the diagrams have assumed that the keys are unique. But that's not al
     duplicated keys, you get all possible combinations, the Cartesian product:
 
     
-![Figure 16.8](diagrams/join-many-to-many)
+![Figure 16.8](diagrams/join-many-to-many.png)
 
 **Figure 16.8**
 
@@ -238,7 +238,7 @@ So far all the diagrams have assumed that the keys are unique. But that's not al
     #> 6     3 x4    y4
 ```
 
-### Defining the key columns {#join-by}
+### Defining the key columns 
 
 So far, the pairs of tables have always been joined by a single variable, and that variable has the same name in both tables. That constraint was encoded by `by = "key"`. You can use other values for `by` to connect the tables in other ways:
 

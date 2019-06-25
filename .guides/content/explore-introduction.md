@@ -2,7 +2,7 @@
 The goal of the first part of this book is to get you up to speed with the basic tools of __data exploration__ as quickly as possible. Data exploration is the art of looking at your data, rapidly generating hypotheses, quickly testing them, then repeating again and again and again. The goal of data exploration is to generate many promising leads that you can later explore in more depth.
 
 
-![Figure 4.1](diagrams/data-science-explore)
+![Figure 4.1](diagrams/data-science-explore.png)
 
 **Figure 4.1**
 
@@ -10,7 +10,7 @@ In this part of the book you will learn some useful tools that have an immediate
 
 *   Visualisation is a great place to start with R programming, because the 
     payoff is so clear: you get to make elegant and informative plots that help 
-    you understand data. In [data visualisation] you'll dive into visualisation, 
+    you understand data. In Data Visualisation Chapter you'll dive into visualisation, 
     learning the basic structure of a ggplot2 plot, and powerful techniques for 
     turning data into plots. 
 

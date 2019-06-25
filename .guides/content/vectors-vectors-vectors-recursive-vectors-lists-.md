@@ -75,7 +75,7 @@ x3 <- list(1, list(2, list(3)))
 I'll draw them as follows:
 
 
-![Figure 24.2](diagrams/lists-structure)
+![Figure 24.2](diagrams/lists-structure.png)
 
 **Figure 24.2**
 
@@ -143,7 +143,7 @@ a <- list(a = 1:3, b = "a string", c = pi, d = list(-1, -5))
 
 The distinction between `[` and `[[` is really important for lists, because `[[` drills down into the list while `[` returns a new, smaller list. Compare the code and output above with the visual representation in Figure \@ref(fig:lists-subsetting).
 
-![Figure 24.1Subsetting a list, visually.](diagrams/lists-subsetting)
+![Figure 24.1Subsetting a list, visually.](diagrams/lists-subsetting.png)
 
 **Figure 24.1Subsetting a list, visually.**
 
@@ -152,14 +152,14 @@ The distinction between `[` and `[[` is really important for lists, because `[[`
 The difference between `[` and `[[` is very important, but it's easy to get confused. To help you remember, let me show you an unusual pepper shaker.
 
 
-![Figure 24.3](images/pepper)
+![Figure 24.3](images/pepper.jpg)
 
 **Figure 24.3**
 
 If this pepper shaker is your list `x`, then, `x[1]` is a pepper shaker containing a single pepper packet:
 
 
-![Figure 24.4](images/pepper-1)
+![Figure 24.4](images/pepper-1.jpg)
 
 **Figure 24.4**
 
@@ -168,14 +168,14 @@ If this pepper shaker is your list `x`, then, `x[1]` is a pepper shaker containi
 `x[[1]]` is:
 
 
-![Figure 24.5](images/pepper-2)
+![Figure 24.5](images/pepper-2.jpg)
 
 **Figure 24.5**
 
 If you wanted to get the content of the pepper package, you'd need `x[[1]][[1]]`:
 
 
-![Figure 24.6](images/pepper-3)
+![Figure 24.6](images/pepper-3.jpg)
 
 **Figure 24.6**
 

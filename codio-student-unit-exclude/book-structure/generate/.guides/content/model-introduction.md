@@ -2,7 +2,7 @@
 Now that you are equipped with powerful programming tools we can finally return to modelling. You'll use your new tools of data wrangling and programming, to fit many models and understand how they work. The focus of this book is on exploration, not confirmation or formal inference. But you'll learn a few basic tools that help you understand the variation within your models.
 
 
-![Figure 27.1](diagrams/data-science-model)
+![Figure 27.1](diagrams/data-science-model.png)
 
 **Figure 27.1**
 

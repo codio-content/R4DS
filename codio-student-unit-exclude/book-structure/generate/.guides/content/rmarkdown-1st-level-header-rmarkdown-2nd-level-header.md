@@ -78,7 +78,7 @@ Chunks can be given an optional name: ```` ```{r by-name} ````. This has three a
     code navigator in the bottom-left of the script editor:
 
     
-![Figure 34.1](screenshots/rmarkdown-chunk-nav)
+![Figure 34.1](screenshots/rmarkdown-chunk-nav.png)
 
 **Figure 34.1**
 

@@ -70,7 +70,7 @@ str_length(c("a", "R for data science", NA))
 The common `str_` prefix is particularly useful if you use RStudio, because typing `str_` will trigger autocomplete, allowing you to see all stringr functions:
 
 
-![Figure 17.1](screenshots/stringr-autocomplete)
+![Figure 17.1](screenshots/stringr-autocomplete.png)
 
 **Figure 17.1**
 

@@ -11,7 +11,7 @@ There are two types of vectors:
 
 The chief difference between atomic vectors and lists is that atomic vectors are __homogeneous__, while lists can be __heterogeneous__. There's one other related object: `NULL`. `NULL` is often used to represent the absence of a vector (as opposed to `NA` which is used to represent the absence of a value in a vector). `NULL` typically behaves like a vector of length 0. Figure \@ref(fig:datatypes) summarises the interrelationships. 
 
-![Figure 24.1The hierarchy of R's vector types](diagrams/data-structures-overview)
+![Figure 24.1The hierarchy of R's vector types](diagrams/data-structures-overview.png)
 
 **Figure 24.1The hierarchy of R's vector types**
 

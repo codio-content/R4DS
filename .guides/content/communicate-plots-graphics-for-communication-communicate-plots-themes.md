@@ -17,7 +17,7 @@ ggplot(mpg, aes(displ, hwy)) +
 
 ggplot2 includes eight themes by default, as shown in Figure \@ref(fig:themes). Many more are included in add-on packages like __ggthemes__ (<https://github.com/jrnold/ggthemes>), by Jeffrey Arnold.
 
-![Figure 35.1The eight themes built-in to ggplot2.](images/visualization-themes)
+![Figure 35.1The eight themes built-in to ggplot2.](images/visualization-themes.png)
 
 **Figure 35.1The eight themes built-in to ggplot2.**
 

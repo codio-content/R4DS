@@ -61,7 +61,7 @@ table4a %>%
 
 The columns to gather are specified with `dplyr::select()` style notation. Here there are only two columns, so we list them individually. Note that "1999" and "2000" are non-syntactic names (because they don't start with a letter) so we have to surround them in backticks. To refresh your memory of the other ways to select columns, see [select](#select).
 
-![Figure 15.1Gathering `table4` into a tidy form.](images/tidy-9)
+![Figure 15.1Gathering `table4` into a tidy form.](images/tidy-9.png)
 
 **Figure 15.1Gathering `table4` into a tidy form.**
 
@@ -147,7 +147,7 @@ table2 %>%
 #> 6 China        2000 213766 1280428583
 ```
 
-![Figure 15.2Spreading `table2` makes it tidy](images/tidy-8)
+![Figure 15.2Spreading `table2` makes it tidy](images/tidy-8.png)
 
 **Figure 15.2Spreading `table2` makes it tidy**
 

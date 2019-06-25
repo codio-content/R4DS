@@ -68,7 +68,7 @@ Another important use of comments is to break up your file into easily readable 
 RStudio provides a keyboard shortcut to create these headers (Cmd/Ctrl + Shift + R), and will display them in the code navigation drop-down at the bottom-left of the editor:
 
 
-![Figure 23.1](screenshots/rstudio-nav)
+![Figure 23.1](screenshots/rstudio-nav.png)
 
 **Figure 23.1**
 

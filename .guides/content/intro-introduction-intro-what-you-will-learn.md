@@ -2,7 +2,7 @@
 Data science is a huge field, and there's no way you can master it by reading a single book. The goal of this book is to give you a solid foundation in the most important tools. Our model of the tools needed in a typical data science project looks something like this:
 
 
-![Figure 2.1](diagrams/data-science)
+![Figure 2.1](diagrams/data-science.png)
 
 **Figure 2.1**
 

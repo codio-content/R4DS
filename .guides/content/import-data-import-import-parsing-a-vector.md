@@ -136,7 +136,7 @@ parse_number("123'456'789", locale = locale(grouping_mark = "'"))
 #> [1] 1.23e+08
 ```
 
-### Strings {#readr-strings}
+### Strings 
 
 It seems like `parse_character()` should be really simple --- it could just return its input. Unfortunately life isn't so simple, as there are multiple ways to represent the same string. To understand what's going on, we need to dive into the details of how computers represent strings. In R, we can get at the underlying representation of a string using `charToRaw()`:
 
@@ -194,7 +194,7 @@ The first argument to `guess_encoding()` can either be a path to a file, or, as 
 
 Encodings are a rich and complex topic, and I've only scratched the surface here. If you'd like to learn more I'd recommend reading the detailed explanation at <http://kunststube.net/encoding/>.
 
-### Factors {#readr-factors}
+### Factors 
 
 R uses factors to represent categorical variables that have a known set of possible values. Give `parse_factor()` a vector of known `levels` to generate a warning whenever an unexpected value is present:
 
@@ -216,7 +216,7 @@ parse_factor(c("apple", "banana", "bananana"), levels = fruit)
 
 But if you have many problematic entries, it's often easier to leave as character vectors and then use the tools you'll learn about in [strings] and [factors] to clean them up.
 
-### Dates, date-times, and times {#readr-datetimes}
+### Dates, date-times, and times 
 
 You pick between three parsers depending on whether you want a date (the number of days since 1970-01-01), a date-time (the number of seconds since midnight 1970-01-01), or a time (the number of seconds since midnight). When called without any additional arguments:
 

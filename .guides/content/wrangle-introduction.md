@@ -2,7 +2,7 @@
 In this part of the book, you'll learn about data wrangling, the art of getting your data into R in a useful form for visualisation and modelling. Data wrangling is very important: without it you can't work with your own data! There are three main parts to data wrangling:
 
 
-![Figure 12.1](diagrams/data-science-wrangle)
+![Figure 12.1](diagrams/data-science-wrangle.png)
 
 **Figure 12.1**
 

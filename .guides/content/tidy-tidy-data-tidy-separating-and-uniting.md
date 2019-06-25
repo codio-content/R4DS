@@ -36,7 +36,7 @@ table3 %>%
 #> 6 China        2000 213766 1280428583
 ```
 
-![Figure 15.1Separating `table3` makes it tidy](images/tidy-17)
+![Figure 15.1Separating `table3` makes it tidy](images/tidy-17.png)
 
 **Figure 15.1Separating `table3` makes it tidy**
 
@@ -90,7 +90,7 @@ table3 %>%
 
 `unite()` is the inverse of `separate()`: it combines multiple columns into a single column. You'll need it much less frequently than `separate()`, but it's still a useful tool to have in your back pocket.
 
-![Figure 15.2Uniting `table5` makes it tidy](images/tidy-18)
+![Figure 15.2Uniting `table5` makes it tidy](images/tidy-18.png)
 
 **Figure 15.2Uniting `table5` makes it tidy**
 

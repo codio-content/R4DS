@@ -284,7 +284,7 @@ batters %>%
 
 You can find a good explanation of this problem at <http://varianceexplained.org/r/empirical_bayes_baseball/> and <http://www.evanmiller.org/how-not-to-sort-by-average-rating.html>.
 
-### Useful summary functions {#summarise-funs}
+### Useful summary functions 
 
 Just using means, counts, and sum can get you a long way, but R provides many other useful summary functions:
 

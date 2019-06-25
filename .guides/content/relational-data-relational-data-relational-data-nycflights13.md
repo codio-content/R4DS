@@ -75,7 +75,7 @@ We will use the nycflights13 package to learn about relational data. nycflights1
 One way to show the relationships between the different tables is with a drawing:
 
 
-![Figure 16.1](diagrams/relational-nycflights)
+![Figure 16.1](diagrams/relational-nycflights.png)
 
 **Figure 16.1**
 

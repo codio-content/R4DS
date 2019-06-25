@@ -27,7 +27,7 @@ On the x-axis, the chart displays `cut`, a variable from `diamonds`. On the y-ax
 The algorithm used to calculate new values for a graph is called a __stat__, short for statistical transformation. The figure below describes how this process works with `geom_bar()`.
 
 
-![Figure 5.2](images/visualization-stat-bar)
+![Figure 5.2](images/visualization-stat-bar.png)
 
 **Figure 5.2**
 

@@ -2,7 +2,7 @@
 R has a powerful notion of the __working directory__. This is where R looks for files that you ask it to load, and where it will put any files that you ask it to save. RStudio shows your current working directory at the top of the console:
 
 
-![Figure 10.1](screenshots/rstudio-wd)
+![Figure 10.1](screenshots/rstudio-wd.png)
 
 **Figure 10.1**
 

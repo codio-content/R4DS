@@ -15,9 +15,11 @@ str_view(x, "an")
 
 
 
-\begin{center}
+\begin{center}![Figure 17.1](strings_files/figure-latex/unnamed-chunk-20-1.jpg)
 
 **Figure 17.1**
+
+
 
 The next step up in complexity is `.`, which matches any character (except a newline):
 
@@ -28,9 +30,11 @@ str_view(x, ".a.")
 
 
 
-\begin{center}
+\begin{center}![Figure 17.2](strings_files/figure-latex/unnamed-chunk-21-1.jpg)
 
 **Figure 17.2**
+
+
 
 But if "`.`" matches any character, how do you match the character "`.`"? You need to use an "escape" to tell the regular expression you want to match it exactly, not use its special behaviour. Like strings, regexps use the backslash, `\`, to escape special behaviour. So to match an `.`, you need the regexp `\.`. Unfortunately this creates a problem. We use strings to represent regular expressions, and `\` is also used as an escape symbol in strings. So to create the regular expression `\.` we need the string `"\\."`. 
 
@@ -49,9 +53,11 @@ str_view(c("abc", "a.c", "bef"), "a\\.c")
 
 
 
-\begin{center}
+\begin{center}![Figure 17.3](strings_files/figure-latex/unnamed-chunk-22-1.jpg)
 
 **Figure 17.3**
+
+
 
 If `\` is used as an escape character in regular expressions, how do you match a literal `\`? Well you need to escape it, creating the regular expression `\\`. To create that regular expression, you need to use a string, which also needs to escape `\`. That means to match a literal `\` you need to write `"\\\\"` --- you need four backslashes to match one!
 
@@ -66,9 +72,11 @@ str_view(x, "\\\\")
 
 
 
-\begin{center}
+\begin{center}![Figure 17.4](strings_files/figure-latex/unnamed-chunk-23-1.jpg)
 
 **Figure 17.4**
+
+
 
 In this book, I'll write regular expression as `\.` and strings that represent the regular expression as `"\\."`.
 
@@ -96,17 +104,21 @@ str_view(x, "^a")
 
 
 
-\begin{center}
+\begin{center}![Figure 17.5](strings_files/figure-latex/unnamed-chunk-24-1.jpg)
 
 **Figure 17.5**
+
+
 
 ```r
 str_view(x, "a$")
 ```
 
+![Figure 17.6](strings_files/figure-latex/unnamed-chunk-24-2.jpg)
 
+**Figure 17.6**
 
-**Figure 17.6** 
+ 
 
 To remember which is which, try this mnemonic which I learned from [Evan Misshula](https://twitter.com/emisshula/status/323863393167613953): if you begin with power (`^`), you end up with money (`$`).
 
@@ -120,17 +132,21 @@ str_view(x, "apple")
 
 
 
-\begin{center}
+\begin{center}![Figure 17.7](strings_files/figure-latex/unnamed-chunk-25-1.jpg)
 
 **Figure 17.7**
+
+
 
 ```r
 str_view(x, "^apple$")
 ```
 
+![Figure 17.8](strings_files/figure-latex/unnamed-chunk-25-2.jpg)
 
+**Figure 17.8**
 
-**Figure 17.8** 
+ 
 
 You can also match the boundary between words with `\b`. I don't often use this in R, but I will sometimes use it when I'm doing a search in RStudio when I want to find the name of a function that's a component of other functions. For example, I'll search for `\bsum\b` to avoid matching `summarise`, `summary`, `rowsum` and so on.
 
@@ -170,25 +186,31 @@ str_view(c("abc", "a.c", "a*c", "a c"), "a[.]c")
 
 
 
-\begin{center}
+\begin{center}![Figure 17.9](strings_files/figure-latex/unnamed-chunk-26-1.jpg)
 
 **Figure 17.9**
+
+
 
 ```r
 str_view(c("abc", "a.c", "a*c", "a c"), ".[*]c")
 ```
 
+![Figure 17.10](strings_files/figure-latex/unnamed-chunk-26-2.jpg)
 
+**Figure 17.10**
 
-**Figure 17.10** 
+ 
 
 ```r
 str_view(c("abc", "a.c", "a*c", "a c"), "a[ ]")
 ```
 
+![Figure 17.11](strings_files/figure-latex/unnamed-chunk-26-3.jpg)
 
+**Figure 17.11**
 
-**Figure 17.11** 
+ 
 
 This works for most (but not all) regex metacharacters: `$` `.` `|` `?` `*` `+` `(` `)` `[` `{`. Unfortunately, a few characters have special meaning even inside a character class and must be handled with backslash escapes: `]` `\` `^` and `-`.
 
@@ -201,9 +223,11 @@ str_view(c("grey", "gray"), "gr(e|a)y")
 
 
 
-\begin{center}
+\begin{center}![Figure 17.12](strings_files/figure-latex/unnamed-chunk-27-1.jpg)
 
 **Figure 17.12**
+
+
 
 #### Exercises
 
@@ -244,25 +268,31 @@ str_view(x, "CC?")
 
 
 
-\begin{center}
+\begin{center}![Figure 17.13](strings_files/figure-latex/unnamed-chunk-28-1.jpg)
 
 **Figure 17.13**
+
+
 
 ```r
 str_view(x, "CC+")
 ```
 
+![Figure 17.14](strings_files/figure-latex/unnamed-chunk-28-2.jpg)
 
+**Figure 17.14**
 
-**Figure 17.14** 
+ 
 
 ```r
 str_view(x, 'C[LX]+')
 ```
 
+![Figure 17.15](strings_files/figure-latex/unnamed-chunk-28-3.jpg)
 
+**Figure 17.15**
 
-**Figure 17.15** 
+ 
 
 Note that the precedence of these operators is high, so you can write: `colou?r` to match either American or British spellings. That means most uses will need parentheses, like `bana(na)+`.
 
@@ -280,25 +310,31 @@ str_view(x, "C{2}")
 
 
 
-\begin{center}
+\begin{center}![Figure 17.16](strings_files/figure-latex/unnamed-chunk-29-1.jpg)
 
 **Figure 17.16**
+
+
 
 ```r
 str_view(x, "C{2,}")
 ```
 
+![Figure 17.17](strings_files/figure-latex/unnamed-chunk-29-2.jpg)
 
+**Figure 17.17**
 
-**Figure 17.17** 
+ 
 
 ```r
 str_view(x, "C{2,3}")
 ```
 
+![Figure 17.18](strings_files/figure-latex/unnamed-chunk-29-3.jpg)
 
+**Figure 17.18**
 
-**Figure 17.18** 
+ 
 
 By default these matches are "greedy": they will match the longest string possible. You can make them "lazy", matching the shortest string possible by putting a `?` after them. This is an advanced feature of regular expressions, but it's useful to know that it exists:
 
@@ -309,17 +345,21 @@ str_view(x, 'C{2,3}?')
 
 
 
-\begin{center}
+\begin{center}![Figure 17.19](strings_files/figure-latex/unnamed-chunk-30-1.jpg)
 
 **Figure 17.19**
+
+
 
 ```r
 str_view(x, 'C[LX]+?')
 ```
 
+![Figure 17.20](strings_files/figure-latex/unnamed-chunk-30-2.jpg)
 
+**Figure 17.20**
 
-**Figure 17.20** 
+ 
 
 #### Exercises
 
@@ -354,9 +394,11 @@ str_view(fruit, "(..)\\1", match = TRUE)
 
 
 
-\begin{center}
+\begin{center}![Figure 17.21](strings_files/figure-latex/unnamed-chunk-31-1.jpg)
 
 **Figure 17.21**
+
+
 
 (Shortly, you'll also see how they're useful in conjunction with `str_match()`.)
 

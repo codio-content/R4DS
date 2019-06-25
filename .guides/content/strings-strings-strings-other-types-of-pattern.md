@@ -22,17 +22,21 @@ You can use the other arguments of `regex()` to control details of the match:
     
     
     
-\begin{center}
+\begin{center}![Figure 17.1](strings_files/figure-latex/unnamed-chunk-58-1.jpg)
 
 **Figure 17.1**
+
+
     
 ```r
     str_view(bananas, regex("banana", ignore_case = TRUE))
 ```
     
-    
+    ![Figure 17.2](strings_files/figure-latex/unnamed-chunk-58-2.jpg)
 
-**Figure 17.2** 
+**Figure 17.2**
+
+ 
     
 *   `multiline = TRUE` allows `^` and `$` to match the start and end of each
     line rather than the start and end of the complete string.
@@ -172,9 +176,11 @@ There are three other functions you can use instead of `regex()`:
     
     
     
-\begin{center}
+\begin{center}![Figure 17.3](strings_files/figure-latex/unnamed-chunk-66-1.jpg)
 
 **Figure 17.3**
+
+
     
 ```r
     str_extract_all(x, boundary("word"))

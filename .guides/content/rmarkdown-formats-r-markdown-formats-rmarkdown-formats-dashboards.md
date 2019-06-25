@@ -8,7 +8,7 @@ Dashboards are a useful way to communicate large amounts of information visually
 For example, you can produce this dashboard:
 
 
-![Figure 36.1](screenshots/rmarkdown-flexdashboard)
+![Figure 36.1](screenshots/rmarkdown-flexdashboard.png)
 
 **Figure 36.1**
 

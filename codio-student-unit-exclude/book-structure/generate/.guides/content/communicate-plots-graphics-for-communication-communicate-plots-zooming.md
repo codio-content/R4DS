@@ -22,11 +22,15 @@ mpg %>%
 ```
 
 
+![Figure 35.1](communicate-plots_files/figure-latex/unnamed-chunk-28-1.jpg)
 
+**Figure 35.1**
 
-**Figure 35.1** 
+ ![Figure 35.2](communicate-plots_files/figure-latex/unnamed-chunk-28-2.jpg)
 
-**Figure 35.2** 
+**Figure 35.2**
+
+ 
 
 You can also set the `limits` on individual scales. Reducing the limits is basically equivalent to subsetting the data. It is generally more useful if you want _expand_ the limits, for example, to match scales across different plots. For example, if we extract two classes of cars and plot them separately, it's difficult to compare the plots because all three scales (the x-axis, the y-axis, and the colour aesthetic) have different ranges.
 
@@ -43,11 +47,15 @@ ggplot(compact, aes(displ, hwy, colour = drv)) +
 ```
 
 
+![Figure 35.3](communicate-plots_files/figure-latex/unnamed-chunk-29-1.jpg)
 
+**Figure 35.3**
 
-**Figure 35.3** 
+ ![Figure 35.4](communicate-plots_files/figure-latex/unnamed-chunk-29-2.jpg)
 
-**Figure 35.4** 
+**Figure 35.4**
+
+ 
 
 One way to overcome this problem is to share scales across multiple plots, training the scales with the `limits` of the full data.
 
@@ -71,10 +79,14 @@ ggplot(compact, aes(displ, hwy, colour = drv)) +
 ```
 
 
+![Figure 35.5](communicate-plots_files/figure-latex/unnamed-chunk-30-1.jpg)
 
+**Figure 35.5**
 
-**Figure 35.5** 
+ ![Figure 35.6](communicate-plots_files/figure-latex/unnamed-chunk-30-2.jpg)
 
-**Figure 35.6** 
+**Figure 35.6**
+
+ 
 
 In this particular case, you could have simply used faceting, but this technique is useful more generally, if for instance, you want spread plots over multiple pages of a report.

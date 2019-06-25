@@ -108,11 +108,15 @@ ggplot(by_age, aes(age, prop, colour = fct_reorder2(marital, age, prop))) +
 ```
 
 
+![Figure 18.6](factors_files/figure-latex/unnamed-chunk-21-1.jpg)
 
+**Figure 18.6**
 
-**Figure 18.6** 
+ ![Figure 18.7](factors_files/figure-latex/unnamed-chunk-21-2.jpg)
 
-**Figure 18.7** 
+**Figure 18.7**
+
+ 
 
 Finally, for bar plots, you can use `fct_infreq()` to order levels in increasing frequency: this is the simplest type of reordering because it doesn't need any extra variables. You may want to combine with `fct_rev()`.
 

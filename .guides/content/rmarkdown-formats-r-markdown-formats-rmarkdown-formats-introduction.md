@@ -21,6 +21,6 @@ So far you've seen R Markdown used to produce HTML documents. This chapter gives
 RStudio's knit button renders a file to the first format listed in its `output` field. You can render to additional formats by clicking the dropdown menu beside the knit button.
 
 
-![Figure 36.1](screenshots/rmarkdown-knit)
+![Figure 36.1](screenshots/rmarkdown-knit.png)
 
 **Figure 36.1**

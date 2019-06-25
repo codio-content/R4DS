@@ -2,7 +2,7 @@
 So far, you've learned the tools to get your data into R, tidy it into a form convenient for analysis, and then understand your data through transformation, visualisation and modelling. However, it doesn't matter how great your analysis is unless you can explain it to others: you need to __communicate__ your results.
 
 
-![Figure 32.1](diagrams/data-science-communicate)
+![Figure 32.1](diagrams/data-science-communicate.png)
 
 **Figure 32.1**
 

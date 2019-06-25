@@ -105,7 +105,8 @@ Here, the color doesn't convey information about a variable, but only changes th
 
 ### Exercises
 
-1.  What's gone wrong with this code? Why are the points not blue?
+1.  {Submit Answer!|assessment}(free-text-2644417677)
+What's gone wrong with this code? Why are the points not blue?
 
     
 ```r
@@ -119,18 +120,23 @@ Here, the color doesn't convey information about a variable, but only changes th
 
 **Figure 5.8**
     
-1.  Which variables in `mpg` are categorical? Which variables are continuous? 
+1.  {Check It!|assessment}(multiple-choice-3151543202)
+Which variables in `mpg` are categorical? Which variables are continuous? 
     (Hint: type `?mpg` to read the documentation for the dataset). How
     can you see this information when you run `mpg`?
 
-1.  Map a continuous variable to `color`, `size`, and `shape`. How do
+1.  {Submit Answer!|assessment}(free-text-2494697878)
+Map a continuous variable to `color`, `size`, and `shape`. How do
     these aesthetics behave differently for categorical vs. continuous
     variables? 
     
-1.  What happens if you map the same variable to multiple aesthetics? 
+1.  {Submit Answer!|assessment}(free-text-514781532)
+What happens if you map the same variable to multiple aesthetics? 
 
-1.  What does the `stroke` aesthetic do? What shapes does it work with?
+1.  {Check It!|assessment}(multiple-choice-1947897726)
+What does the `stroke` aesthetic do? What shapes does it work with?
     (Hint: use `?geom_point`)
     
 1.  What happens if you map an aesthetic to something other than a variable 
-    name, like `aes(colour = displ < 5)`?  Note, you'll also need to specify x and y.
+    name, like `aes(colour = displ < 5)`?  Note, you'll also need to specify x and y.{Submit Answer!|assessment}(free-text-1352662087)
+

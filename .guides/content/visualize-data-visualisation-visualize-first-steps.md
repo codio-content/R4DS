@@ -40,6 +40,10 @@ ggplot(data = mpg) +
   geom_point(mapping = aes(x = displ, y = hwy))
 ```
 
+{Run code | terminal}(Rscript code/firstSteps.r)
+ 
+[Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 ![Figure 5.1](visualize_files/figure-latex/unnamed-chunk-4-1.jpg)
@@ -68,14 +72,17 @@ The rest of this chapter will show you how to complete and extend this template 
 
 ### Exercises
 
-1.  Run `ggplot(data = mpg)`. What do you see?
+1.  {Check It!|assessment}(multiple-choice-4165136540)
 
-1.  How many rows are in `mpg`? How many columns?
+1.  {Check It!|assessment}(multiple-choice-3103509536)
 
-1.  What does the `drv` variable describe?  Read the help for `?mpg` to find
+1.  {Check It!|assessment}(multiple-choice-1450015596)
+What does the `drv` variable describe?  Read the help for `?mpg` to find
     out.
      
-1.  Make a scatterplot of `hwy` vs `cyl`.
+1.  {Check It!|assessment}(fill-in-the-blanks-2361354842)
+Make a scatterplot of `hwy` vs `cyl`.
 
-1.  What happens if you make a scatterplot of `class` vs `drv`? Why is
+1.  {Submit Answer!|assessment}(free-text-2365115141)
+What happens if you make a scatterplot of `class` vs `drv`? Why is
     the plot not useful?

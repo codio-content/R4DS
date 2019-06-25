@@ -108,15 +108,23 @@ base + theme(legend.position = "right") # the default
 ```
 
 
+![Figure 35.10](communicate-plots_files/figure-latex/unnamed-chunk-18-1.jpg)
 
+**Figure 35.10**
 
-**Figure 35.10** 
+ ![Figure 35.11](communicate-plots_files/figure-latex/unnamed-chunk-18-2.jpg)
 
-**Figure 35.11** 
+**Figure 35.11**
 
-**Figure 35.12** 
+ ![Figure 35.12](communicate-plots_files/figure-latex/unnamed-chunk-18-3.jpg)
 
-**Figure 35.13** 
+**Figure 35.12**
+
+ ![Figure 35.13](communicate-plots_files/figure-latex/unnamed-chunk-18-4.jpg)
+
+**Figure 35.13**
+
+ 
 
 You can also use `legend.position = "none"` to suppress the display of the legend altogether.
 
@@ -154,11 +162,15 @@ ggplot(diamonds, aes(log10(carat), log10(price))) +
 ```
 
 
+![Figure 35.14](communicate-plots_files/figure-latex/unnamed-chunk-20-1.jpg)
 
+**Figure 35.14**
 
-**Figure 35.14** 
+ ![Figure 35.15](communicate-plots_files/figure-latex/unnamed-chunk-20-2.jpg)
 
-**Figure 35.15** 
+**Figure 35.15**
+
+ 
 
 However, the disadvantage of this transformation is that the axes are now labelled with the transformed values, making it hard to interpret the plot. Instead of doing the transformation in the aesthetic mapping, we can instead do it with the scale. This is visually identical, except the axes are labelled on the original data scale.
 
@@ -189,11 +201,15 @@ ggplot(mpg, aes(displ, hwy)) +
 ```
 
 
+![Figure 35.16](communicate-plots_files/figure-latex/unnamed-chunk-22-1.jpg)
 
+**Figure 35.16**
 
-**Figure 35.16** 
+ ![Figure 35.17](communicate-plots_files/figure-latex/unnamed-chunk-22-2.jpg)
 
-**Figure 35.17** 
+**Figure 35.17**
+
+ 
 
 Don't forget simpler techniques. If there are just a few colours, you can add a redundant shape mapping. This will also help ensure your plot is interpretable in black and white.
 
@@ -255,11 +271,15 @@ ggplot(df, aes(x, y)) +
 ```
 
 
+![Figure 35.18](communicate-plots_files/figure-latex/unnamed-chunk-25-1.jpg)
 
+**Figure 35.18**
 
-**Figure 35.18** 
+ ![Figure 35.19](communicate-plots_files/figure-latex/unnamed-chunk-25-2.jpg)
 
-**Figure 35.19** 
+**Figure 35.19**
+
+ 
 
 Note that all colour scales come in two variety: `scale_colour_x()` and `scale_fill_x()` for the `colour` and `fill` aesthetics respectively (the colour scales are available in both UK and US spellings).
 

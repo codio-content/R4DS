@@ -10,11 +10,15 @@ ggplot(data = diamonds) +
 ```
 
 
+![Figure 5.7](visualize_files/figure-latex/unnamed-chunk-37-1.jpg)
 
+**Figure 5.7**
 
-**Figure 5.7** 
+ ![Figure 5.8](visualize_files/figure-latex/unnamed-chunk-37-2.jpg)
 
-**Figure 5.8** 
+**Figure 5.8**
+
+ 
 
 Note what happens if you map the fill aesthetic to another variable, like `clarity`: the bars are automatically stacked. Each colored rectangle represents a combination of `cut` and `clarity`.
 
@@ -47,11 +51,15 @@ The stacking is performed automatically by the __position adjustment__ specified
 ```
     
     
-    
+    ![Figure 5.9](visualize_files/figure-latex/unnamed-chunk-39-1.jpg)
 
-**Figure 5.9** 
+**Figure 5.9**
 
-**Figure 5.10** 
+ ![Figure 5.10](visualize_files/figure-latex/unnamed-chunk-39-2.jpg)
+
+**Figure 5.10**
+
+ 
     
     The identity position adjustment is more useful for 2d geoms, like points,
     where it is the default.
@@ -116,23 +124,11 @@ To learn more about a position adjustment, look up the help page associated with
 
 ### Exercises
 
-1.  What is the problem with this plot? How could you improve it?
+1.  {Submit Answer!|assessment}(free-text-898232935)
 
-    
-```r
-    ggplot(data = mpg, mapping = aes(x = cty, y = hwy)) + 
-      geom_point()
-```
-    
-    
-    
-![Figure 5.6](visualize_files/figure-latex/unnamed-chunk-44-1.jpg)
+1.  {Submit Answer!|assessment}(free-text-2462061477)
 
-**Figure 5.6**
+1.  {Submit Answer!|assessment}(free-text-4262217264)
 
-1.  What parameters to `geom_jitter()` control the amount of jittering?
+1.  {Submit Answer!|assessment}(free-text-2715920861)
 
-1.  Compare and contrast `geom_jitter()` with `geom_count()`.
-
-1.  What's the default position adjustment for `geom_boxplot()`? Create
-    a visualisation of the `mpg` dataset that demonstrates it.

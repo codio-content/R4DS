@@ -6,7 +6,7 @@ With your R scripts (and your data files), you can recreate the environment. It'
 To foster this behaviour, I highly recommend that you instruct RStudio not to preserve your workspace between sessions:
 
 
-![Figure 10.1](screenshots/rstudio-workspace)
+![Figure 10.1](screenshots/rstudio-workspace.png)
 
 **Figure 10.1**
 
