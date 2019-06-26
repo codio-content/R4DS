@@ -512,18 +512,275 @@ sections:
             action: close
   - name: "transform----Introduction"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/flights.r)
+              
+  
+          position: 24
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/flights.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "transform----Filter rows with `filter()`"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/flights.r)
+              
+  
+          position: 107
+        - add:  |
+             {Run code | terminal}(Rscript code/flights.r)
+              
+  
+          position: 146
+        - add:  |
+             {Run code | terminal}(Rscript code/flights.r)
+              
+  
+          position: 186
+        - add:  |
+             {Run code | terminal}(Rscript code/flights.r)
+              
+  
+          position: 223
+        - add:  |
+             {Run code | terminal}(Rscript code/flights.r)
+              
+  
+          position: 255
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/flights.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "transform----Arrange rows with `arrange()`"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/flights.r)
+              
+  
+          position: 318
+        - add:  |
+             {Run code | terminal}(Rscript code/flights.r)
+              
+  
+          position: 340
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/flights.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "transform----Select columns with `select()`"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/flights.r)
+              
+  
+          position: 419
+        - add:  |
+             {Run code | terminal}(Rscript code/flights.r)
+              
+  
+          position: 455
+        - add:  |
+             {Run code | terminal}(Rscript code/flights.r)
+              
+  
+          position: 475
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/flights.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "transform----Add new variables with `mutate()`"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/flights.r)
+              
+  
+          position: 529
+        - add:  |
+             {Run code | terminal}(Rscript code/flights.r)
+              
+  
+          position: 571
+        - add:  |
+             {Run code | terminal}(Rscript code/flights.r)
+              
+  
+          position: 610
+        - add:  |
+             {Run code | terminal}(Rscript code/flights.r)
+              
+  
+          position: 650
+        - add:  |
+             {Run code | terminal}(Rscript code/flights.r)
+              
+  
+          position: 685
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/flights.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "transform----Grouped summaries with `summarise()`"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/flights.r)
+              
+  
+          position: 720
+        - add:  |
+             {Run code | terminal}(Rscript code/flights.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 766
+        - add:  |
+             {Run code | terminal}(Rscript code/flights.r)
+              
+  
+          position: 823
+        - add:  |
+             {Run code | terminal}(Rscript code/flights.r)
+              
+  
+          position: 866
+        - add:  |
+             {Run code | terminal}(Rscript code/flights.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 882
+        - add:  |
+             {Run code | terminal}(Rscript code/flights.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 904
+        - add:  |
+             {Run code | terminal}(Rscript code/flights.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 920
+        - add:  |
+             {Run code | terminal}(Rscript code/flights.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 961
+        - add:  |
+             {Run code | terminal}(Rscript code/flights.r)
+              
+  
+          position: 1017
+        - add:  |
+             {Run code | terminal}(Rscript code/flights.r)
+              
+  
+          position: 1068
+        - add:  |
+             {Run code | terminal}(Rscript code/flights.r)
+              
+  
+          position: 1120
+        - add:  |
+             {Run code | terminal}(Rscript code/flights.r)
+              
+  
+          position: 1163
+        - add:  |
+             {Run code | terminal}(Rscript code/flights.r)
+              
+  
+          position: 1223
+        - add:  |
+             {Run code | terminal}(Rscript code/flights.r)
+              
+  
+          position: 1261
+        - add:  |
+             {Run code | terminal}(Rscript code/flights.r)
+              
+  
+          position: 1278
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/flights.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
+        - path: "#preview: Rplots.pdf"
+          panel: 1
+          action: open
   - name: "transform----Grouped mutates (and filters)"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/flights.r)
+              
+  
+          position: 1336
+        - add:  |
+             {Run code | terminal}(Rscript code/flights.r)
+              
+  
+          position: 1381
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/flights.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "workflow-scripts----Workflow: scripts"
     type: chapter
   - name: "workflow-scripts----Running code"
@@ -562,6 +819,7 @@ sections:
     type: section
   - name: "workflow-projects----Summary"
     type: section
+## Part 2: WRANGLE
   - name: "wrangle----(PART) Wrangle"
     type: chapter
   - name: "wrangle----Introduction"
