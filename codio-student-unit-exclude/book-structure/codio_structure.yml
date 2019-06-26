@@ -1229,18 +1229,169 @@ sections:
           action: open
   - name: "import----Data import"
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "import----Introduction"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "import----Getting started"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/startImport.r)
+ 
+          position: 52
+        - add:  |
+             {Run code | terminal}(Rscript code/startImport.r)
+ 
+          position: 94
+        - add:  |
+             {Run code | terminal}(Rscript code/startImport.r)
+ 
+          position: 124
+        - add:  |
+             {Run code | terminal}(Rscript code/startImport.r)
+ 
+          position: 135
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/startImport.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "import----Parsing a vector"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/parseV.r)
+ 
+          position: 202
+        - add:  |
+             {Run code | terminal}(Rscript code/parseV.r)
+ 
+          position: 249
+        - add:  |
+             {Run code | terminal}(Rscript code/parseV.r)
+ 
+          position: 296
+        - add:  |
+             {Run code | terminal}(Rscript code/parseV.r)
+ 
+          position: 327
+        - add:  |
+             {Run code | terminal}(Rscript code/parseV.r)
+ 
+          position: 364
+        - add:  |
+             {Run code | terminal}(Rscript code/parseV.r)
+ 
+          position: 405
+        - add:  |
+             {Run code | terminal}(Rscript code/parseV.r)
+ 
+          position: 425
+        - add:  |
+             {Run code | terminal}(Rscript code/parseV.r)
+ 
+          position: 450
+        - add:  |
+             {Run code | terminal}(Rscript code/parseV.r)
+ 
+          position: 497
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/parseV.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "import----Parsing a file"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/parseF.r)
+ 
+          position: 569
+        - add:  |
+             {Run code | terminal}(Rscript code/parseF.r)
+ 
+          position: 615
+        - add:  |
+             {Run code | terminal}(Rscript code/parseF.r)
+ 
+          position: 649
+        - add:  |
+             {Run code | terminal}(Rscript code/parseF.r)
+ 
+          position: 701
+        - add:  |
+             {Run code | terminal}(Rscript code/parseF.r)
+ 
+          position: 733
+        - add:  |
+             {Run code | terminal}(Rscript code/parseF.r)
+ 
+          position: 778
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/parseF.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "import----Writing to a file"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/writeF.r)
+  
+          position: 806
+        - add:  |
+             {Run code | terminal}(Rscript code/writeF.r)
+  
+          position: 840
+        - add:  |
+             {Run code | terminal}(Rscript code/writeF.r)
+  
+          position: 882
+    configuration:
+      layout: 3-cell-tree
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/writeF.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "import----Other types of data"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "tidy----Tidy data"
     type: chapter
   - name: "tidy----Introduction"
@@ -1313,6 +1464,7 @@ sections:
     type: section
   - name: "datetimes----Time zones"
     type: section
+##PART 3: Program
   - name: "program----(PART) Program"
     type: chapter
   - name: "program----Introduction"

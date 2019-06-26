@@ -19,4 +19,4 @@ You can find the original source at [https://r4ds.had.co.nz/index.html](https://
 ## Licensing 
 R for Data Science is an Open Educational Resource (OER). It is available under the [Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License](https://creativecommons.org/licenses/by-nc-nd/3.0/us/)
 
-This title is licensed from O'Reilly fro commercial purposes.
+This title is licensed from O'Reilly for commercial purposes.
