@@ -26,6 +26,9 @@ mutate(flights_sml,
 #> 6  2013     1     1        -4        12      719      150   -16  288.
 #> # ... with 3.368e+05 more rows
 ```
+{Run code | terminal}(Rscript code/flights.r)
+ 
+
 
 Note that you can refer to columns that you've just created:
 
@@ -68,6 +71,9 @@ transmute(flights,
 #> 6   -16  2.5          -6.4 
 #> # ... with 3.368e+05 more rows
 ```
+{Run code | terminal}(Rscript code/flights.r)
+ 
+
 
 ### Useful creation functions 
 
@@ -107,6 +113,9 @@ There are many functions for creating new variables that you can use with `mutat
     #> 6      554     5     54
     #> # ... with 3.368e+05 more rows
 ```
+{Run code | terminal}(Rscript code/flights.r)
+ 
+
   
 *   Logs: `log()`, `log2()`, `log10()`. Logarithms are an incredibly useful
     transformation for dealing with data that ranges across multiple orders of
@@ -147,6 +156,9 @@ There are many functions for creating new variables that you can use with `mutat
     cummean(x)
     #>  [1] 1.0 1.5 2.0 2.5 3.0 3.5 4.0 4.5 5.0 5.5
 ```
+{Run code | terminal}(Rscript code/flights.r)
+ 
+
 
 *   Logical comparisons, `<`, `<=`, `>`, `>=`, `!=`, and `==`, which you learned about
     earlier. If you're doing a complex sequence of logical operations it's 
@@ -182,6 +194,9 @@ There are many functions for creating new variables that you can use with `mutat
     cume_dist(y)
     #> [1] 0.2 0.6 0.6  NA 0.8 1.0
 ```
+{Run code | terminal}(Rscript code/flights.r)
+ 
+
 
 ### Exercises
 

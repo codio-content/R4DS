@@ -265,8 +265,29 @@
     {
       "chapter": false,
       "content-file": ".guides/content/visualize-data-visualisation-visualize-aesthetic-mappings.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/aesthetic.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: Rplots.pdf"
+        }
+      ],
       "id": "visualize-data-visualisation-visualize-aesthetic-mappings",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -277,8 +298,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/visualize-data-visualisation-visualize-common-problems.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "visualize-data-visualisation-visualize-common-problems",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -289,8 +316,29 @@
     {
       "chapter": false,
       "content-file": ".guides/content/visualize-data-visualisation-visualize-facets.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/facets.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: Rplots.pdf"
+        }
+      ],
       "id": "visualize-data-visualisation-visualize-facets",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -301,8 +349,29 @@
     {
       "chapter": false,
       "content-file": ".guides/content/visualize-data-visualisation-visualize-geometric-objects.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/geoObjs.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: Rplots.pdf"
+        }
+      ],
       "id": "visualize-data-visualisation-visualize-geometric-objects",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -313,8 +382,29 @@
     {
       "chapter": false,
       "content-file": ".guides/content/visualize-data-visualisation-visualize-statistical-transformations.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/statTrans.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: Rplots.pdf"
+        }
+      ],
       "id": "visualize-data-visualisation-visualize-statistical-transformations",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -325,8 +415,29 @@
     {
       "chapter": false,
       "content-file": ".guides/content/visualize-data-visualisation-visualize-position-adjustments.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/posAdj.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: Rplots.pdf"
+        }
+      ],
       "id": "visualize-data-visualisation-visualize-position-adjustments",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -337,8 +448,29 @@
     {
       "chapter": false,
       "content-file": ".guides/content/visualize-data-visualisation-visualize-coordinate-systems.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/coordSys.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: Rplots.pdf"
+        }
+      ],
       "id": "visualize-data-visualisation-visualize-coordinate-systems",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -349,8 +481,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/visualize-data-visualisation-visualize-the-layered-grammar-of-graphics.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "visualize-data-visualisation-visualize-the-layered-grammar-of-graphics",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -361,8 +499,14 @@
     {
       "chapter": true,
       "content-file": ".guides/content/workflow-basics-workflow-basics.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "workflow-basics-workflow-basics",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -373,8 +517,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/workflow-basics-workflow-basics-workflow-basics-coding-basics.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "#terminal: R"
+        }
+      ],
       "id": "workflow-basics-workflow-basics-workflow-basics-coding-basics",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -385,8 +540,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/workflow-basics-workflow-basics-workflow-basics-what-s-in-a-name-.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "#terminal: R"
+        }
+      ],
       "id": "workflow-basics-workflow-basics-workflow-basics-what-s-in-a-name-",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -397,8 +563,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/workflow-basics-workflow-basics-workflow-basics-calling-functions.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "#terminal: R"
+        }
+      ],
       "id": "workflow-basics-workflow-basics-workflow-basics-calling-functions",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -409,8 +586,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/workflow-basics-workflow-basics-workflow-basics-practice.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "#terminal: R"
+        }
+      ],
       "id": "workflow-basics-workflow-basics-workflow-basics-practice",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -421,8 +609,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/transform-data-transformation-transform-introduction.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/flights.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "transform-data-transformation-transform-introduction",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -433,8 +637,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/transform-data-transformation-transform-filter-rows-with-filter-.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/flights.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "transform-data-transformation-transform-filter-rows-with-filter-",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -445,8 +665,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/transform-data-transformation-transform-arrange-rows-with-arrange-.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/flights.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "transform-data-transformation-transform-arrange-rows-with-arrange-",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -457,8 +693,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/transform-data-transformation-transform-select-columns-with-select-.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/flights.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "transform-data-transformation-transform-select-columns-with-select-",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -469,8 +721,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/transform-data-transformation-transform-add-new-variables-with-mutate-.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/flights.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "transform-data-transformation-transform-add-new-variables-with-mutate-",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -481,8 +749,29 @@
     {
       "chapter": false,
       "content-file": ".guides/content/transform-data-transformation-transform-grouped-summaries-with-summarise-.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/flights.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: Rplots.pdf"
+        }
+      ],
       "id": "transform-data-transformation-transform-grouped-summaries-with-summarise-",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -493,8 +782,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/transform-data-transformation-transform-grouped-mutates-and-filters-.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/flights.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "transform-data-transformation-transform-grouped-mutates-and-filters-",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -505,8 +810,14 @@
     {
       "chapter": true,
       "content-file": ".guides/content/workflow-scripts-workflow-scripts.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "workflow-scripts-workflow-scripts",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -517,8 +828,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/workflow-scripts-workflow-scripts-workflow-scripts-running-code.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/runCode.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "workflow-scripts-workflow-scripts-workflow-scripts-running-code",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -529,8 +856,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/workflow-scripts-workflow-scripts-workflow-scripts-rstudio-diagnostics.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "workflow-scripts-workflow-scripts-workflow-scripts-rstudio-diagnostics",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -541,8 +874,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/workflow-scripts-workflow-scripts-workflow-scripts-practice.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "workflow-scripts-workflow-scripts-workflow-scripts-practice",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -553,8 +892,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/eda-exploratory-data-analysis-eda-introduction.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "eda-exploratory-data-analysis-eda-introduction",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -565,8 +910,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/eda-exploratory-data-analysis-eda-questions.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "eda-exploratory-data-analysis-eda-questions",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -577,8 +928,29 @@
     {
       "chapter": false,
       "content-file": ".guides/content/eda-exploratory-data-analysis-eda-variation.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/variation.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: Rplots.pdf"
+        }
+      ],
       "id": "eda-exploratory-data-analysis-eda-variation",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -589,8 +961,29 @@
     {
       "chapter": false,
       "content-file": ".guides/content/eda-exploratory-data-analysis-eda-missing-values.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/missing.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: Rplots.pdf"
+        }
+      ],
       "id": "eda-exploratory-data-analysis-eda-missing-values",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -601,8 +994,29 @@
     {
       "chapter": false,
       "content-file": ".guides/content/eda-exploratory-data-analysis-eda-covariation.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/covariation.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: Rplots.pdf"
+        }
+      ],
       "id": "eda-exploratory-data-analysis-eda-covariation",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -613,8 +1027,29 @@
     {
       "chapter": false,
       "content-file": ".guides/content/eda-exploratory-data-analysis-eda-patterns-and-models.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/patterns.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: Rplots.pdf"
+        }
+      ],
       "id": "eda-exploratory-data-analysis-eda-patterns-and-models",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -625,8 +1060,29 @@
     {
       "chapter": false,
       "content-file": ".guides/content/eda-exploratory-data-analysis-eda-ggplot2-calls.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/patterns.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: Rplots.pdf"
+        }
+      ],
       "id": "eda-exploratory-data-analysis-eda-ggplot2-calls",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -637,8 +1093,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/eda-exploratory-data-analysis-eda-learning-more.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "eda-exploratory-data-analysis-eda-learning-more",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -649,8 +1111,14 @@
     {
       "chapter": true,
       "content-file": ".guides/content/workflow-projects-workflow-projects.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "workflow-projects-workflow-projects",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -661,8 +1129,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/workflow-projects-workflow-projects-workflow-projects-what-is-real-.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "workflow-projects-workflow-projects-workflow-projects-what-is-real-",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -673,8 +1147,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/workflow-projects-workflow-projects-workflow-projects-where-does-your-analysis-live-.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "workflow-projects-workflow-projects-workflow-projects-where-does-your-analysis-live-",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -685,8 +1165,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/workflow-projects-workflow-projects-workflow-projects-paths-and-directories.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "workflow-projects-workflow-projects-workflow-projects-paths-and-directories",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -697,8 +1183,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/workflow-projects-workflow-projects-workflow-projects-rstudio-projects.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "workflow-projects-workflow-projects-workflow-projects-rstudio-projects",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -709,8 +1201,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/workflow-projects-workflow-projects-workflow-projects-summary.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "workflow-projects-workflow-projects-workflow-projects-summary",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -721,8 +1219,14 @@
     {
       "chapter": true,
       "content-file": ".guides/content/wrangle-introduction.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "wrangle-introduction",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -733,8 +1237,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/tibble-tibbles-tibble-introduction.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "tibble-tibbles-tibble-introduction",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -745,8 +1255,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/tibble-tibbles-tibble-creating-tibbles.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/tibbles.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "tibble-tibbles-tibble-creating-tibbles",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -757,8 +1283,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/tibble-tibbles-tibble-tibbles-vs-data-frame.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/tib.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "tibble-tibbles-tibble-tibbles-vs-data-frame",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -769,8 +1311,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/tibble-tibbles-tibble-interacting-with-older-code.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "tibble-tibbles-tibble-interacting-with-older-code",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -781,8 +1329,29 @@
     {
       "chapter": false,
       "content-file": ".guides/content/tibble-tibbles-tibble-exercises.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/tibEx.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: Rplots.pdf"
+        }
+      ],
       "id": "tibble-tibbles-tibble-exercises",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],

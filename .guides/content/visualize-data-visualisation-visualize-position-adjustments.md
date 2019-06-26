@@ -8,15 +8,19 @@ ggplot(data = diamonds) +
 ggplot(data = diamonds) + 
   geom_bar(mapping = aes(x = cut, fill = cut))
 ```
+{Run code | terminal}(Rscript code/posAdj.r)
+ 
+[Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
 
 
-![Figure 5.7](visualize_files/figure-latex/unnamed-chunk-37-1.jpg)
+
+![Figure 5.6](visualize_files/figure-latex/unnamed-chunk-37-1.jpg)
+
+**Figure 5.6**
+
+ ![Figure 5.7](visualize_files/figure-latex/unnamed-chunk-37-2.jpg)
 
 **Figure 5.7**
-
- ![Figure 5.8](visualize_files/figure-latex/unnamed-chunk-37-2.jpg)
-
-**Figure 5.8**
 
  
 
@@ -27,6 +31,10 @@ Note what happens if you map the fill aesthetic to another variable, like `clari
 ggplot(data = diamonds) + 
   geom_bar(mapping = aes(x = cut, fill = clarity))
 ```
+{Run code | terminal}(Rscript code/posAdj.r)
+ 
+[Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 
@@ -49,15 +57,19 @@ The stacking is performed automatically by the __position adjustment__ specified
     ggplot(data = diamonds, mapping = aes(x = cut, colour = clarity)) + 
       geom_bar(fill = NA, position = "identity")
 ```
+{Run code | terminal}(Rscript code/posAdj.r)
+ 
+[Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
     
     
-    ![Figure 5.9](visualize_files/figure-latex/unnamed-chunk-39-1.jpg)
+    ![Figure 5.8](visualize_files/figure-latex/unnamed-chunk-39-1.jpg)
+
+**Figure 5.8**
+
+ ![Figure 5.9](visualize_files/figure-latex/unnamed-chunk-39-2.jpg)
 
 **Figure 5.9**
-
- ![Figure 5.10](visualize_files/figure-latex/unnamed-chunk-39-2.jpg)
-
-**Figure 5.10**
 
  
     
@@ -74,6 +86,10 @@ The stacking is performed automatically by the __position adjustment__ specified
       geom_bar(mapping = aes(x = cut, fill = clarity), position = "fill")
 ```
     
+{Run code | terminal}(Rscript code/posAdj.r)
+ 
+[Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
     
     
 ![Figure 5.2](visualize_files/figure-latex/unnamed-chunk-40-1.jpg)
@@ -89,6 +105,10 @@ The stacking is performed automatically by the __position adjustment__ specified
       geom_bar(mapping = aes(x = cut, fill = clarity), position = "dodge")
 ```
     
+{Run code | terminal}(Rscript code/posAdj.r)
+ 
+[Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
     
     
 ![Figure 5.3](visualize_files/figure-latex/unnamed-chunk-41-1.jpg)
@@ -111,6 +131,10 @@ You can avoid this gridding by setting the position adjustment to "jitter".  `po
 ggplot(data = mpg) + 
   geom_point(mapping = aes(x = displ, y = hwy), position = "jitter")
 ```
+
+{Run code | terminal}(Rscript code/posAdj.r)
+ 
+[Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
 
 
 

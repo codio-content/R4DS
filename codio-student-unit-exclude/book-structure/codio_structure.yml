@@ -136,7 +136,7 @@ sections:
   
           position: 87
         - remove: 11
-          postiion: 113
+          position: 113
         - add:  |
               1. {Check It!|assessment}(multiple-choice-4165136540)
               
@@ -192,7 +192,7 @@ sections:
   
           position: 203
         - remove: 27
-          postiion: 226
+          position: 226
         - add:  |
               1. {Submit Answer!|assessment}(free-text-2644417677)
               
@@ -385,7 +385,7 @@ sections:
   
           position: 739
         - remove: 18
-          postiion: 749
+          position: 749
         - add:  |
               1.  {Submit Answer!|assessment}(free-text-898232935)
 
@@ -415,23 +415,35 @@ sections:
     type: section
     transformations:
         - add:  |
-             {Run code | terminal}(Rscript code/coordSys.r)
-              
-             [Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
-  
-          position: 784
+            {Run code | terminal}(Rscript code/coordSys.r)
+
+            [Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+            
+            ![Figure 5.2](visualize_files/figure-latex/unnamed-chunk-45-1.jpg)
+ 
+          position: 785
+        - remove: 1
+          position: 786
         - add:  |
              {Run code | terminal}(Rscript code/coordSys.r)
               
              [Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
-  
+
+             ![Figure 5.4](visualize_files/figure-latex/unnamed-chunk-46-1.jpg)
+ 
           position: 803
+        - remove: 1
+          position: 805
         - add:  |
              {Run code | terminal}(Rscript code/coordSys.r)
               
              [Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
-  
+
+             ![Figure 5.6](visualize_files/figure-latex/unnamed-chunk-47-1.jpg)
+ 
           position: 824
+        - remove: 1
+          position: 826
     configuration:
       layout: 3-cell
       files:
@@ -1143,13 +1155,78 @@ sections:
             action: close
   - name: "tibble----Creating tibbles"
     type: section
-    
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/tibbles.r)              
+  
+          position: 37
+        - add:  |
+             {Run code | terminal}(Rscript code/tibbles.r)              
+  
+          position: 74
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/tibbles.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "tibble----Tibbles vs. data.frame"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/tib.r)              
+  
+          position: 124
+        - add:  |
+             {Run code | terminal}(Rscript code/tib.r)              
+  
+          position: 175
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/tib.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "tibble----Interacting with older code"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "tibble----Exercises"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/patterns.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 201
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/tibEx.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
+        - path: "#preview: Rplots.pdf"
+          panel: 1
+          action: open
   - name: "import----Data import"
     type: chapter
   - name: "import----Introduction"

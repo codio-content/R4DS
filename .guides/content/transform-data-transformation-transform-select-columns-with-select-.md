@@ -44,6 +44,9 @@ select(flights, -(year:day))
 #> #   flight <int>, tailnum <chr>, origin <chr>, dest <chr>, air_time <dbl>,
 #> #   distance <dbl>, hour <dbl>, minute <dbl>, time_hour <dttm>
 ```
+{Run code | terminal}(Rscript code/flights.r)
+ 
+
 
 There are a number of helper functions you can use within `select()`:
 
@@ -80,6 +83,9 @@ rename(flights, tail_num = tailnum)
 #> #   tail_num <chr>, origin <chr>, dest <chr>, air_time <dbl>,
 #> #   distance <dbl>, hour <dbl>, minute <dbl>, time_hour <dttm>
 ```
+{Run code | terminal}(Rscript code/flights.r)
+ 
+
 
 Another option is to use `select()` in conjunction with the `everything()` helper. This is useful if you have a handful of variables you'd like to move to the start of the data frame.
 
@@ -100,6 +106,9 @@ select(flights, time_hour, air_time, everything())
 #> #   flight <int>, tailnum <chr>, origin <chr>, dest <chr>, distance <dbl>,
 #> #   hour <dbl>, minute <dbl>
 ```
+{Run code | terminal}(Rscript code/flights.r)
+ 
+
 
 ### Exercises
 

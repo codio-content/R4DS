@@ -18,6 +18,9 @@ arrange(flights, year, month, day)
 #> #   tailnum <chr>, origin <chr>, dest <chr>, air_time <dbl>,
 #> #   distance <dbl>, hour <dbl>, minute <dbl>, time_hour <dttm>
 ```
+{Run code | terminal}(Rscript code/flights.r)
+ 
+
 
 Use `desc()` to re-order by a column in descending order:
 
@@ -40,6 +43,9 @@ arrange(flights, desc(dep_delay))
 ```
 
 Missing values are always sorted at the end:
+{Run code | terminal}(Rscript code/flights.r)
+ 
+
 
 
 ```r

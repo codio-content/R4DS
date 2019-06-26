@@ -25,6 +25,8 @@ tibble(
 #> 6 2019-04-11 01:13:49 2019-04-24     6 0.460 v    
 #> # ... with 994 more rows
 ```
+{Run code | terminal}(Rscript code/tib.r)              
+
 
 Tibbles are designed so that you don't accidentally overwhelm your console when you print large data frames. But sometimes you need more output than the default display. There are a few options that can help.
 
@@ -76,6 +78,8 @@ df[["x"]]
 df[[1]]
 #> [1] 0.434 0.395 0.548 0.762 0.254
 ```
+{Run code | terminal}(Rscript code/tib.r)              
+
 
 To use these in a pipe, you'll need to use the special placeholder `.`:
 

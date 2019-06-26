@@ -17,6 +17,9 @@ Take careful note of the conflicts message that's printed when you load the tidy
 
 To explore the basic data manipulation verbs of dplyr, we'll use `nycflights13::flights`. This data frame contains all 336,776 flights that departed from New York City in 2013. The data comes from the US [Bureau of Transportation Statistics](http://www.transtats.bts.gov/DatabaseInfo.asp?DB_ID=120&Link=0), and is documented in `?flights`.
 
+{Run code | terminal}(Rscript code/flights.r)
+ 
+
 
 ```r
 flights

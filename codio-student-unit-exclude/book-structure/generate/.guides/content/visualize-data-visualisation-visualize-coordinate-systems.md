@@ -14,16 +14,13 @@ Coordinate systems are probably the most complicated part of ggplot2. The defaul
       coord_flip()
 ```
     
+{Run code | terminal}(Rscript code/coordSys.r)
+
+[Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
+![Figure 5.2](visualize_files/figure-latex/unnamed-chunk-45-1.jpg)
+
     
-    ![Figure 5.2](visualize_files/figure-latex/unnamed-chunk-45-1.jpg)
-
-**Figure 5.2**
-
- ![Figure 5.3](visualize_files/figure-latex/unnamed-chunk-45-2.jpg)
-
-**Figure 5.3**
-
- 
 
 *   `coord_quickmap()` sets the aspect ratio correctly for maps. This is very
     important if you're plotting spatial data with ggplot2 (which unfortunately
@@ -40,17 +37,14 @@ Coordinate systems are probably the most complicated part of ggplot2. The defaul
       geom_polygon(fill = "white", colour = "black") +
       coord_quickmap()
 ```
-    
-    
-    ![Figure 5.4](visualize_files/figure-latex/unnamed-chunk-46-1.jpg)
-
-**Figure 5.4**
-
- ![Figure 5.5](visualize_files/figure-latex/unnamed-chunk-46-2.jpg)
-
-**Figure 5.5**
-
+{Run code | terminal}(Rscript code/coordSys.r)
  
+[Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
+![Figure 5.4](visualize_files/figure-latex/unnamed-chunk-46-1.jpg)
+
+    
+    
 
 *   `coord_polar()` uses polar coordinates. Polar coordinates reveal an 
     interesting connection between a bar chart and a Coxcomb chart.
@@ -69,17 +63,14 @@ Coordinate systems are probably the most complicated part of ggplot2. The defaul
     bar + coord_flip()
     bar + coord_polar()
 ```
-    
-    
-    ![Figure 5.6](visualize_files/figure-latex/unnamed-chunk-47-1.jpg)
-
-**Figure 5.6**
-
- ![Figure 5.7](visualize_files/figure-latex/unnamed-chunk-47-2.jpg)
-
-**Figure 5.7**
-
+{Run code | terminal}(Rscript code/coordSys.r)
  
+[Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
+![Figure 5.6](visualize_files/figure-latex/unnamed-chunk-47-1.jpg)
+
+    
+    
 
 ### Exercises
 

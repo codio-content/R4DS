@@ -10,6 +10,10 @@ ggplot(data = mpg) +
   facet_wrap(~ class, nrow = 2)
 ```
 
+{Run code | terminal}(Rscript code/facets.r)
+ 
+[Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 ![Figure 5.1](visualize_files/figure-latex/unnamed-chunk-13-1.jpg)
@@ -24,6 +28,10 @@ ggplot(data = mpg) +
   geom_point(mapping = aes(x = displ, y = hwy)) + 
   facet_grid(drv ~ cyl)
 ```
+
+{Run code | terminal}(Rscript code/facets.r)
+ 
+[Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
 
 
 

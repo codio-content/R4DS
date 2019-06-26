@@ -10,6 +10,10 @@ It's common to want to explore the distribution of a continuous variable broken 
 ggplot(data = diamonds, mapping = aes(x = price)) + 
   geom_freqpoly(mapping = aes(colour = cut), binwidth = 500)
 ```
+{Run code | terminal}(Rscript code/covariation.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 
@@ -38,6 +42,10 @@ To make the comparison easier we need to swap what is displayed on the y-axis. I
 ggplot(data = diamonds, mapping = aes(x = price, y = ..density..)) + 
   geom_freqpoly(mapping = aes(colour = cut), binwidth = 500)
 ```
+
+{Run code | terminal}(Rscript code/covariation.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
 
 
 
@@ -76,6 +84,10 @@ ggplot(data = diamonds, mapping = aes(x = cut, y = price)) +
   geom_boxplot()
 ```
 
+{Run code | terminal}(Rscript code/covariation.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 ![Figure 9.5](EDA_files/figure-latex/unnamed-chunk-24-1.jpg)
@@ -107,6 +119,10 @@ To make the trend easier to see, we can reorder `class` based on the median valu
 ggplot(data = mpg) +
   geom_boxplot(mapping = aes(x = reorder(class, hwy, FUN = median), y = hwy))
 ```
+{Run code | terminal}(Rscript code/covariation.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 
@@ -122,6 +138,10 @@ ggplot(data = mpg) +
   geom_boxplot(mapping = aes(x = reorder(class, hwy, FUN = median), y = hwy)) +
   coord_flip()
 ```
+{Run code | terminal}(Rscript code/covariation.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 
@@ -168,6 +188,10 @@ ggplot(data = diamonds) +
   geom_count(mapping = aes(x = cut, y = color))
 ```
 
+{Run code | terminal}(Rscript code/covariation.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 ![Figure 9.9](EDA_files/figure-latex/unnamed-chunk-28-1.jpg)
@@ -204,6 +228,10 @@ diamonds %>%
     geom_tile(mapping = aes(fill = n))
 ```
 
+{Run code | terminal}(Rscript code/covariation.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 ![Figure 9.10](EDA_files/figure-latex/unnamed-chunk-30-1.jpg)
@@ -233,6 +261,10 @@ You've already seen one great way to visualise the covariation between two conti
 ggplot(data = diamonds) +
   geom_point(mapping = aes(x = carat, y = price))
 ```
+
+{Run code | terminal}(Rscript code/covariation.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
 
 
 
@@ -268,6 +300,10 @@ ggplot(data = smaller) +
 ggplot(data = smaller) +
   geom_hex(mapping = aes(x = carat, y = price))
 ```
+{Run code | terminal}(Rscript code/covariation.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 ![Figure 9.16](EDA_files/figure-latex/unnamed-chunk-33-1.jpg)
@@ -303,6 +339,10 @@ Another approach is to display approximately the same number of points in each b
 ggplot(data = smaller, mapping = aes(x = carat, y = price)) + 
   geom_boxplot(mapping = aes(group = cut_number(carat, 20)))
 ```
+{Run code | terminal}(Rscript code/covariation.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 

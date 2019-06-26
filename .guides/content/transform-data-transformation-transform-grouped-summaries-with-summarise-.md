@@ -9,6 +9,9 @@ summarise(flights, delay = mean(dep_delay, na.rm = TRUE))
 #>   <dbl>
 #> 1  12.6
 ```
+{Run code | terminal}(Rscript code/flights.r)
+ 
+
 
 (We'll come back to what that `na.rm = TRUE` means very shortly.)
 
@@ -55,6 +58,10 @@ ggplot(data = delay, mapping = aes(x = dist, y = delay)) +
   geom_smooth(se = FALSE)
 #> `geom_smooth()` using method = 'loess' and formula 'y ~ x'
 ```
+{Run code | terminal}(Rscript code/flights.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 
@@ -114,6 +121,9 @@ flights %>%
 #> 6  2013     1     6    NA
 #> # ... with 359 more rows
 ```
+{Run code | terminal}(Rscript code/flights.r)
+ 
+
 
 We get a lot of missing values! That's because aggregation functions obey the usual rule of missing values: if there's any missing value in the input, the output will be a missing value. Fortunately, all aggregation functions have an `na.rm` argument which removes the missing values prior to computation:
 
@@ -157,6 +167,9 @@ not_cancelled %>%
 #> 6  2013     1     6  7.15
 #> # ... with 359 more rows
 ```
+{Run code | terminal}(Rscript code/flights.r)
+ 
+
 
 ### Counts
 
@@ -173,6 +186,10 @@ delays <- not_cancelled %>%
 ggplot(data = delays, mapping = aes(x = delay)) + 
   geom_freqpoly(binwidth = 10)
 ```
+{Run code | terminal}(Rscript code/flights.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 
@@ -197,6 +214,10 @@ ggplot(data = delays, mapping = aes(x = n, y = delay)) +
   geom_point(alpha = 1/10)
 ```
 
+{Run code | terminal}(Rscript code/flights.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 ![Figure 7.3](transform_files/figure-latex/unnamed-chunk-42-1.jpg)
@@ -214,6 +235,10 @@ delays %>%
   ggplot(mapping = aes(x = n, y = delay)) + 
     geom_point(alpha = 1/10)
 ```
+
+{Run code | terminal}(Rscript code/flights.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
 
 
 
@@ -257,6 +282,10 @@ batters %>%
     geom_smooth(se = FALSE)
 #> `geom_smooth()` using method = 'gam' and formula 'y ~ s(x, bs = "cs")'
 ```
+
+{Run code | terminal}(Rscript code/flights.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
 
 
 
@@ -316,6 +345,9 @@ Just using means, counts, and sum can get you a long way, but R provides many ot
     #> 6  2013     1     6       4.24       24.4
     #> # ... with 359 more rows
 ```
+{Run code | terminal}(Rscript code/flights.r)
+ 
+
 
 *   Measures of spread: `sd(x)`, `IQR(x)`, `mad(x)`. The root mean squared deviation,
     or standard deviation `sd(x)`, is the standard measure of spread.
@@ -367,6 +399,9 @@ Just using means, counts, and sum can get you a long way, but R provides many ot
     #> 6  2013     1     6    16  2355
     #> # ... with 359 more rows
 ```
+{Run code | terminal}(Rscript code/flights.r)
+ 
+
   
 *   Measures of position: `first(x)`, `nth(x, 2)`, `last(x)`. These work 
     similarly to `x[1]`, `x[2]`, and `x[length(x)]` but let you set a default 
@@ -419,6 +454,9 @@ Just using means, counts, and sum can get you a long way, but R provides many ot
     #> #   origin <chr>, dest <chr>, air_time <dbl>, distance <dbl>, hour <dbl>,
     #> #   minute <dbl>, time_hour <dttm>, r <int>
 ```
+{Run code | terminal}(Rscript code/flights.r)
+ 
+
 
 *   Counts: You've seen `n()`, which takes no arguments, and returns the 
     size of the current group. To count the number of non-missing values, use
@@ -462,6 +500,9 @@ Just using means, counts, and sum can get you a long way, but R provides many ot
     #> 6 AUS    2411
     #> # ... with 98 more rows
 ```
+{Run code | terminal}(Rscript code/flights.r)
+ 
+
     
     You can optionally provide a weight variable. For example, you could use 
     this to "count" (sum) the total number of miles a plane flew:
@@ -522,6 +563,9 @@ Just using means, counts, and sum can get you a long way, but R provides many ot
     #> 6  2013     1     6    0.0470
     #> # ... with 359 more rows
 ```
+{Run code | terminal}(Rscript code/flights.r)
+ 
+
 
 ### Grouping by multiple variables
 
@@ -560,6 +604,9 @@ daily <- group_by(flights, year, month, day)
 #>   <int>   <int>
 #> 1  2013  336776
 ```
+{Run code | terminal}(Rscript code/flights.r)
+ 
+
 
 Be careful when progressively rolling up summaries: it's OK for sums and counts, but you need to think about weighting means and variances, and it's not possible to do it exactly for rank-based statistics like the median. In other words, the sum of groupwise sums is the overall sum, but the median of groupwise medians is not the overall median.
 
@@ -577,6 +624,9 @@ daily %>%
 #>     <int>
 #> 1  336776
 ```
+{Run code | terminal}(Rscript code/flights.r)
+ 
+
 
 ### Exercises
 

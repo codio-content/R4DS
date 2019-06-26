@@ -20,6 +20,9 @@ Grouping is most useful in conjunction with `summarise()`, but you can also do c
     #> 6  2013     1     1       255       250      589      115
     #> # ... with 3,300 more rows
 ```
+{Run code | terminal}(Rscript code/flights.r)
+ 
+
 
 *   Find all groups bigger than a threshold:
 
@@ -65,6 +68,9 @@ Grouping is most useful in conjunction with `summarise()`, but you can also do c
     #> 6  2013     1     1 ORD           8  0.0000283
     #> # ... with 1.311e+05 more rows
 ```
+{Run code | terminal}(Rscript code/flights.r)
+ 
+
 
 A grouped filter is a grouped mutate followed by an ungrouped filter. I generally avoid them except for quick and dirty manipulations: otherwise it's hard to check that you've done the manipulation correctly.
 

@@ -281,7 +281,7 @@
   "taskId": "free-text-514781532",
   "source": {
    "name": "aesthetic3",
-   "showName": true,
+   "showName": false,
    "bloomsObjectiveLevel": "",
    "guidance": "",
    "showGuidanceAfterResponse": false,
@@ -337,7 +337,7 @@
   "taskId": "free-text-1352662087",
   "source": {
    "name": "aesthetic5",
-   "showName": true,
+   "showName": false,
    "bloomsObjectiveLevel": "",
    "guidance": "",
    "showGuidanceAfterResponse": false,
@@ -413,7 +413,7 @@
    "oneTimeTest": true,
    "instructions": "What's the default position adjustment for `geom_boxplot()`? Create a visualisation of the `mpg` dataset that demonstrates it.",
    "learningObjectives": "",
-   "previewType": "MARKDOWN",
+   "previewType": "NONE",
    "points": 1
   }
  }

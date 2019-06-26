@@ -18,6 +18,9 @@ filter(flights, month == 1, day == 1)
 #> #   origin <chr>, dest <chr>, air_time <dbl>, distance <dbl>, hour <dbl>,
 #> #   minute <dbl>, time_hour <dttm>
 ```
+{Run code | terminal}(Rscript code/flights.r)
+ 
+
 
 When you run that line of code, dplyr executes the filtering operation and returns a new data frame. dplyr functions never modify their inputs, so if you want to save the result, you'll need to use the assignment operator, `<-`:
 
@@ -57,6 +60,9 @@ When you're starting out with R, the easiest mistake to make is to use `=` inste
 filter(flights, month = 1)
 #> `month` (`month = 1`) must not be named, do you need `==`?
 ```
+{Run code | terminal}(Rscript code/flights.r)
+ 
+
 
 There's another common problem you might encounter when using `==`: floating point numbers. These results might surprise you!
 
@@ -92,6 +98,9 @@ The following code finds all flights that departed in November or December:
 ```r
 filter(flights, month == 11 | month == 12)
 ```
+{Run code | terminal}(Rscript code/flights.r)
+ 
+
 
 The order of operations doesn't work like English. You can't write `filter(flights, month == 11 | 12)`, which you might literally translate into  "finds all flights that departed in November or December". Instead it finds all months that equal `11 | 12`, an expression that evaluates to `TRUE`. In a numeric context (like here), `TRUE` becomes one, so this finds all flights in January, not November or December. This is quite confusing!
 
@@ -129,6 +138,9 @@ NA + 10
 NA / 2
 #> [1] NA
 ```
+{Run code | terminal}(Rscript code/flights.r)
+ 
+
 
 The most confusing result is this one:
 
@@ -161,6 +173,9 @@ If you want to determine if a value is missing, use `is.na()`:
 is.na(x)
 #> [1] TRUE
 ```
+{Run code | terminal}(Rscript code/flights.r)
+ 
+
 
 `filter()` only includes rows where the condition is `TRUE`; it excludes both `FALSE` and `NA` values. If you want to preserve missing values, ask for them explicitly:
 

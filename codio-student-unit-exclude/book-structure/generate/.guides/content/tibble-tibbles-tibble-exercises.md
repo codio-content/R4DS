@@ -1,3 +1,7 @@
+{Run code | terminal}(Rscript code/patterns.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 1.  How can you tell if an object is a tibble? (Hint: try printing `mtcars`,
     which is a regular data frame). 

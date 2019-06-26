@@ -11,6 +11,10 @@ How you visualise the distribution of a variable will depend on whether the vari
 ggplot(data = diamonds) +
   geom_bar(mapping = aes(x = cut))
 ```
+{Run code | terminal}(Rscript code/variation.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 
@@ -41,6 +45,10 @@ A variable is **continuous** if it can take any of an infinite set of ordered va
 ggplot(data = diamonds) +
   geom_histogram(mapping = aes(x = carat), binwidth = 0.5)
 ```
+{Run code | terminal}(Rscript code/variation.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 
@@ -78,6 +86,10 @@ smaller <- diamonds %>%
 ggplot(data = smaller, mapping = aes(x = carat)) +
   geom_histogram(binwidth = 0.1)
 ```
+
+{Run code | terminal}(Rscript code/variation.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
 
 
 
@@ -128,6 +140,10 @@ ggplot(data = smaller, mapping = aes(x = carat)) +
   geom_histogram(binwidth = 0.01)
 ```
 
+{Run code | terminal}(Rscript code/variation.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 ![Figure 9.5](EDA_files/figure-latex/unnamed-chunk-8-1.jpg)
@@ -151,6 +167,10 @@ The histogram below shows the length (in minutes) of 272 eruptions of the Old Fa
 ggplot(data = faithful, mapping = aes(x = eruptions)) + 
   geom_histogram(binwidth = 0.25)
 ```
+{Run code | terminal}(Rscript code/variation.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 
@@ -185,6 +205,10 @@ ggplot(diamonds) +
   coord_cartesian(ylim = c(0, 50))
 ```
 
+{Run code | terminal}(Rscript code/variation.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 ![Figure 9.8](EDA_files/figure-latex/unnamed-chunk-11-1.jpg)
@@ -217,6 +241,9 @@ unusual
 #> 8  2075  5.15  31.8  5.12
 #> 9 12210  8.09  58.9  8.06
 ```
+{Run code | terminal}(Rscript code/variation.r)
+ 
+
 
 
 

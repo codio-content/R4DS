@@ -16,6 +16,10 @@ Rewriting the previous plot more concisely yields:
 ggplot(faithful, aes(eruptions)) + 
   geom_freqpoly(binwidth = 0.25)
 ```
+{Run code | terminal}(Rscript code/patterns.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 Sometimes we'll turn the end of a pipeline of data transformation into a plot. Watch for the transition from `%>%` to `+`. I wish this transition wasn't necessary but unfortunately ggplot2 was created before the pipe was discovered.
 

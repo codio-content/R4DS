@@ -26,6 +26,10 @@ ggplot(data = mpg) +
   geom_point(mapping = aes(x = displ, y = hwy, color = class))
 ```
 
+{Run code | terminal}(Rscript code/aesthetic.r)
+ 
+[Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 ![Figure 5.5](visualize_files/figure-latex/unnamed-chunk-8-1.jpg)
@@ -47,6 +51,10 @@ ggplot(data = mpg) +
 #> Warning: Using size for a discrete variable is not advised.
 ```
 
+{Run code | terminal}(Rscript code/aesthetic.r)
+ 
+[Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 ![Figure 5.6](visualize_files/figure-latex/unnamed-chunk-9-1.jpg)
@@ -65,6 +73,10 @@ ggplot(data = mpg) +
 ggplot(data = mpg) + 
   geom_point(mapping = aes(x = displ, y = hwy, shape = class))
 ```
+{Run code | terminal}(Rscript code/aesthetic.r)
+ 
+[Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 ![Figure 5.1](visualize_files/figure-latex/unnamed-chunk-10-1.jpg)
 ![Figure 5.1](visualize_files/figure-latex/unnamed-chunk-10-2.jpg)
@@ -84,6 +96,10 @@ You can also _set_ the aesthetic properties of your geom manually. For example, 
 ggplot(data = mpg) + 
   geom_point(mapping = aes(x = displ, y = hwy), color = "blue")
 ```
+
+{Run code | terminal}(Rscript code/aesthetic.r)
+ 
+[Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
 
 
 
@@ -105,32 +121,15 @@ Here, the color doesn't convey information about a variable, but only changes th
 
 ### Exercises
 
-1.  What's gone wrong with this code? Why are the points not blue?
+1. {Submit Answer!|assessment}(free-text-2644417677)
 
-    
-```r
-    ggplot(data = mpg) + 
-      geom_point(mapping = aes(x = displ, y = hwy, color = "blue"))
-```
-    
-    
-    
-![Figure 5.8](visualize_files/figure-latex/unnamed-chunk-12-1.jpg)
+1. {Check It!|assessment}(multiple-choice-3151543202)
 
-**Figure 5.8**
-    
-1.  Which variables in `mpg` are categorical? Which variables are continuous? 
-    (Hint: type `?mpg` to read the documentation for the dataset). How
-    can you see this information when you run `mpg`?
+1. {Submit Answer!|assessment}(free-text-2494697878)
 
-1.  Map a continuous variable to `color`, `size`, and `shape`. How do
-    these aesthetics behave differently for categorical vs. continuous
-    variables? 
-    
-1.  What happens if you map the same variable to multiple aesthetics? 
+1. {Submit Answer!|assessment}(free-text-514781532)
 
-1.  What does the `stroke` aesthetic do? What shapes does it work with?
-    (Hint: use `?geom_point`)
-    
-1.  What happens if you map an aesthetic to something other than a variable 
-    name, like `aes(colour = displ < 5)`?  Note, you'll also need to specify x and y.
+1. {Check It!|assessment}(multiple-choice-1947897726)
+
+1. {Submit Answer!|assessment}(free-text-1352662087)
+

@@ -28,6 +28,10 @@ ggplot(data = mpg) +
 ggplot(data = mpg) + 
   geom_smooth(mapping = aes(x = displ, y = hwy))
 ```
+{Run code | terminal}(Rscript code/geoObjs.r)
+ 
+[Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 Every geom function in ggplot2 takes a `mapping` argument. However, not every aesthetic works with every geom. You could set the shape of a point, but you couldn't set the "shape" of a line. On the other hand, you _could_ set the linetype of a line. `geom_smooth()` will draw a different line, with a different linetype, for each unique value of the variable that you map to linetype.
 
@@ -72,6 +76,10 @@ ggplot(data = mpg) +
     show.legend = FALSE
   )
 ```
+{Run code | terminal}(Rscript code/geoObjs.r)
+ 
+[Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 ![Figure 5.8](visualize_files/figure-latex/unnamed-chunk-22-1.jpg)
@@ -121,6 +129,10 @@ ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +
   geom_smooth()
 ```
 
+{Run code | terminal}(Rscript code/geoObjs.r)
+ 
+[Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 ![Figure 5.4](visualize_files/figure-latex/unnamed-chunk-25-1.jpg)
@@ -135,6 +147,10 @@ ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +
   geom_point(mapping = aes(color = class)) + 
   geom_smooth(data = filter(mpg, class == "subcompact"), se = FALSE)
 ```
+{Run code | terminal}(Rscript code/geoObjs.r)
+ 
+[Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 

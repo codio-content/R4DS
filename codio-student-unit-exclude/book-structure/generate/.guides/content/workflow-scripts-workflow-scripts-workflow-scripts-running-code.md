@@ -15,6 +15,9 @@ not_cancelled %>%
 ```
 
 Instead of running expression-by-expression, you can also execute the complete script in one step: Cmd/Ctrl + Shift + S. Doing this regularly is a great way to check that you've captured all the important parts of your code in the script. 
+{Run code | terminal}(Rscript code/runCode.r)
+ 
+
 
 I recommend that you always start your script with the packages that you need. That way, if you share your code with others, they can easily see what packages they need to install. Note, however, that you should never include `install.packages()` or `setwd()` in a script that you share. It's very antisocial to change settings on someone else's computer!
 

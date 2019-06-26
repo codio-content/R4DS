@@ -24,6 +24,9 @@ If you've encountered unusual values in your dataset, and simply want to move on
     diamonds2 <- diamonds %>% 
       mutate(y = ifelse(y < 3 | y > 20, NA, y))
 ```
+{Run code | terminal}(Rscript code/missing.r)
+ 
+
 
 `ifelse()` has three arguments. The first argument `test` should be a logical vector. The result will contain the value of the second argument, `yes`, when `test` is `TRUE`, and the value of the third argument, `no`, when it is false. Alternatively to ifelse, use `dplyr::case_when()`. `case_when()` is particularly useful inside mutate when you want to create a new variable that relies on a complex combination of existing variables.
 
@@ -35,6 +38,10 @@ ggplot(data = diamonds2, mapping = aes(x = x, y = y)) +
   geom_point()
 #> Warning: Removed 9 rows containing missing values (geom_point).
 ```
+{Run code | terminal}(Rscript code/missing.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 
@@ -64,6 +71,10 @@ nycflights13::flights %>%
   ggplot(mapping = aes(sched_dep_time)) + 
     geom_freqpoly(mapping = aes(colour = cancelled), binwidth = 1/4)
 ```
+{Run code | terminal}(Rscript code/missing.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 

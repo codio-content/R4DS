@@ -25,5 +25,3 @@
     filter(diamond, carat > 3)
 ```
     
-1.  Press Alt + Shift + K. What happens? How can you get to the same place
-    using the menus?

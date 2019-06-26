@@ -15,6 +15,8 @@ as_tibble(iris)
 #> 6          5.4         3.9          1.7         0.4 setosa 
 #> # ... with 144 more rows
 ```
+{Run code | terminal}(Rscript code/tibbles.r)              
+
 
 You can create a new tibble from individual vectors with `tibble()`. `tibble()` will automatically recycle inputs of length 1, and allows you to refer to variables that you just created, as shown below.
 
@@ -52,6 +54,8 @@ tb
 #>   <chr> <chr> <chr> 
 #> 1 smile space number
 ```
+{Run code | terminal}(Rscript code/tibbles.r)              
+
 
 You'll also need the backticks when working with these variables in other packages, like ggplot2, dplyr, and tidyr.
 

@@ -7,6 +7,10 @@ ggplot(data = diamonds) +
   geom_bar(mapping = aes(x = cut))
 ```
 
+{Run code | terminal}(Rscript code/statTrans.r)
+ 
+[Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 ![Figure 5.1](visualize_files/figure-latex/unnamed-chunk-30-1.jpg)
@@ -41,6 +45,10 @@ ggplot(data = diamonds) +
   stat_count(mapping = aes(x = cut))
 ```
 
+{Run code | terminal}(Rscript code/statTrans.r)
+ 
+[Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 ![Figure 5.3](visualize_files/figure-latex/unnamed-chunk-32-1.jpg)
@@ -71,6 +79,10 @@ This works because every geom has a default stat; and every stat has a default g
     ggplot(data = demo) +
       geom_bar(mapping = aes(x = cut, y = freq), stat = "identity")
 ```
+{Run code | terminal}(Rscript code/statTrans.r)
+ 
+[Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
     
     
     
@@ -92,6 +104,10 @@ This works because every geom has a default stat; and every stat has a default g
       geom_bar(mapping = aes(x = cut, y = ..prop.., group = 1))
 ```
     
+{Run code | terminal}(Rscript code/statTrans.r)
+ 
+[Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
     
     
 ![Figure 5.5](visualize_files/figure-latex/unnamed-chunk-34-1.jpg)
@@ -117,6 +133,10 @@ This works because every geom has a default stat; and every stat has a default g
       )
 ```
     
+{Run code | terminal}(Rscript code/statTrans.r)
+ 
+[Refresh Plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
     
     
 ![Figure 5.6](visualize_files/figure-latex/unnamed-chunk-35-1.jpg)

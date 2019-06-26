@@ -19,6 +19,10 @@ ggplot(data = faithful) +
   geom_point(mapping = aes(x = eruptions, y = waiting))
 ```
 
+{Run code | terminal}(Rscript code/patterns.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 ![Figure 9.1](EDA_files/figure-latex/unnamed-chunk-37-1.jpg)
@@ -56,6 +60,10 @@ Once you've removed the strong relationship between carat and price, you can see
 ggplot(data = diamonds2) + 
   geom_boxplot(mapping = aes(x = cut, y = resid))
 ```
+{Run code | terminal}(Rscript code/patterns.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 
