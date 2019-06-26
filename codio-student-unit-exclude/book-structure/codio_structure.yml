@@ -1072,16 +1072,46 @@ sections:
             action: close
   - name: "workflow-projects----Workflow: projects"
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "workflow-projects----What is real?"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "workflow-projects----Where does your analysis live?"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "workflow-projects----Paths and directories"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "workflow-projects----RStudio projects"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "workflow-projects----Summary"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
 ## Part 2: WRANGLE
   - name: "wrangle----(PART) Wrangle"
     type: chapter
