@@ -783,12 +783,44 @@ sections:
           action: open
   - name: "workflow-scripts----Workflow: scripts"
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "workflow-scripts----Running code"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/runCode.r)
+              
+  
+          position: 29
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/runCode.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "workflow-scripts----RStudio diagnostics"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "workflow-scripts----Practice"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "EDA----Exploratory Data Analysis"
     type: chapter
   - name: "EDA----Introduction"
