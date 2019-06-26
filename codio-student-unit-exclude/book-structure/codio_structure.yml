@@ -823,22 +823,253 @@ sections:
             action: close
   - name: "EDA----Exploratory Data Analysis"
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "EDA----Introduction"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "EDA----Questions"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "EDA----Variation"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/variation.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 80
+        - add:  |
+             {Run code | terminal}(Rscript code/variation.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 108
+        - add:  |
+             {Run code | terminal}(Rscript code/variation.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 144
+        - add:  |
+             {Run code | terminal}(Rscript code/variation.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 189
+        - add:  |
+             {Run code | terminal}(Rscript code/variation.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 210
+        - add:  |
+             {Run code | terminal}(Rscript code/variation.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 240
+        - add:  |
+             {Run code | terminal}(Rscript code/variation.r)
+              
+  
+          position: 270
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/variation.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
+        - path: "#preview: Rplots.pdf"
+          panel: 1
+          action: open
   - name: "EDA----Missing values"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/missing.r)
+              
+  
+          position: 322
+        - add:  |
+             {Run code | terminal}(Rscript code/missing.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 333
+        - add:  |
+             {Run code | terminal}(Rscript code/missing.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 360
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/missing.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
+        - path: "#preview: Rplots.pdf"
+          panel: 1
+          action: open
   - name: "EDA----Covariation"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/covariation.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 387
+        - add:  |
+             {Run code | terminal}(Rscript code/covariation.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 412
+        - add:  |
+             {Run code | terminal}(Rscript code/covariation.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 445
+        - add:  |
+             {Run code | terminal}(Rscript code/covariation.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 472
+        - add:  |
+             {Run code | terminal}(Rscript code/covariation.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 485
+        - add:  |
+             {Run code | terminal}(Rscript code/covariation.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 529
+        - add:  |
+             {Run code | terminal}(Rscript code/covariation.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 563
+        - add:  |
+             {Run code | terminal}(Rscript code/covariation.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 591
+        - add:  |
+             {Run code | terminal}(Rscript code/covariation.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 621
+        - add:  |
+             {Run code | terminal}(Rscript code/covariation.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 646
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/covariation.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
+        - path: "#preview: Rplots.pdf"
+          panel: 1
+          action: open
   - name: "EDA----Patterns and models"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/patterns.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 706
+        - add:  |
+             {Run code | terminal}(Rscript code/patterns.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 739
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/patterns.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
+        - path: "#preview: Rplots.pdf"
+          panel: 1
+          action: open
   - name: "EDA----ggplot2 calls"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/patterns.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 765
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/patterns.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
+        - path: "#preview: Rplots.pdf"
+          panel: 1
+          action: open
   - name: "EDA----Learning more"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "workflow-projects----Workflow: projects"
     type: chapter
   - name: "workflow-projects----What is real?"
