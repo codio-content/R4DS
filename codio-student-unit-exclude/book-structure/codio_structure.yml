@@ -1115,14 +1115,35 @@ sections:
 ## Part 2: WRANGLE
   - name: "wrangle----(PART) Wrangle"
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "wrangle----Introduction"
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "tibble----Tibbles"
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "tibble----Introduction"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "tibble----Creating tibbles"
     type: section
+    
   - name: "tibble----Tibbles vs. data.frame"
     type: section
   - name: "tibble----Interacting with older code"
