@@ -1947,20 +1947,142 @@ sections:
             action: close
   - name: "factors----Factors"
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "factors----Introduction"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "factors----Creating factors"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/factors.r)
+  
+          position: 60
+        - add:  |
+             {Run code | terminal}(Rscript code/factors.r)
+  
+          position: 102
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/factors.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "factors----General Social Survey"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/gss.r)              
+  
+          position: 144
+        - add:  |
+             {Run code | terminal}(Rscript code/gss.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 169
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/gss.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
+        - path: "#preview: Rplots.pdf"
+          panel: 1
+          action: open
   - name: "factors----Modifying factor order"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/gss.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 217
+        - add:  |
+             {Run code | terminal}(Rscript code/gss.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 264
+        - add:  |
+             {Run code | terminal}(Rscript code/gss.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 302
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/gss.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
+        - path: "#preview: Rplots.pdf"
+          panel: 1
+          action: open
   - name: "factors----Modifying factor levels"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/gss.r)              
+  
+          position: 349
+        - add:  |
+             {Run code | terminal}(Rscript code/gss.r)              
+  
+          position: 406
+        - add:  |
+             {Run code | terminal}(Rscript code/gss.r)              
+  
+          position: 468
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/gss.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "datetimes----Dates and times"
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "datetimes----Introduction"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "datetimes----Creating date/times"
     type: section
   - name: "datetimes----Date-time components"
