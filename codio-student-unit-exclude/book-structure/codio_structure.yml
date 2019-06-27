@@ -2085,25 +2085,195 @@ sections:
             action: close
   - name: "datetimes----Creating date/times"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/dateTime.r)              
+  
+          position: 54
+        - add:  |
+             {Run code | terminal}(Rscript code/dateTime.r)              
+  
+          position: 84
+        - add:  |
+             {Run code | terminal}(Rscript code/dateTime.r)              
+  
+          position: 122
+        - add:  |
+             {Run code | terminal}(Rscript code/dateTime.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 182
+        - add:  |
+             {Run code | terminal}(Rscript code/dateTime.r)              
+  
+          position: 214
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/dateTime.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
+        - path: "#preview: Rplots.pdf"
+          panel: 1
+          action: open
   - name: "datetimes----Date-time components"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/dateTime.r)              
+  
+          position: 271
+        - add:  |
+             {Run code | terminal}(Rscript code/dateTime.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 294
+        - add:  |
+             {Run code | terminal}(Rscript code/dateTime.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 331
+        - add:  |
+             {Run code | terminal}(Rscript code/dateTime.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 359
+        - add:  |
+             {Run code | terminal}(Rscript code/dateTime.r)              
+  
+          position: 404
+        - add:  |
+             {Run code | terminal}(Rscript code/dateTime.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 415
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/dateTime.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
+        - path: "#preview: Rplots.pdf"
+          panel: 1
+          action: open
   - name: "datetimes----Time spans"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/timeSpans.r)              
+  
+          position: 465
+        - add:  |
+             {Run code | terminal}(Rscript code/timeSpans.r)              
+  
+          position: 504
+        - add:  |
+             {Run code | terminal}(Rscript code/timeSpans.r)              
+  
+          position: 538
+        - add:  |
+             {Run code | terminal}(Rscript code/timeSpans.r)              
+  
+          position: 586
+        - add:  |
+             {Run code | terminal}(Rscript code/timeSpans.r)              
+  
+          position: 630
+        - add:  |
+             {Run code | terminal}(Rscript code/timeSpans.r)              
+  
+          position: 652
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/timeSpans.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "datetimes----Time zones"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/timeZones.r)              
+  
+          position: 710
+        - add:  |
+             {Run code | terminal}(Rscript code/timeZones.r)              
+  
+          position: 755
+        - add:  |
+             {Run code | terminal}(Rscript code/timeZones.r)              
+  
+          position: 790
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/timeZones.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
 ##PART 3: Program
   - name: "program----(PART) Program"
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "program----Introduction"
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "program----Learning more"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "pipes----Pipes"
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "pipes----Introduction"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "pipes----Piping alternatives"
     type: section
+    
   - name: "pipes----When not to use the pipe"
     type: section
   - name: "pipes----Other tools from magrittr"
