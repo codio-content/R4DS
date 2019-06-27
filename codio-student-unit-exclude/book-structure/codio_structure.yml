@@ -2511,21 +2511,170 @@ sections:
             action: close
   - name: "vectors----Vector basics"
     type: section
-    
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/vector.r)
+ 
+          position: 53
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/vector.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "vectors----Important types of atomic vector"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/vector.r)              
+  
+          position: 87
+        - add:  |
+             {Run code | terminal}(Rscript code/vector.r)              
+  
+          position: 131
+        - add:  |
+             {Run code | terminal}(Rscript code/vector.r)              
+  
+          position: 176
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/vector.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "vectors----Using atomic vectors"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/vector.r)              
+  
+          position: 240
+        - add:  |
+             {Run code | terminal}(Rscript code/vector.r)              
+  
+          position: 296
+        - add:  |
+             {Run code | terminal}(Rscript code/vector.r)              
+  
+          position: 344
+        - add:  |
+             {Run code | terminal}(Rscript code/vector.r)              
+  
+          position: 415
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/vector.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "vectors----Recursive vectors (lists)"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/lists.r)              
+  
+          position: 505
+        - add:  |
+             {Run code | terminal}(Rscript code/lists.r)              
+  
+          position: 551
+        - add:  |
+             {Run code | terminal}(Rscript code/lists.r)              
+  
+          position: 587
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/lists.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "vectors----Attributes"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/attr.r)              
+  
+          position: 694
+        - add:  |
+             {Run code | terminal}(Rscript code/attr.r)              
+  
+          position: 752
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/attr.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "vectors----Augmented vectors"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/aug.r)              
+  
+          position: 782
+        - add:  |
+             {Run code | terminal}(Rscript code/aug.r)              
+  
+          position: 819
+        - add:  |
+             {Run code | terminal}(Rscript code/aug.r)              
+  
+          position: 851
+        - add:  |
+             {Run code | terminal}(Rscript code/aug.r)              
+  
+          position: 893
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/aug.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "iteration----Iteration"
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "iteration----Introduction"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "iteration----For loops"
     type: section
   - name: "iteration----For loop variations"
