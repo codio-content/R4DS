@@ -2273,15 +2273,87 @@ sections:
             action: close
   - name: "pipes----Piping alternatives"
     type: section
-    
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/pipes.r)              
+  
+          position: 34
+        - add:  |
+             {Run code | terminal}(Rscript code/pipes.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 78
+        - add:  |
+             {Run code | terminal}(Rscript code/pipes.r)              
+  
+          position: 110
+        - add:  |
+             {Run code | terminal}(Rscript code/pipes.r)              
+  
+          position: 148
+        - add:  |
+             {Run code | terminal}(Rscript code/pipes.r)              
+  
+          position: 190
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/pipes.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
+        - path: "#preview: Rplots.pdf"
+          panel: 1
+          action: open
   - name: "pipes----When not to use the pipe"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "pipes----Other tools from magrittr"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/magrittr.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 260
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/magrittr.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
+        - path: "#preview: Rplots.pdf"
+          panel: 1
+          action: open
   - name: "functions----Functions"
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "functions----Introduction"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "functions----When should you write a function?"
     type: section
   - name: "functions----Functions are for humans and computers"
