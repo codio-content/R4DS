@@ -2356,22 +2356,162 @@ sections:
             action: close
   - name: "functions----When should you write a function?"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/functions.r)              
+  
+          position: 47
+        - add:  |
+             {Run code | terminal}(Rscript code/functions.r)              
+  
+          position: 87
+        - add:  |
+             {Run code | terminal}(Rscript code/functions.r)              
+  
+          position: 134
+        - add:  |
+             {Run code | terminal}(Rscript code/functions.r)              
+  
+          position: 170
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/functions.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "functions----Functions are for humans and computers"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "functions----Conditional execution"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/condExec.r)              
+  
+          position: 321
+        - add:  |
+             {Run code | terminal}(Rscript code/condExec.r)              
+  
+          position: 361
+        - add:  |
+             {Run code | terminal}(Rscript code/condExec.r)              
+  
+          position: 395
+        - add:  |
+             {Run code | terminal}(Rscript code/condExec.r)              
+  
+          position: 447
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/condExec.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "functions----Function arguments"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/funArgs.r)              
+  
+          position: 533
+        - add:  |
+             {Run code | terminal}(Rscript code/funArgs.r)              
+  
+          position: 591
+        - add:  |
+             {Run code | terminal}(Rscript code/funArgs.r)              
+  
+          position: 637
+        - add:  |
+             {Run code | terminal}(Rscript code/funArgs.r)              
+  
+          position: 689
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/funArgs.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "functions----Return values"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/return.r)              
+  
+          position: 741
+        - add:  |
+             {Run code | terminal}(Rscript code/return.r)              
+  
+          position: 800
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/return.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "functions----Environment"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/env.r)              
+  
+          position: 844
+        - add:  |
+             {Run code | terminal}(Rscript code/env.r)              
+  
+          position: 877
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/env.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "vectors----Vectors"
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "vectors----Introduction"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "vectors----Vector basics"
     type: section
+    
   - name: "vectors----Important types of atomic vector"
     type: section
   - name: "vectors----Using atomic vectors"
@@ -2402,6 +2542,7 @@ sections:
     type: section
   - name: "iteration----Other patterns of for loops"
     type: section
+##PART 4: Model
   - name: "model----(PART) Model"
     type: chapter
   - name: "model----Introduction"
