@@ -1747,6 +1747,26 @@ sections:
              {Run code | terminal}(Rscript code/stringBasics.r)
   
           position: 27
+        - add:  |
+             {Run code | terminal}(Rscript code/stringBasics.r)
+  
+          position: 60
+        - add:  |
+             {Run code | terminal}(Rscript code/stringBasics.r)
+  
+          position: 87
+        - add:  |
+             {Run code | terminal}(Rscript code/stringBasics.r)
+  
+          position: 123
+        - add:  |
+             {Run code | terminal}(Rscript code/stringBasics.r)
+  
+          position: 169
+        - add:  |
+             {Run code | terminal}(Rscript code/stringBasics.r)
+  
+          position: 200
     configuration:
       layout: 3-cell
       files:
@@ -1760,14 +1780,171 @@ sections:
           action: open
   - name: "strings----Matching patterns with regular expressions"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/regEx.r)
+  
+          position: 252
+        - add:  |
+             {Run code | terminal}(Rscript code/regEx.r)
+  
+          position: 298
+        - add:  |
+             {Run code | terminal}(Rscript code/regEx.r)
+  
+          position: 325
+        - add:  |
+             {Run code | terminal}(Rscript code/regEx.r)
+  
+          position: 353
+        - add:  |
+             {Run code | terminal}(Rscript code/regEx.r)
+  
+          position: 391
+        - add:  |
+             {Run code | terminal}(Rscript code/regEx.r)
+  
+          position: 416
+        - add:  |
+             {Run code | terminal}(Rscript code/regEx.r)
+  
+          position: 457
+        - add:  |
+             {Run code | terminal}(Rscript code/regEx.r)
+  
+          position: 501
+        - add:  |
+             {Run code | terminal}(Rscript code/regEx.r)
+  
+          position: 551
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/regEx.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "strings----Tools"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/strTools.r)
+  
+          position: 694
+        - add:  |
+             {Run code | terminal}(Rscript code/strTools.r)
+  
+          position: 730
+        - add:  |
+             {Run code | terminal}(Rscript code/strTools.r)
+  
+          position: 784
+        - add:  |
+             {Run code | terminal}(Rscript code/strTools.r)
+  
+          position: 831
+        - add:  |
+             {Run code | terminal}(Rscript code/strTools.r)
+  
+          position: 869
+        - add:  |
+             {Run code | terminal}(Rscript code/strTools.r)
+  
+          position: 904
+        - add:  |
+             {Run code | terminal}(Rscript code/strTools.r)
+  
+          position: 952
+        - add:  |
+             {Run code | terminal}(Rscript code/strTools.r)
+  
+          position: 998
+        - add:  |
+             {Run code | terminal}(Rscript code/strTools.r)
+  
+          position: 1058
+        - add:  |
+             {Run code | terminal}(Rscript code/strTools.r)
+  
+          position: 1089
+        - add:  |
+             {Run code | terminal}(Rscript code/strTools.r)
+  
+          position: 1123
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/strTools.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "strings----Other types of pattern"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/otherPatterns.r)
+  
+          position: 1149
+        - add:  |
+             {Run code | terminal}(Rscript code/otherPatterns.r)
+  
+          position: 1149
+        - add:  |
+             {Run code | terminal}(Rscript code/otherPatterns.r)
+  
+          position: 1203
+        - add:  |
+             {Run code | terminal}(Rscript code/otherPatterns.r)
+  
+          position: 1253
+        - add:  |
+             {Run code | terminal}(Rscript code/otherPatterns.r)
+  
+          position: 1316
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/otherPatterns.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "strings----Other uses of regular expressions"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/otherPatterns.r)
+  
+          position: 1338
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/otherPatterns.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "strings----stringi"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "factors----Factors"
     type: chapter
   - name: "factors----Introduction"
