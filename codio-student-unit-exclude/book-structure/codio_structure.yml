@@ -2677,29 +2677,250 @@ sections:
             action: close
   - name: "iteration----For loops"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/for.r)              
+  
+          position: 44
+        - add:  |
+             {Run code | terminal}(Rscript code/for.r)              
+  
+          position: 99
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/for.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "iteration----For loop variations"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/for.r)              
+  
+          position: 207
+        - add:  |
+             {Run code | terminal}(Rscript code/for.r)              
+  
+          position: 256
+        - add:  |
+             {Run code | terminal}(Rscript code/for.r)              
+  
+          position: 293
+        - add:  |
+             {Run code | terminal}(Rscript code/for.r)              
+  
+          position: 357
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/for.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "iteration----For loops vs. functionals"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/for.r)              
+  
+          position: 417
+        - add:  |
+             {Run code | terminal}(Rscript code/for.r)              
+  
+          position: 462
+        - add:  |
+             {Run code | terminal}(Rscript code/for.r)              
+  
+          position: 499
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/for.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "iteration----The map functions"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/map.r)              
+  
+          position: 554
+        - add:  |
+             {Run code | terminal}(Rscript code/map.r)              
+  
+          position: 609
+        - add:  |
+             {Run code | terminal}(Rscript code/map.r)              
+  
+          position: 687
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/map.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "iteration----Dealing with failure"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/fail.r)              
+  
+          position: 749
+        - add:  |
+             {Run code | terminal}(Rscript code/fail.r)              
+  
+          position: 793
+        - add:  |
+             {Run code | terminal}(Rscript code/fail.r)              
+  
+          position: 837
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/fail.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "iteration----Mapping over multiple arguments"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/map.r)              
+  
+          position: 853
+        - add:  |
+             {Run code | terminal}(Rscript code/map.r)              
+  
+          position: 898
+        - add:  |
+             {Run code | terminal}(Rscript code/map.r)              
+  
+          position: 928
+        - add:  |
+             {Run code | terminal}(Rscript code/map.r)              
+  
+          position: 971
+        - add:  |
+             {Run code | terminal}(Rscript code/map.r)              
+  
+          position: 1001
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/map.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "iteration----Walk"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/walk.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 1016
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/walk.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
+        - path: "#preview: Rplots.pdf"
+          panel: 1
+          action: open
   - name: "iteration----Other patterns of for loops"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/loops.r)
+ 
+          position: 1059
+        - add:  |
+             {Run code | terminal}(Rscript code/loops.r)
+ 
+          position: 1092
+        - add:  |
+             {Run code | terminal}(Rscript code/loops.r)
+ 
+          position: 1127
+        - add:  |
+             {Run code | terminal}(Rscript code/loops.r)
+ 
+          position: 1174
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/loops.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
 ##PART 4: Model
   - name: "model----(PART) Model"
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "model----Introduction"
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "model----Hypothesis generation vs. hypothesis confirmation"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "model-basics----Model basics"
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "model-basics----Introduction"
     type: section
   - name: "model-basics----A simple model"
