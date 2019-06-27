@@ -1394,24 +1394,186 @@ sections:
             action: close
   - name: "tidy----Tidy data"
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "tidy----Introduction"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "tidy----Tidy data"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/tidyD.r)
+  
+          position: 79
+        - add:  |
+             {Run code | terminal}(Rscript code/tidyD.r)
+             
+             [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 150
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/tidyD.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
+        - path: "#preview: Rplots.pdf"
+          panel: 1
+          action: open
   - name: "tidy----Spreading and gathering"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/sg.r)
+  
+          position: 206
+        - add:  |
+             {Run code | terminal}(Rscript code/sg.r)
+  
+          position: 262
+        - add:  |
+             {Run code | terminal}(Rscript code/sg.r)
+  
+          position: 302
+        - add:  |
+             {Run code | terminal}(Rscript code/sg.r)
+  
+          position: 355
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/sg.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "tidy----Separating and uniting"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/sepUnit.r)
+  
+          position: 418
+        - add:  |
+             {Run code | terminal}(Rscript code/sepUnit.r)
+  
+          position: 453
+        - add:  |
+             {Run code | terminal}(Rscript code/sepUnit.r)
+  
+          position: 491
+        - add:  |
+             {Run code | terminal}(Rscript code/sepUnit.r)
+  
+          position: 523
+        - add:  |
+             {Run code | terminal}(Rscript code/sepUnit.r)
+  
+          position: 552
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/sepUnit.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "tidy----Missing values"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/missingVals.r)              
+  
+          position: 577
+        - add:  |
+             {Run code | terminal}(Rscript code/missingVals.r)              
+  
+          position: 620
+        - add:  |
+             {Run code | terminal}(Rscript code/missingVals.r)              
+  
+          position: 653
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/missingVals.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "tidy----Case Study"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/whoCase.r)              
+  
+          position: 713
+        - add:  |
+             {Run code | terminal}(Rscript code/whoCase.r)              
+  
+          position: 763
+        - add:  |
+             {Run code | terminal}(Rscript code/whoCase.r)              
+  
+          position: 830
+        - add:  |
+             {Run code | terminal}(Rscript code/whoCase.r)              
+  
+          position: 863
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/whoCase.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "tidy----Non-tidy data"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "relational-data----Relational data"
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "relational-data----Introduction"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "relational-data----nycflights13"
     type: section
   - name: "relational-data----Keys"
