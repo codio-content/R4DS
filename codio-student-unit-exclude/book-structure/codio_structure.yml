@@ -1576,22 +1576,188 @@ sections:
             action: close
   - name: "relational-data----nycflights13"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/nycFlights.r)
+  
+          position: 53
+        - add:  |
+             {Run code | terminal}(Rscript code/nycFlights.r)
+  
+          position: 106
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/nycFlights.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "relational-data----Keys"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/nycFlights.r)
+  
+          position: 180
+        - add:  |
+             {Run code | terminal}(Rscript code/nycFlights.r)
+  
+          position: 213
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/nycFlights.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "relational-data----Mutating joins"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/nycFlights.r)
+  
+          position: 261
+        - add:  |
+             {Run code | terminal}(Rscript code/nycFlights.r)
+  
+          position: 301
+        - add:  |
+             {Run code | terminal}(Rscript code/nycFlights.r)
+  
+          position: 327
+        - add:  |
+             {Run code | terminal}(Rscript code/nycFlights.r)
+  
+          position: 363
+        - add:  |
+             {Run code | terminal}(Rscript code/nycFlights.r)
+  
+          position: 428
+        - add:  |
+             {Run code | terminal}(Rscript code/nycFlights.r)
+  
+          position: 491
+        - add:  |
+             {Run code | terminal}(Rscript code/nycFlights.r)
+  
+          position: 542
+        - add:  |
+             {Run code | terminal}(Rscript code/nycFlights.r)
+  
+          position: 573
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/nycFlights.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "relational-data----Filtering joins"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/filterJoins.r)
+  
+          position: 644
+        - add:  |
+             {Run code | terminal}(Rscript code/filterJoins.r)
+  
+          position: 689
+        - add:  |
+             {Run code | terminal}(Rscript code/filterJoins.r)
+  
+          position: 723
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/filterJoins.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "relational-data----Join problems"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/joinProbs.r)
+  
+          position: 768
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/joinProbs.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "relational-data----Set operations"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/setOps.r)
+  
+          position: 806
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/setOps.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "strings----Strings"
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "strings----Introduction"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "strings----String basics"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/stringBasics.r)
+  
+          position: 27
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/stringBasics.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "strings----Matching patterns with regular expressions"
     type: section
   - name: "strings----Tools"
