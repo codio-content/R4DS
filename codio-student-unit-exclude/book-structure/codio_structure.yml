@@ -3150,7 +3150,49 @@ sections:
               
               [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
   
-          position: 706
+          position: 47
+        - add:  |
+             {Run code | terminal}(Rscript code/modelBuild.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 63
+        - add:  |
+             {Run code | terminal}(Rscript code/modelBuild.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 87
+        - add:  |
+             {Run code | terminal}(Rscript code/modelBuild.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 113
+        - add:  |
+             {Run code | terminal}(Rscript code/modelBuild.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 130
+        - add:  |
+             {Run code | terminal}(Rscript code/modelBuild.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 143
+        - add:  |
+             {Run code | terminal}(Rscript code/modelBuild.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 179
+        - add:  |
+             {Run code | terminal}(Rscript code/modelBuild.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 194
     configuration:
       layout: 3-cell
       files:
@@ -3167,8 +3209,94 @@ sections:
           action: open
   - name: "model-building----What affects the number of daily flights?"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/dailyFlights.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 264
+        - add:  |
+             {Run code | terminal}(Rscript code/dailyFlights.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 280
+        - add:  |
+             {Run code | terminal}(Rscript code/dailyFlights.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 301
+        - add:  |
+             {Run code | terminal}(Rscript code/dailyFlights.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 317
+        - add:  |
+             {Run code | terminal}(Rscript code/dailyFlights.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+              
+                  \begin{center}\includegraphics[width=0.7\linewidth]{model-building_files/figure-latex/unnamed-chunk-20-1} \end{center}
+  
+          position: 379
+        - add:  |
+             {Run code | terminal}(Rscript code/dailyFlights.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 402
+        - add:  |
+             {Run code | terminal}(Rscript code/dailyFlights.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 434
+        - add:  |
+             {Run code | terminal}(Rscript code/dailyFlights.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 466
+        - add:  |
+             {Run code | terminal}(Rscript code/dailyFlights.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 501
+        - add:  |
+             {Run code | terminal}(Rscript code/dailyFlights.r)              
+  
+          position: 523
+        - add:  |
+             {Run code | terminal}(Rscript code/dailyFlights.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 550
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/dailyFlights.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
+        - path: "#preview: Rplots.pdf"
+          panel: 1
+          action: open
   - name: "model-building----Learning more about models"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "model-many----Many models"
     type: chapter
   - name: "model-many----Introduction"
