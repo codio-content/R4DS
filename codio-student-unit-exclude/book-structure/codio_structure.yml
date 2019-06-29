@@ -2923,22 +2923,248 @@ sections:
             action: close
   - name: "model-basics----Introduction"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "model-basics----A simple model"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/model.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 67
+        - add:  |
+             {Run code | terminal}(Rscript code/model.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 84
+        - add:  |
+             {Run code | terminal}(Rscript code/model.r)              
+  
+          position: 110
+        - add:  |
+             {Run code | terminal}(Rscript code/model.r)              
+  
+          position: 110
+        - add:  |
+             {Run code | terminal}(Rscript code/model.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 159
+        - add:  |
+             {Run code | terminal}(Rscript code/model.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 192
+        - add:  |
+             {Run code | terminal}(Rscript code/model.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 225
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/model.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
+        - path: "#preview: Rplots.pdf"
+          panel: 1
+          action: open
   - name: "model-basics----Visualising models"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/vizmod.r)              
+  
+          position: 311
+        - add:  |
+             {Run code | terminal}(Rscript code/vizmod.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 343
+        - add:  |
+             {Run code | terminal}(Rscript code/vizmod.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 393
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/vizmod.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
+        - path: "#preview: Rplots.pdf"
+          panel: 1
+          action: open
   - name: "model-basics----Formulas and model families"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/formulas.r)              
+  
+          position: 438
+        - add:  |
+             {Run code | terminal}(Rscript code/formulas.r)              
+  
+          position: 487
+        - add:  |
+             {Run code | terminal}(Rscript code/formulas.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 497
+        - add:  |
+             {Run code | terminal}(Rscript code/formulas.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 529
+        - add:  |
+             {Run code | terminal}(Rscript code/formulas.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 552
+        - add:  |
+             {Run code | terminal}(Rscript code/formulas.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 607
+        - add:  |
+             {Run code | terminal}(Rscript code/formulas.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 625
+        - add:  |
+             {Run code | terminal}(Rscript code/formulas.r)              
+  
+          position: 659
+        - add:  |
+             {Run code | terminal}(Rscript code/formulas.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 715
+        - add:  |
+             {Run code | terminal}(Rscript code/formulas.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 731
+        - add:  |
+             {Run code | terminal}(Rscript code/formulas.r)              
+  
+          position: 771
+        - add:  |
+             {Run code | terminal}(Rscript code/formulas.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 811
+        - add:  |
+             {Run code | terminal}(Rscript code/formulas.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 835
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/formulas.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
+        - path: "#preview: Rplots.pdf"
+          panel: 1
+          action: open
   - name: "model-basics----Missing values"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/modelVals.r)              
+  
+          position: 883
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/modelVals.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "model-basics----Other model families"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "model-building----Model building"
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "model-building----Introduction"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "model-building----Why are low quality diamonds more expensive?"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/modelBuild.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 706
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/modelBuild.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
+        - path: "#preview: Rplots.pdf"
+          panel: 1
+          action: open
   - name: "model-building----What affects the number of daily flights?"
     type: section
   - name: "model-building----Learning more about models"
