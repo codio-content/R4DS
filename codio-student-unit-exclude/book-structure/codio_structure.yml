@@ -3299,26 +3299,199 @@ sections:
             action: close
   - name: "model-many----Many models"
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "model-many----Introduction"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "model-many----gapminder"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/gapminder.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 79
+        - add:  |
+             {Run code | terminal}(Rscript code/gapminder.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 112
+        - add:  |
+             {Run code | terminal}(Rscript code/gapminder.r)              
+  
+          position: 161
+        - add:  |
+             {Run code | terminal}(Rscript code/gapminder.r)              
+  
+          position: 202
+        - add:  |
+             {Run code | terminal}(Rscript code/gapminder.r)              
+  
+          position: 257
+        - add:  |
+             {Run code | terminal}(Rscript code/gapminder.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 288
+        - add:  |
+             {Run code | terminal}(Rscript code/gapminder.r)              
+  
+          position: 322
+        - add:  |
+             {Run code | terminal}(Rscript code/gapminder.r)              
+  
+          position: 364
+        - add:  |
+             {Run code | terminal}(Rscript code/gapminder.r)
+              
+              [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+  
+          position: 394
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/gapminder.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
+        - path: "#preview: Rplots.pdf"
+          panel: 1
+          action: open
   - name: "model-many----List-columns"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/listCols.r)              
+  
+          position: 447
+        - add:  |
+             {Run code | terminal}(Rscript code/listCols.r)              
+  
+          position: 491
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/listCols.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "model-many----Creating list-columns"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/listCols.r)              
+  
+          position: 544
+        - add:  |
+             {Run code | terminal}(Rscript code/listCols.r)              
+  
+          position: 583
+        - add:  |
+             {Run code | terminal}(Rscript code/listCols.r)              
+  
+          position: 625
+        - add:  |
+             {Run code | terminal}(Rscript code/listCols.r)              
+  
+          position: 675
+        - add:  |
+             {Run code | terminal}(Rscript code/listCols.r)              
+  
+          position: 715
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/listCols.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
   - name: "model-many----Simplifying list-columns"
     type: section
+    transformations:
+        - add:  |
+             {Run code | terminal}(Rscript code/listCols.r)              
+  
+          position: 790
+        - add:  |
+             {Run code | terminal}(Rscript code/listCols.r)              
+  
+          position: 829
+        - add:  |
+             {Run code | terminal}(Rscript code/listCols.r)              
+  
+          position: 870
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/listCols.r"
+          panel: 0
+          action: open
+        - path: "#terminal"
+          panel: 1
+          action: open
+        - path: "#preview: Rplots.pdf"
+          panel: 1
+          action: open
   - name: "model-many----Making tidy data with broom"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "communicate----(PART) Communicate"
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "communicate----Introduction"
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "rmarkdown----R Markdown"
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "rmarkdown----Introduction"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "rmarkdown----R Markdown basics"
     type: section
   - name: "rmarkdown----1st Level Header"
