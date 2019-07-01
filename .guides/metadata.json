@@ -1362,8 +1362,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/import-data-import-import-introduction.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "import-data-import-import-introduction",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1374,8 +1380,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/import-data-import-import-getting-started.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/startImport.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "import-data-import-import-getting-started",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1386,8 +1408,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/import-data-import-import-parsing-a-vector.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/parseV.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "import-data-import-import-parsing-a-vector",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1398,8 +1436,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/import-data-import-import-parsing-a-file.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/parseF.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "import-data-import-import-parsing-a-file",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1410,8 +1464,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/import-data-import-import-writing-to-a-file.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/writeF.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "import-data-import-import-writing-to-a-file",
+      "layout": "3-cell-tree",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1422,8 +1492,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/import-data-import-import-other-types-of-data.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "import-data-import-import-other-types-of-data",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1434,8 +1510,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/tidy-tidy-data-tidy-introduction.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "tidy-tidy-data-tidy-introduction",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1446,8 +1528,29 @@
     {
       "chapter": false,
       "content-file": ".guides/content/tidy-tidy-data-tidy-tidy-data.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/tidyD.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: Rplots.pdf"
+        }
+      ],
       "id": "tidy-tidy-data-tidy-tidy-data",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1458,8 +1561,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/tidy-tidy-data-tidy-spreading-and-gathering.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/sg.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "tidy-tidy-data-tidy-spreading-and-gathering",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1470,8 +1589,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/tidy-tidy-data-tidy-separating-and-uniting.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/sepUnit.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "tidy-tidy-data-tidy-separating-and-uniting",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1482,8 +1617,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/tidy-tidy-data-tidy-missing-values.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/missingVals.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "tidy-tidy-data-tidy-missing-values",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1494,8 +1645,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/tidy-tidy-data-tidy-case-study.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/whoCase.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "tidy-tidy-data-tidy-case-study",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1506,8 +1673,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/tidy-tidy-data-tidy-non-tidy-data.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "tidy-tidy-data-tidy-non-tidy-data",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1518,8 +1691,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/relational-data-relational-data-relational-data-introduction.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "relational-data-relational-data-relational-data-introduction",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1530,8 +1709,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/relational-data-relational-data-relational-data-nycflights13.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/nycFlights.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "relational-data-relational-data-relational-data-nycflights13",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1542,8 +1737,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/relational-data-relational-data-relational-data-keys.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/nycFlights.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "relational-data-relational-data-relational-data-keys",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1554,8 +1765,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/relational-data-relational-data-relational-data-mutating-joins.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/nycFlights.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "relational-data-relational-data-relational-data-mutating-joins",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1566,8 +1793,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/relational-data-relational-data-relational-data-filtering-joins.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/filterJoins.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "relational-data-relational-data-relational-data-filtering-joins",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1578,8 +1821,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/relational-data-relational-data-relational-data-join-problems.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/joinProbs.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "relational-data-relational-data-relational-data-join-problems",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1590,8 +1849,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/relational-data-relational-data-relational-data-set-operations.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/setOps.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "relational-data-relational-data-relational-data-set-operations",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1602,8 +1877,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/strings-strings-strings-introduction.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "strings-strings-strings-introduction",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1614,8 +1895,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/strings-strings-strings-string-basics.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/stringBasics.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "strings-strings-strings-string-basics",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1626,8 +1923,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/strings-strings-strings-matching-patterns-with-regular-expressions.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/regEx.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "strings-strings-strings-matching-patterns-with-regular-expressions",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1638,8 +1951,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/strings-strings-strings-tools.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/strTools.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "strings-strings-strings-tools",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1650,8 +1979,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/strings-strings-strings-other-types-of-pattern.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/otherPatterns.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "strings-strings-strings-other-types-of-pattern",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1662,8 +2007,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/strings-strings-strings-other-uses-of-regular-expressions.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/otherPatterns.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "strings-strings-strings-other-uses-of-regular-expressions",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1674,8 +2035,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/strings-strings-strings-stringi.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "strings-strings-strings-stringi",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1686,8 +2053,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/factors-factors-factors-introduction.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "factors-factors-factors-introduction",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1698,8 +2071,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/factors-factors-factors-creating-factors.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/factors.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "factors-factors-factors-creating-factors",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1710,8 +2099,29 @@
     {
       "chapter": false,
       "content-file": ".guides/content/factors-factors-factors-general-social-survey.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/gss.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: Rplots.pdf"
+        }
+      ],
       "id": "factors-factors-factors-general-social-survey",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1722,8 +2132,29 @@
     {
       "chapter": false,
       "content-file": ".guides/content/factors-factors-factors-modifying-factor-order.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/gss.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: Rplots.pdf"
+        }
+      ],
       "id": "factors-factors-factors-modifying-factor-order",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1734,8 +2165,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/factors-factors-factors-modifying-factor-levels.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/gss.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "factors-factors-factors-modifying-factor-levels",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1746,8 +2193,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/datetimes-dates-and-times-datetimes-introduction.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "datetimes-dates-and-times-datetimes-introduction",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1758,8 +2211,29 @@
     {
       "chapter": false,
       "content-file": ".guides/content/datetimes-dates-and-times-datetimes-creating-date-times.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/dateTime.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: Rplots.pdf"
+        }
+      ],
       "id": "datetimes-dates-and-times-datetimes-creating-date-times",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1770,8 +2244,29 @@
     {
       "chapter": false,
       "content-file": ".guides/content/datetimes-dates-and-times-datetimes-date-time-components.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/dateTime.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: Rplots.pdf"
+        }
+      ],
       "id": "datetimes-dates-and-times-datetimes-date-time-components",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1782,8 +2277,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/datetimes-dates-and-times-datetimes-time-spans.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/timeSpans.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "datetimes-dates-and-times-datetimes-time-spans",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1794,8 +2305,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/datetimes-dates-and-times-datetimes-time-zones.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/timeZones.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "datetimes-dates-and-times-datetimes-time-zones",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1806,8 +2333,14 @@
     {
       "chapter": true,
       "content-file": ".guides/content/program-introduction.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "program-introduction",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1818,8 +2351,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/program-introduction-program-learning-more.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "program-introduction-program-learning-more",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1830,8 +2369,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/pipes-pipes-pipes-introduction.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "pipes-pipes-pipes-introduction",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1842,8 +2387,29 @@
     {
       "chapter": false,
       "content-file": ".guides/content/pipes-pipes-pipes-piping-alternatives.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/pipes.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: Rplots.pdf"
+        }
+      ],
       "id": "pipes-pipes-pipes-piping-alternatives",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1854,8 +2420,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/pipes-pipes-pipes-when-not-to-use-the-pipe.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "pipes-pipes-pipes-when-not-to-use-the-pipe",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1866,8 +2438,29 @@
     {
       "chapter": false,
       "content-file": ".guides/content/pipes-pipes-pipes-other-tools-from-magrittr.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/magrittr.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: Rplots.pdf"
+        }
+      ],
       "id": "pipes-pipes-pipes-other-tools-from-magrittr",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1878,8 +2471,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/functions-functions-functions-introduction.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "functions-functions-functions-introduction",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1890,8 +2489,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/functions-functions-functions-when-should-you-write-a-function-.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/functions.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "functions-functions-functions-when-should-you-write-a-function-",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1902,8 +2517,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/functions-functions-functions-functions-are-for-humans-and-computers.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "functions-functions-functions-functions-are-for-humans-and-computers",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1914,8 +2535,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/functions-functions-functions-conditional-execution.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/condExec.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "functions-functions-functions-conditional-execution",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1926,8 +2563,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/functions-functions-functions-function-arguments.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/funArgs.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "functions-functions-functions-function-arguments",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1938,8 +2591,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/functions-functions-functions-return-values.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/return.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "functions-functions-functions-return-values",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1950,8 +2619,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/functions-functions-functions-environment.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/env.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "functions-functions-functions-environment",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1962,8 +2647,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/vectors-vectors-vectors-introduction.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "vectors-vectors-vectors-introduction",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1974,8 +2665,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/vectors-vectors-vectors-vector-basics.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/vector.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "vectors-vectors-vectors-vector-basics",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1986,8 +2693,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/vectors-vectors-vectors-important-types-of-atomic-vector.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/vector.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "vectors-vectors-vectors-important-types-of-atomic-vector",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1998,8 +2721,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/vectors-vectors-vectors-using-atomic-vectors.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/vector.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "vectors-vectors-vectors-using-atomic-vectors",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2010,8 +2749,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/vectors-vectors-vectors-recursive-vectors-lists-.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/lists.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "vectors-vectors-vectors-recursive-vectors-lists-",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2022,8 +2777,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/vectors-vectors-vectors-attributes.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/attr.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "vectors-vectors-vectors-attributes",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2034,8 +2805,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/vectors-vectors-vectors-augmented-vectors.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/aug.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "vectors-vectors-vectors-augmented-vectors",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2046,8 +2833,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/iteration-iteration-iteration-introduction.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "iteration-iteration-iteration-introduction",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2058,8 +2851,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/iteration-iteration-iteration-for-loops.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/for.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "iteration-iteration-iteration-for-loops",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2070,8 +2879,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/iteration-iteration-iteration-for-loop-variations.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/for.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "iteration-iteration-iteration-for-loop-variations",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2082,8 +2907,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/iteration-iteration-iteration-for-loops-vs-functionals.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/for.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "iteration-iteration-iteration-for-loops-vs-functionals",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2094,8 +2935,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/iteration-iteration-iteration-the-map-functions.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/map.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "iteration-iteration-iteration-the-map-functions",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2106,8 +2963,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/iteration-iteration-iteration-dealing-with-failure.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/fail.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "iteration-iteration-iteration-dealing-with-failure",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2118,8 +2991,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/iteration-iteration-iteration-mapping-over-multiple-arguments.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/map.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "iteration-iteration-iteration-mapping-over-multiple-arguments",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2130,8 +3019,29 @@
     {
       "chapter": false,
       "content-file": ".guides/content/iteration-iteration-iteration-walk.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/walk.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: Rplots.pdf"
+        }
+      ],
       "id": "iteration-iteration-iteration-walk",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2142,8 +3052,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/iteration-iteration-iteration-other-patterns-of-for-loops.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/loops.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "iteration-iteration-iteration-other-patterns-of-for-loops",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2154,8 +3080,14 @@
     {
       "chapter": true,
       "content-file": ".guides/content/model-introduction.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "model-introduction",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2166,8 +3098,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/model-introduction-model-hypothesis-generation-vs-hypothesis-confirmation.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "model-introduction-model-hypothesis-generation-vs-hypothesis-confirmation",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2178,8 +3116,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/model-basics-model-basics-model-basics-introduction.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "model-basics-model-basics-model-basics-introduction",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2190,8 +3134,29 @@
     {
       "chapter": false,
       "content-file": ".guides/content/model-basics-model-basics-model-basics-a-simple-model.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/model.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: Rplots.pdf"
+        }
+      ],
       "id": "model-basics-model-basics-model-basics-a-simple-model",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2202,8 +3167,29 @@
     {
       "chapter": false,
       "content-file": ".guides/content/model-basics-model-basics-model-basics-visualising-models.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/vizmod.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: Rplots.pdf"
+        }
+      ],
       "id": "model-basics-model-basics-model-basics-visualising-models",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2214,8 +3200,29 @@
     {
       "chapter": false,
       "content-file": ".guides/content/model-basics-model-basics-model-basics-formulas-and-model-families.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/formulas.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: Rplots.pdf"
+        }
+      ],
       "id": "model-basics-model-basics-model-basics-formulas-and-model-families",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2226,8 +3233,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/model-basics-model-basics-model-basics-missing-values.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/modelVals.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "model-basics-model-basics-model-basics-missing-values",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2238,8 +3261,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/model-basics-model-basics-model-basics-other-model-families.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "model-basics-model-basics-model-basics-other-model-families",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2250,8 +3279,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/model-building-model-building-model-building-introduction.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "model-building-model-building-model-building-introduction",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2262,8 +3297,29 @@
     {
       "chapter": false,
       "content-file": ".guides/content/model-building-model-building-model-building-why-are-low-quality-diamonds-more-expensive-.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/modelBuild.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: Rplots.pdf"
+        }
+      ],
       "id": "model-building-model-building-model-building-why-are-low-quality-diamonds-more-expensive-",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2274,8 +3330,29 @@
     {
       "chapter": false,
       "content-file": ".guides/content/model-building-model-building-model-building-what-affects-the-number-of-daily-flights-.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/dailyFlights.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: Rplots.pdf"
+        }
+      ],
       "id": "model-building-model-building-model-building-what-affects-the-number-of-daily-flights-",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2286,8 +3363,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/model-building-model-building-model-building-learning-more-about-models.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "model-building-model-building-model-building-learning-more-about-models",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2298,8 +3381,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/model-many-many-models-model-many-introduction.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "model-many-many-models-model-many-introduction",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2310,8 +3399,29 @@
     {
       "chapter": false,
       "content-file": ".guides/content/model-many-many-models-model-many-gapminder.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/gapminder.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: Rplots.pdf"
+        }
+      ],
       "id": "model-many-many-models-model-many-gapminder",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2322,8 +3432,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/model-many-many-models-model-many-list-columns.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/listCols.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "model-many-many-models-model-many-list-columns",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2334,8 +3460,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/model-many-many-models-model-many-creating-list-columns.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/listCols.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        }
+      ],
       "id": "model-many-many-models-model-many-creating-list-columns",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2346,8 +3488,29 @@
     {
       "chapter": false,
       "content-file": ".guides/content/model-many-many-models-model-many-simplifying-list-columns.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/listCols.r"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: Rplots.pdf"
+        }
+      ],
       "id": "model-many-many-models-model-many-simplifying-list-columns",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2358,8 +3521,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/model-many-many-models-model-many-making-tidy-data-with-broom.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "model-many-many-models-model-many-making-tidy-data-with-broom",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2370,8 +3539,14 @@
     {
       "chapter": true,
       "content-file": ".guides/content/communicate-introduction.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "communicate-introduction",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2382,8 +3557,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/rmarkdown-r-markdown-rmarkdown-introduction.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "rmarkdown-r-markdown-rmarkdown-introduction",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2394,8 +3575,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/rmarkdown-r-markdown-rmarkdown-r-markdown-basics.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "#terminal: sudo service rstudio-server-codio start"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: https://{{domain8787}}/"
+        }
+      ],
       "id": "rmarkdown-r-markdown-rmarkdown-r-markdown-basics",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2406,8 +3603,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/rmarkdown-1st-level-header-rmarkdown-2nd-level-header.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "#terminal: sudo service rstudio-server-codio start"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: https://{{domain8787}}/"
+        }
+      ],
       "id": "rmarkdown-1st-level-header-rmarkdown-2nd-level-header",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2418,8 +3631,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/rmarkdown-1st-level-header-rmarkdown-troubleshooting.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "#terminal: sudo service rstudio-server-codio start"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: https://{{domain8787}}/"
+        }
+      ],
       "id": "rmarkdown-1st-level-header-rmarkdown-troubleshooting",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2430,8 +3659,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/rmarkdown-1st-level-header-rmarkdown-yaml-header.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "#terminal: sudo service rstudio-server-codio start"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: https://{{domain8787}}/"
+        }
+      ],
       "id": "rmarkdown-1st-level-header-rmarkdown-yaml-header",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2442,8 +3687,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/rmarkdown-1st-level-header-rmarkdown-learning-more.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "#terminal: sudo service rstudio-server-codio start"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: https://{{domain8787}}/"
+        }
+      ],
       "id": "rmarkdown-1st-level-header-rmarkdown-learning-more",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2454,8 +3715,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/communicate-plots-graphics-for-communication-communicate-plots-introduction.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "communicate-plots-graphics-for-communication-communicate-plots-introduction",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2466,8 +3733,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/communicate-plots-graphics-for-communication-communicate-plots-label.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "#terminal: sudo service rstudio-server-codio start"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: https://{{domain8787}}/"
+        }
+      ],
       "id": "communicate-plots-graphics-for-communication-communicate-plots-label",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2478,8 +3761,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/communicate-plots-graphics-for-communication-communicate-plots-annotations.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "#terminal: sudo service rstudio-server-codio start"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: https://{{domain8787}}/"
+        }
+      ],
       "id": "communicate-plots-graphics-for-communication-communicate-plots-annotations",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2490,8 +3789,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/communicate-plots-graphics-for-communication-communicate-plots-scales.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "#terminal: sudo service rstudio-server-codio start"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: https://{{domain8787}}/"
+        }
+      ],
       "id": "communicate-plots-graphics-for-communication-communicate-plots-scales",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2502,8 +3817,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/communicate-plots-graphics-for-communication-communicate-plots-zooming.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "#terminal: sudo service rstudio-server-codio start"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: https://{{domain8787}}/"
+        }
+      ],
       "id": "communicate-plots-graphics-for-communication-communicate-plots-zooming",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2514,8 +3845,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/communicate-plots-graphics-for-communication-communicate-plots-themes.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "#terminal: sudo service rstudio-server-codio start"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: https://{{domain8787}}/"
+        }
+      ],
       "id": "communicate-plots-graphics-for-communication-communicate-plots-themes",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2526,8 +3873,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/communicate-plots-graphics-for-communication-communicate-plots-saving-your-plots.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "#terminal: sudo service rstudio-server-codio start"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: https://{{domain8787}}/"
+        }
+      ],
       "id": "communicate-plots-graphics-for-communication-communicate-plots-saving-your-plots",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2538,8 +3901,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/communicate-plots-graphics-for-communication-communicate-plots-learning-more.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "#terminal: sudo service rstudio-server-codio start"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: https://{{domain8787}}/"
+        }
+      ],
       "id": "communicate-plots-graphics-for-communication-communicate-plots-learning-more",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2550,8 +3929,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/rmarkdown-formats-r-markdown-formats-rmarkdown-formats-introduction.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "rmarkdown-formats-r-markdown-formats-rmarkdown-formats-introduction",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2562,8 +3947,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/rmarkdown-formats-r-markdown-formats-rmarkdown-formats-output-options.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "#terminal: sudo service rstudio-server-codio start"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: https://{{domain8787}}/"
+        }
+      ],
       "id": "rmarkdown-formats-r-markdown-formats-rmarkdown-formats-output-options",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2574,8 +3975,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/rmarkdown-formats-r-markdown-formats-rmarkdown-formats-documents.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "#terminal: sudo service rstudio-server-codio start"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: https://{{domain8787}}/"
+        }
+      ],
       "id": "rmarkdown-formats-r-markdown-formats-rmarkdown-formats-documents",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2586,8 +4003,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/rmarkdown-formats-r-markdown-formats-rmarkdown-formats-notebooks.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "#terminal: sudo service rstudio-server-codio start"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: https://{{domain8787}}/"
+        }
+      ],
       "id": "rmarkdown-formats-r-markdown-formats-rmarkdown-formats-notebooks",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2598,8 +4031,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/rmarkdown-formats-r-markdown-formats-rmarkdown-formats-presentations.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "#terminal: sudo service rstudio-server-codio start"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: https://{{domain8787}}/"
+        }
+      ],
       "id": "rmarkdown-formats-r-markdown-formats-rmarkdown-formats-presentations",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2610,8 +4059,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/rmarkdown-formats-r-markdown-formats-rmarkdown-formats-dashboards.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "#terminal: sudo service rstudio-server-codio start"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: https://{{domain8787}}/"
+        }
+      ],
       "id": "rmarkdown-formats-r-markdown-formats-rmarkdown-formats-dashboards",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2622,8 +4087,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/rmarkdown-formats-r-markdown-formats-rmarkdown-formats-interactivity.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "#terminal: sudo service rstudio-server-codio start"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: https://{{domain8787}}/"
+        }
+      ],
       "id": "rmarkdown-formats-r-markdown-formats-rmarkdown-formats-interactivity",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2634,8 +4115,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/rmarkdown-formats-r-markdown-formats-rmarkdown-formats-websites.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "#terminal: sudo service rstudio-server-codio start"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: https://{{domain8787}}/"
+        }
+      ],
       "id": "rmarkdown-formats-r-markdown-formats-rmarkdown-formats-websites",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2646,8 +4143,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/rmarkdown-formats-r-markdown-formats-rmarkdown-formats-other-formats.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "#terminal: sudo service rstudio-server-codio start"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: https://{{domain8787}}/"
+        }
+      ],
       "id": "rmarkdown-formats-r-markdown-formats-rmarkdown-formats-other-formats",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2658,8 +4171,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/rmarkdown-formats-r-markdown-formats-rmarkdown-formats-learning-more.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "#terminal: sudo service rstudio-server-codio start"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: https://{{domain8787}}/"
+        }
+      ],
       "id": "rmarkdown-formats-r-markdown-formats-rmarkdown-formats-learning-more",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2670,8 +4199,14 @@
     {
       "chapter": true,
       "content-file": ".guides/content/rmarkdown-workflow-r-markdown-workflow.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "rmarkdown-workflow-r-markdown-workflow",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],

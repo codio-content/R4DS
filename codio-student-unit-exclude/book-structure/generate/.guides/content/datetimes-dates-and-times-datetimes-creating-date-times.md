@@ -23,6 +23,8 @@ today()
 now()
 #> [1] "2019-04-10 14:03:37 MSK"
 ```
+{Run code | terminal}(Rscript code/dateTime.r)              
+
 
 Otherwise, there are three ways you're likely to create a date/time:
 
@@ -53,6 +55,8 @@ These functions also take unquoted numbers. This is the most concise way to crea
 ymd(20170131)
 #> [1] "2017-01-31"
 ```
+{Run code | terminal}(Rscript code/dateTime.r)              
+
 
 `ymd()` and friends create dates. To create a date-time, add an underscore and one or more of "h", "m", and "s" to the name of the parsing function:
 
@@ -91,6 +95,8 @@ flights %>%
 #> 6  2013     1     1     5     58
 #> # ... with 3.368e+05 more rows
 ```
+{Run code | terminal}(Rscript code/dateTime.r)              
+
 
 To create a date/time from this sort of input, use `make_date()` for dates, or `make_datetime()` for date-times:
 
@@ -151,6 +157,10 @@ flights_dt %>%
   ggplot(aes(dep_time)) + 
   geom_freqpoly(binwidth = 86400) # 86400 seconds = 1 day
 ```
+{Run code | terminal}(Rscript code/dateTime.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 
@@ -187,6 +197,8 @@ as_datetime(today())
 as_date(now())
 #> [1] "2019-04-10"
 ```
+{Run code | terminal}(Rscript code/dateTime.r)              
+
 
 Sometimes you'll get date/times as numeric offsets from the "Unix Epoch", 1970-01-01. If the offset is in seconds, use `as_datetime()`; if it's in days, use `as_date()`.
 

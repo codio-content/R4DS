@@ -51,6 +51,8 @@ table4b  # population
 #> 2 Brazil       172006362  174504898
 #> 3 China       1272915272 1280428583
 ```
+{Run code | terminal}(Rscript code/tidyD.r)
+
 
 These are all representations of the same underlying data, but they are not equally easy to use. One dataset, the tidy dataset, will be much easier to work with inside the tidyverse. 
 
@@ -117,6 +119,10 @@ ggplot(table1, aes(year, cases)) +
   geom_line(aes(group = country), colour = "grey50") + 
   geom_point(aes(colour = country))
 ```
+{Run code | terminal}(Rscript code/tidyD.r)
+
+[Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 

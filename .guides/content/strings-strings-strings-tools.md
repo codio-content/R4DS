@@ -113,6 +113,8 @@ x <- c("apple", "banana", "pear")
 str_detect(x, "e")
 #> [1]  TRUE FALSE  TRUE
 ```
+{Run code | terminal}(Rscript code/strTools.r)
+
 
 Remember that when you use a logical vector in a numeric context, `FALSE` becomes 0 and `TRUE` becomes 1. That makes `sum()` and `mean()` useful if you want to answer questions about matches across a larger vector:
 
@@ -149,6 +151,8 @@ words[str_detect(words, "x$")]
 str_subset(words, "x$")
 #> [1] "box" "sex" "six" "tax"
 ```
+{Run code | terminal}(Rscript code/strTools.r)
+
 
 Typically, however, your strings will be one column of a data frame, and you'll want to use filter instead:
 
@@ -203,6 +207,8 @@ df %>%
 #> 6 account      6      3          4
 #> # ... with 974 more rows
 ```
+{Run code | terminal}(Rscript code/strTools.r)
+
 
 Note that matches never overlap. For example, in `"abababa"`, how many times will the pattern `"aba"` match? Regular expressions say two, not three:
 
@@ -254,6 +260,8 @@ head(sentences)
 #> [5] "Rice is often served in round bowls."       
 #> [6] "The juice of lemons makes fine punch."
 ```
+{Run code | terminal}(Rscript code/strTools.r)
+
 
 Imagine we want to find all sentences that contain a colour. We first create a vector of colour names, and then turn it into a single regular expression:
 
@@ -296,6 +304,8 @@ str_view_all(more, colour_match)
 str_extract(more, colour_match)
 #> [1] "blue"   "green"  "orange"
 ```
+{Run code | terminal}(Rscript code/strTools.r)
+
 
 This is a common pattern for stringr functions, because working with a single match allows you to use much simpler data structures. To get all matches, use `str_extract_all()`. It returns a list:
 
@@ -331,6 +341,8 @@ str_extract_all(x, "[a-z]", simplify = TRUE)
 #> [2,] "a"  "b"  ""  
 #> [3,] "a"  "b"  "c"
 ```
+{Run code | terminal}(Rscript code/strTools.r)
+
 
 #### Exercises
 
@@ -379,6 +391,8 @@ has_noun %>%
 #>  [9,] "the woman"  "the" "woman"  
 #> [10,] "a helps"    "a"   "helps"
 ```
+{Run code | terminal}(Rscript code/strTools.r)
+
 
 (Unsurprisingly, our heuristic for detecting nouns is poor, and also picks up adjectives like smooth and parked.)
 
@@ -425,6 +439,8 @@ str_replace(x, "[aeiou]", "-")
 str_replace_all(x, "[aeiou]", "-")
 #> [1] "-ppl-"  "p--r"   "b-n-n-"
 ```
+{Run code | terminal}(Rscript code/strTools.r)
+
 
 With `str_replace_all()` you can perform multiple replacements by supplying a named vector:
 
@@ -485,6 +501,8 @@ sentences %>%
 #> [[5]]
 #> [1] "Rice"   "is"     "often"  "served" "in"     "round"  "bowls."
 ```
+{Run code | terminal}(Rscript code/strTools.r)
+
 
 Because each component might contain a different number of pieces, this returns a list. If you're working with a length-1 vector, the easiest thing is to just extract the first element of the list:
 
@@ -516,6 +534,8 @@ sentences %>%
 #> [4,] "rare"        "dish."
 #> [5,] ""            ""
 ```
+{Run code | terminal}(Rscript code/strTools.r)
+
 
 You can also request a maximum number of pieces:
 
@@ -554,6 +574,8 @@ str_split(x, boundary("word"))[[1]]
 #> [1] "This"     "is"       "a"        "sentence" "This"     "is"      
 #> [7] "another"  "sentence"
 ```
+{Run code | terminal}(Rscript code/strTools.r)
+
 
 #### Exercises
 

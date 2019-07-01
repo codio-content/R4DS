@@ -33,6 +33,8 @@ weather %>%
 #> 2  2013    11     3     1 JFK        2
 #> 3  2013    11     3     1 LGA        2
 ```
+{Run code | terminal}(Rscript code/nycFlights.r)
+
 
 Sometimes a table doesn't have an explicit primary key: each row is an observation, but no combination of variables reliably identifies it. For example, what's the primary key in the `flights` table? You might think it would be the date plus the flight or tail number, but neither of those are unique:
 
@@ -66,6 +68,8 @@ flights %>%
 #> 6  2013     1     1 N12540      2
 #> # ... with 6.492e+04 more rows
 ```
+{Run code | terminal}(Rscript code/nycFlights.r)
+
 
 When starting to work with this data, I had naively assumed that each flight number would be only used once per day: that would make it much easier to communicate problems with a specific flight. Unfortunately that is not the case! If a table lacks a primary key, it's sometimes useful to add one with `mutate()` and `row_number()`. That makes it easier to match observations if you've done some filtering and want to check back in with the original data. This is called a __surrogate key__.
 

@@ -14,6 +14,8 @@ The most important arguments are `x` (the data frame to save), and `path` (the l
 ```r
 write_csv(challenge, "challenge.csv")
 ```
+{Run code | terminal}(Rscript code/writeF.r)
+
 
 Note that the type information is lost when you save to csv:
 
@@ -48,6 +50,8 @@ read_csv("challenge-2.csv")
 #> 6  2332 NA   
 #> # ... with 1,994 more rows
 ```
+{Run code | terminal}(Rscript code/writeF.r)
+
 
 This makes CSVs a little unreliable for caching interim results---you need to recreate the column specification every time you load in. There are two alternatives:
 
@@ -90,6 +94,8 @@ This makes CSVs a little unreliable for caching interim results---you need to re
     #> 6  2332   <NA>
     #> # ... with 1,994 more rows
 ```
+{Run code | terminal}(Rscript code/writeF.r)
+
 
 Feather tends to be faster than RDS and is usable outside of R. RDS supports list-columns (which you'll learn about in [many models]); feather currently does not.
 

@@ -27,6 +27,10 @@ gapminder %>%
   ggplot(aes(year, lifeExp, group = country)) +
     geom_line(alpha = 1/3)
 ```
+{Run code | terminal}(Rscript code/gapminder.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 
@@ -62,6 +66,10 @@ nz %>%
   geom_line() + 
   ggtitle("Remaining pattern")
 ```
+{Run code | terminal}(Rscript code/gapminder.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 ![Figure 30.6](model-many_files/figure-latex/unnamed-chunk-4-1.jpg)
@@ -123,6 +131,8 @@ by_country$data[[1]]
 #> 6  1977    38.4 14880372      786.
 #> # ... with 6 more rows
 ```
+{Run code | terminal}(Rscript code/gapminder.r)              
+
 
 Note the difference between a standard grouped data frame and a nested data frame: in a grouped data frame, each row is an observation; in a nested data frame, each row is a group. Another way to think about a nested dataset is we now have a meta-observation: a row that represents the complete time course for a country, rather than a single point in time.
 
@@ -164,6 +174,8 @@ by_country
 #> 6 Australia   Oceania   <tibble [12 x 4]> <S3: lm>
 #> # ... with 136 more rows
 ```
+{Run code | terminal}(Rscript code/gapminder.r)              
+
 
 This has a big advantage: because all the related objects are stored together, you don't need to manually keep them in sync when you filter or arrange. The semantics of the data frame takes care of that for you:
 
@@ -219,6 +231,8 @@ by_country
 #> 6 Australia   Oceania   <tibble [12 x 4]> <S3: lm> <tibble [12 x 5]>
 #> # ... with 136 more rows
 ```
+{Run code | terminal}(Rscript code/gapminder.r)              
+
 
 But how you can plot a list of data frames? Instead of struggling to answer that question, let's turn the list of data frames back into a regular data frame. Previously we used `nest()` to turn a regular data frame into an nested data frame, and now we do the opposite with `unnest()`:
 
@@ -250,6 +264,10 @@ resids %>%
     geom_smooth(se = FALSE)
 #> `geom_smooth()` using method = 'gam' and formula 'y ~ s(x, bs = "cs")'
 ```
+{Run code | terminal}(Rscript code/gapminder.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 
@@ -288,6 +306,8 @@ broom::glance(nz_mod)
 #> 1     0.954         0.949 0.804      205. 5.41e-8     2  -13.3  32.6  34.1
 #> # ... with 2 more variables: deviance <dbl>, df.residual <int>
 ```
+{Run code | terminal}(Rscript code/gapminder.r)              
+
 
 We can use `mutate()` and `unnest()` to create a data frame with a row for each country:
 
@@ -330,6 +350,8 @@ glance
 #> # ... with 136 more rows, and 5 more variables: logLik <dbl>, AIC <dbl>,
 #> #   BIC <dbl>, deviance <dbl>, df.residual <int>
 ```
+{Run code | terminal}(Rscript code/gapminder.r)              
+
 
 (Pay attention to the variables that aren't printed: there's a lot of useful stuff there.)
 
@@ -360,6 +382,10 @@ glance %>%
   ggplot(aes(continent, r.squared)) + 
     geom_jitter(width = 0.5)
 ```
+{Run code | terminal}(Rscript code/gapminder.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 

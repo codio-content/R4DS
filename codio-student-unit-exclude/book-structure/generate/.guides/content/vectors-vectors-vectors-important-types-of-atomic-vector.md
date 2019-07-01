@@ -13,6 +13,8 @@ Logical vectors are the simplest type of atomic vector because they can take onl
 c(TRUE, TRUE, FALSE, NA)
 #> [1]  TRUE  TRUE FALSE    NA
 ```
+{Run code | terminal}(Rscript code/vector.r)              
+
 
 ### Numeric
 
@@ -57,6 +59,8 @@ The distinction between integers and doubles is not usually important, but there
     c(-1, 0, 1) / 0
     #> [1] -Inf  NaN  Inf
 ```
+{Run code | terminal}(Rscript code/vector.r)              
+
 
     Avoid using `==` to check for these other special values. Instead use the 
     helper functions `is.finite()`, `is.infinite()`, and `is.nan()`:
@@ -102,6 +106,8 @@ NA_real_      # double
 NA_character_ # character
 #> [1] NA
 ```
+{Run code | terminal}(Rscript code/vector.r)              
+
 
 Normally you don't need to know about these different types because you can always use `NA` and it will be converted to the correct type using the implicit coercion rules described next. However, there are some functions that are strict about their inputs, so it's useful to have this knowledge sitting in your back pocket so you can be specific when needed.
 

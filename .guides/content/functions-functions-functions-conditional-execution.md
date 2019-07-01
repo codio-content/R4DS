@@ -25,6 +25,8 @@ has_name <- function(x) {
   }
 }
 ```
+{Run code | terminal}(Rscript code/condExec.r)              
+
 
 This function takes advantage of the standard return rule: a function returns the last value that it computed. Here that is either one of the two branches of the `if` statement.
 
@@ -65,6 +67,8 @@ x == 2
 x - 2
 #> [1] 4.44e-16
 ```
+{Run code | terminal}(Rscript code/condExec.r)              
+
 
 Instead use `dplyr::near()` for comparisons, as described in [comparisons].
 
@@ -99,6 +103,8 @@ But if you end up with a very long series of chained `if` statements, you should
 #>   )
 #> }
 ```
+{Run code | terminal}(Rscript code/condExec.r)              
+
 
 Another useful function that can often eliminate long chains of `if` statements is `cut()`. It's used to discretise continuous variables.
 
@@ -151,6 +157,8 @@ if (y < 20) {
   x <- "Too high"
 }
 ```
+{Run code | terminal}(Rscript code/condExec.r)              
+
 
 ### Exercises
 

@@ -12,6 +12,8 @@ The simplest patterns match exact strings:
 x <- c("apple", "banana", "pear")
 str_view(x, "an")
 ```
+{Run code | terminal}(Rscript code/regEx.r)
+
 
 
 
@@ -70,6 +72,8 @@ writeLines(x)
 str_view(x, "\\\\")
 ```
 
+{Run code | terminal}(Rscript code/regEx.r)
+
 
 
 \begin{center}![Figure 17.4](strings_files/figure-latex/unnamed-chunk-23-1.jpg)
@@ -101,6 +105,8 @@ By default, regular expressions will match any part of a string. It's often usef
 x <- c("apple", "banana", "pear")
 str_view(x, "^a")
 ```
+{Run code | terminal}(Rscript code/regEx.r)
+
 
 
 
@@ -141,6 +147,8 @@ str_view(x, "apple")
 ```r
 str_view(x, "^apple$")
 ```
+{Run code | terminal}(Rscript code/regEx.r)
+
 
 ![Figure 17.8](strings_files/figure-latex/unnamed-chunk-25-2.jpg)
 
@@ -183,6 +191,8 @@ A character class containing a single character is a nice alternative to backsla
 # Look for a literal character that normally has special meaning in a regex
 str_view(c("abc", "a.c", "a*c", "a c"), "a[.]c")
 ```
+{Run code | terminal}(Rscript code/regEx.r)
+
 
 
 
@@ -220,6 +230,8 @@ You can use _alternation_ to pick between one or more alternative patterns. For 
 ```r
 str_view(c("grey", "gray"), "gr(e|a)y")
 ```
+{Run code | terminal}(Rscript code/regEx.r)
+
 
 
 
@@ -265,6 +277,8 @@ The next step up in power involves controlling how many times a pattern matches:
 x <- "1888 is the longest year in Roman numerals: MDCCCLXXXVIII"
 str_view(x, "CC?")
 ```
+{Run code | terminal}(Rscript code/regEx.r)
+
 
 
 
@@ -329,6 +343,8 @@ str_view(x, "C{2,}")
 ```r
 str_view(x, "C{2,3}")
 ```
+{Run code | terminal}(Rscript code/regEx.r)
+
 
 ![Figure 17.18](strings_files/figure-latex/unnamed-chunk-29-3.jpg)
 
@@ -391,6 +407,8 @@ Earlier, you learned about parentheses as a way to disambiguate complex expressi
 ```r
 str_view(fruit, "(..)\\1", match = TRUE)
 ```
+{Run code | terminal}(Rscript code/regEx.r)
+
 
 
 

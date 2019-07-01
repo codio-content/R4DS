@@ -9,6 +9,8 @@ data.frame(x = list(1:3, 3:5))
 #> 2     2     4
 #> 3     3     5
 ```
+{Run code | terminal}(Rscript code/listCols.r)              
+
 
 You can prevent `data.frame()` from doing this with `I()`, but the result doesn't print particularly well:
 
@@ -53,6 +55,8 @@ tribble(
 #> 1 <int [3]> 1, 2   
 #> 2 <int [3]> 3, 4, 5
 ```
+{Run code | terminal}(Rscript code/listCols.r)              
+
 
 List-columns are often most useful as intermediate data structure. They're hard to work with directly, because most R functions work with atomic vectors or data frames, but the advantage of keeping related items together in a data frame is worth a little hassle.
 

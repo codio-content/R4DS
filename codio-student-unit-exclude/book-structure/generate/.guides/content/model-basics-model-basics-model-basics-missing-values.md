@@ -15,6 +15,8 @@ df <- tribble(
 mod <- lm(y ~ x, data = df)
 #> Warning: Dropping 2 rows with missing values
 ```
+{Run code | terminal}(Rscript code/modelVals.r)              
+
 
 To suppress the warning, set `na.action = na.exclude`:
 

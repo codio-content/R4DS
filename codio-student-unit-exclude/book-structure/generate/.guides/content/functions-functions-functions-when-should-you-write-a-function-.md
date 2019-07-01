@@ -19,6 +19,8 @@ df$c <- (df$c - min(df$c, na.rm = TRUE)) /
 df$d <- (df$d - min(df$d, na.rm = TRUE)) / 
   (max(df$d, na.rm = TRUE) - min(df$d, na.rm = TRUE))
 ```
+{Run code | terminal}(Rscript code/functions.r)              
+
 
 You might be able to puzzle out that this rescales each column to have a range from 0 to 1. But did you spot the mistake? I made an error when copying-and-pasting the code for `df$b`: I forgot to change an `a` to a `b`. Extracting repeated code out into a function is a good idea because it prevents you from making this type of mistake.
 
@@ -59,6 +61,8 @@ rescale01 <- function(x) {
 rescale01(c(0, 5, 10))
 #> [1] 0.0 0.5 1.0
 ```
+{Run code | terminal}(Rscript code/functions.r)              
+
 
 There are three key steps to creating a new function:
 
@@ -106,6 +110,8 @@ x <- c(1:10, Inf)
 rescale01(x)
 #>  [1]   0   0   0   0   0   0   0   0   0   0 NaN
 ```
+{Run code | terminal}(Rscript code/functions.r)              
+
 
 Because we've extracted the code into a function, we only need to make the fix in one place:
 
@@ -142,6 +148,8 @@ This is an important part of the "do not repeat yourself" (or DRY) principle. Th
     
     sd(x, na.rm = TRUE) / mean(x, na.rm = TRUE)
 ```
+{Run code | terminal}(Rscript code/functions.r)              
+
 
 1.  Follow <http://nicercode.github.io/intro/writing-functions.html> to 
     write your own functions to compute the variance and skew of a numeric 

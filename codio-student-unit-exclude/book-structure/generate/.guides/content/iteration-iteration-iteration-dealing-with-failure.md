@@ -27,6 +27,8 @@ str(safe_log("a"))
 #>   ..$ call   : language .Primitive("log")(x, base)
 #>   ..- attr(*, "class")= chr [1:3] "simpleError" "error" "condition"
 ```
+{Run code | terminal}(Rscript code/fail.r)              
+
 
 When the function succeeds, the `result` element contains the result and the `error` element is `NULL`. When the function fails, the `result` element is `NULL` and the `error` element contains an error object.
 
@@ -71,6 +73,8 @@ str(y)
 #>   .. ..$ call   : language .Primitive("log")(x, base)
 #>   .. ..- attr(*, "class")= chr [1:3] "simpleError" "error" "condition"
 ```
+{Run code | terminal}(Rscript code/fail.r)              
+
 
 It's up to you how to deal with the errors, but typically you'll either look at the values of `x` where `y` is an error, or work with the values of `y` that are ok:
 
@@ -115,3 +119,5 @@ Purrr provides two other useful adverbs:
     #>   ..$ warnings: chr "NaNs produced"
     #>   ..$ messages: chr(0)
 ```
+{Run code | terminal}(Rscript code/fail.r)              
+

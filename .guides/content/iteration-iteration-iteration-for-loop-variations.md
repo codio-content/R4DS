@@ -30,6 +30,8 @@ df$b <- rescale01(df$b)
 df$c <- rescale01(df$c)
 df$d <- rescale01(df$d)
 ```
+{Run code | terminal}(Rscript code/for.r)              
+
 
 To solve this with a for loop we again think about the three components:
 
@@ -79,6 +81,8 @@ for (i in seq_along(x)) {
   value <- x[[i]]
 }
 ```
+{Run code | terminal}(Rscript code/for.r)              
+
 
 ### Unknown output length
 
@@ -116,6 +120,8 @@ str(out)
 str(unlist(out))
 #>  num [1:144] 0.367 1.13 -0.941 0.218 1.415 ...
 ```
+{Run code | terminal}(Rscript code/for.r)              
+
 
 Here I've used `unlist()` to flatten a list of vectors into a single vector. A stricter option is to use `purrr::flatten_dbl()` --- it will throw an error if the input isn't a list of doubles.
 
@@ -180,6 +186,8 @@ while (nheads < 3) {
 flips
 #> [1] 3
 ```
+{Run code | terminal}(Rscript code/for.r)              
+
 
 I mention while loops only briefly, because I hardly ever use them. They're most often used for simulation, which is outside the scope of this book. However, it is good to know they exist so that you're prepared for problems where the number of iterations is not known in advance.
 

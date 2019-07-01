@@ -23,6 +23,8 @@ top_dest
 #> 6 CLT   14064
 #> # ... with 4 more rows
 ```
+{Run code | terminal}(Rscript code/filterJoins.r)
+
 
 Now you want to find each flight that went to one of those destinations. You could construct a filter yourself:
 
@@ -68,6 +70,8 @@ flights %>%
 #> #   tailnum <chr>, origin <chr>, dest <chr>, air_time <dbl>,
 #> #   distance <dbl>, hour <dbl>, minute <dbl>, time_hour <dttm>
 ```
+{Run code | terminal}(Rscript code/filterJoins.r)
+
 
 Graphically, a semi-join looks like this:
 
@@ -108,6 +112,8 @@ flights %>%
 #> 6 N735MQ    396
 #> # ... with 716 more rows
 ```
+{Run code | terminal}(Rscript code/filterJoins.r)
+
 
 ### Exercises
 

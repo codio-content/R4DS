@@ -12,6 +12,8 @@ You can find out what R thinks your current time zone is with `Sys.timezone()`:
 Sys.timezone()
 #> [1] "Europe/Moscow"
 ```
+{Run code | terminal}(Rscript code/timeZones.r)              
+
 
 (If R doesn't know, you'll get an `NA`.)
 
@@ -57,6 +59,8 @@ x4
 #> [1] "2015-06-01 12:00:00 EDT" "2015-06-01 12:00:00 EDT"
 #> [3] "2015-06-01 12:00:00 EDT"
 ```
+{Run code | terminal}(Rscript code/timeZones.r)              
+
 
 You can change the time zone in two ways:
 
@@ -92,3 +96,4 @@ You can change the time zone in two ways:
     #> Time differences in hours
     #> [1] -14.5 -14.5 -14.5
 ```
+{Run code | terminal}(Rscript code/timeZones.r)              

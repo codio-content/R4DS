@@ -2,6 +2,7 @@
 # for graphical output press the "Refresh Plot" link
  
 library(tidyverse)
+
 stocks <- tibble(
   year   = c(2015, 2015, 2015, 2015, 2016, 2016, 2016),
   qtr    = c(   1,    2,    3,    4,    2,    3,    4),

@@ -18,6 +18,8 @@ We will use the nycflights13 package to learn about relational data. nycflights1
     #> 6 EV      ExpressJet Airlines Inc.
     #> # ... with 10 more rows
 ```
+{Run code | terminal}(Rscript code/nycFlights.r)
+
 
 *   `airports` gives information about each airport, identified by the `faa`
     airport code:
@@ -71,6 +73,8 @@ We will use the nycflights13 package to learn about relational data. nycflights1
     #> # ... with 2.611e+04 more rows, and 5 more variables: wind_gust <dbl>,
     #> #   precip <dbl>, pressure <dbl>, visib <dbl>, time_hour <dttm>
 ```
+{Run code | terminal}(Rscript code/nycFlights.r)
+
 
 One way to show the relationships between the different tables is with a drawing:
 

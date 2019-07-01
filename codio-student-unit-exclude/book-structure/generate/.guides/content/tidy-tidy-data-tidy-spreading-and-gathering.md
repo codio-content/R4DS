@@ -30,6 +30,8 @@ table4a
 #> 2 Brazil       37737  80488
 #> 3 China       212258 213766
 ```
+{Run code | terminal}(Rscript code/sg.r)
+
 
 To tidy a dataset like this, we need to __gather__ those columns into a new pair of variables. To describe that operation we need three parameters:
 
@@ -81,6 +83,8 @@ table4b %>%
 #> 5 Brazil      2000   174504898
 #> 6 China       2000  1280428583
 ```
+{Run code | terminal}(Rscript code/sg.r)
+
 
 To combine the tidied versions of `table4a` and `table4b` into a single tibble, we need to use `dplyr::left_join()`, which you'll learn about in [relational data].
 
@@ -121,6 +125,8 @@ table2
 #> 6 Brazil       1999 population 172006362
 #> # ... with 6 more rows
 ```
+{Run code | terminal}(Rscript code/sg.r)
+
 
 To tidy this up, we first analyse the representation in similar way to `gather()`. This time, however, we only need two parameters:
 
@@ -169,6 +175,8 @@ As you might have guessed from the common `key` and `value` arguments, `spread()
       spread(year, return) %>% 
       gather("year", "return", `2015`:`2016`)
 ```
+{Run code | terminal}(Rscript code/sg.r)
+
     
     (Hint: look at the variable types and think about column _names_.)
     

@@ -18,6 +18,8 @@ The data you've been working with in this chapter has been cleaned up so that yo
     #> # A tibble: 0 x 3
     #> # ... with 3 variables: alt <int>, lon <dbl>, n <int>
 ```
+{Run code | terminal}(Rscript code/joinProbs.r)
+
 
 1.  Check that none of the variables in the primary key are missing. If
     a value is missing then it can't identify an observation!

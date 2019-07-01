@@ -20,6 +20,8 @@ df2 <- tribble(
    1,  2
 )
 ```
+{Run code | terminal}(Rscript code/setOps.r)
+
 
 The four possibilities are:
 

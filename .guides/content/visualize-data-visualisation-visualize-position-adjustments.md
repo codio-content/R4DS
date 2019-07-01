@@ -63,7 +63,7 @@ The stacking is performed automatically by the __position adjustment__ specified
 
     
     
-    ![Figure 5.8](visualize_files/figure-latex/unnamed-chunk-39-1.jpg)
+ ![Figure 5.8](visualize_files/figure-latex/unnamed-chunk-39-1.jpg)
 
 **Figure 5.8**
 

@@ -72,7 +72,7 @@ Another alternative to display the distribution of a continuous variable broken 
   farthest non-outlier point in the distribution.
 
 
-![Figure 9.4](images/EDA-boxplot.jpg)
+![Figure 9.4](images/EDA-boxplot.png)
 
 **Figure 9.4**
 

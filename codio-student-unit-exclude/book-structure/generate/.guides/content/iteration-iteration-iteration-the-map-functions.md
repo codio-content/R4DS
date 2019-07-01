@@ -27,6 +27,8 @@ map_dbl(df, sd)
 #>     a     b     c     d 
 #> 0.796 0.759 1.164 1.062
 ```
+{Run code | terminal}(Rscript code/map.r)              
+
 
 Compared to using a for loop, focus is on the operation being performed (i.e. `mean()`, `median()`, `sd()`), not the bookkeeping required to loop over every element and store the output. This is even more apparent if we use the pipe:
 
@@ -82,6 +84,8 @@ models <- mtcars %>%
   split(.$cyl) %>% 
   map(function(df) lm(mpg ~ wt, data = df))
 ```
+{Run code | terminal}(Rscript code/map.r)              
+
 
 The syntax for creating an anonymous function in R is quite verbose so purrr provides a convenient shortcut: a one-sided formula.
 
@@ -160,6 +164,8 @@ If you're familiar with the apply family of functions in base R, you might have 
     x2 %>% sapply(threshold) %>% str()
     #>  num [1:3] 0.99 0.93 0.87
 ```
+{Run code | terminal}(Rscript code/map.r)              
+
 
 *   `vapply()` is a safe alternative to `sapply()` because you supply an
     additional argument that defines the type. The only problem with 

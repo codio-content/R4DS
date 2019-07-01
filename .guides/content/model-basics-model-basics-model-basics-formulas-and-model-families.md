@@ -17,6 +17,8 @@ model_matrix(df, y ~ x1)
 #> 1             1     2
 #> 2             1     1
 ```
+{Run code | terminal}(Rscript code/formulas.r)              
+
 
 The way that R adds the intercept to the model is just by having a column that is full of ones.  By default, R will always add this column. If you don't want, you need to explicitly drop it with `-1`:
 
@@ -66,6 +68,8 @@ model_matrix(df, response ~ sex)
 #> 2             1       0
 #> 3             1       1
 ```
+{Run code | terminal}(Rscript code/formulas.r)              
+
 
 You might wonder why R also doesn't create a `sexfemale` column. The problem is that would create a column that is perfectly predictable based on the other columns (i.e. `sexfemale = 1 - sexmale`). Unfortunately the exact details of why this is a problem is beyond the scope of this book, but basically it creates a model family that is too flexible, and will have infinitely many models that are equally close to the data.
 
@@ -76,6 +80,10 @@ Fortunately, however, if you focus on visualising predictions you don't need to 
 ggplot(sim2) + 
   geom_point(aes(x, y))
 ```
+{Run code | terminal}(Rscript code/formulas.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 
@@ -110,6 +118,10 @@ ggplot(sim2, aes(x)) +
   geom_point(aes(y = y)) +
   geom_point(data = grid, aes(y = pred), colour = "red", size = 4)
 ```
+{Run code | terminal}(Rscript code/formulas.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 
@@ -135,6 +147,10 @@ What happens when you combine a continuous and a categorical variable?  `sim3` c
 ggplot(sim3, aes(x1, y)) + 
   geom_point(aes(colour = x2))
 ```
+{Run code | terminal}(Rscript code/formulas.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 
@@ -192,6 +208,10 @@ ggplot(sim3, aes(x1, y, colour = x2)) +
   geom_line(data = grid, aes(y = pred)) + 
   facet_wrap(~ model)
 ```
+{Run code | terminal}(Rscript code/formulas.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 
@@ -212,6 +232,10 @@ ggplot(sim3, aes(x1, resid, colour = x2)) +
   geom_point() + 
   facet_grid(model ~ x2)
 ```
+{Run code | terminal}(Rscript code/formulas.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 
@@ -248,6 +272,8 @@ grid
 #> 6 mod1   -0.5  -1    1.91 
 #> # ... with 44 more rows
 ```
+{Run code | terminal}(Rscript code/formulas.r)              
+
 
 Note my use of `seq_range()` inside `data_grid()`. Instead of using every unique value of `x`, I'm going to use a regularly spaced grid of five values between the minimum and maximum numbers. It's probably not super important here, but it's a useful technique in general. There are two other useful arguments to `seq_range()`:
 
@@ -304,6 +330,10 @@ ggplot(grid, aes(x1, x2)) +
   geom_tile(aes(fill = pred)) + 
   facet_wrap(~ model)
 ```
+{Run code | terminal}(Rscript code/formulas.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 
@@ -322,6 +352,10 @@ ggplot(grid, aes(x2, pred, colour = x1, group = x1)) +
   geom_line() +
   facet_wrap(~ model)
 ```
+{Run code | terminal}(Rscript code/formulas.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 
@@ -365,6 +399,8 @@ model_matrix(df, y ~ I(x^2) + x)
 #> 2             1        4     2
 #> 3             1        9     3
 ```
+{Run code | terminal}(Rscript code/formulas.r)              
+
 
 Transformations are useful because you can use them to approximate non-linear functions. If you've taken a calculus class, you may have heard of Taylor's theorem which says you can approximate any smooth function with an infinite sum of polynomials. That means you can use a polynomial function to get arbitrarily close to a smooth function by fitting an equation like `y = a_1 + a_2 * x + a_3 * x^2 + a_4 * x ^ 3`. Typing that sequence by hand is tedious, so R provides a helper function: `poly()`:
 
@@ -405,6 +441,10 @@ sim5 <- tibble(
 ggplot(sim5, aes(x, y)) +
   geom_point()
 ```
+{Run code | terminal}(Rscript code/formulas.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 
@@ -431,6 +471,10 @@ ggplot(sim5, aes(x, y)) +
   geom_line(data = grid, colour = "red") +
   facet_wrap(~ model)
 ```
+{Run code | terminal}(Rscript code/formulas.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 

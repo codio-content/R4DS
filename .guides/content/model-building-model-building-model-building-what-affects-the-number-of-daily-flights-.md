@@ -22,6 +22,10 @@ daily
 ggplot(daily, aes(date, n)) + 
   geom_line()
 ```
+{Run code | terminal}(Rscript code/dailyFlights.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 
@@ -40,6 +44,10 @@ daily <- daily %>%
 ggplot(daily, aes(wday, n)) + 
   geom_boxplot()
 ```
+{Run code | terminal}(Rscript code/dailyFlights.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 
@@ -63,6 +71,10 @@ ggplot(daily, aes(wday, n)) +
   geom_boxplot() +
   geom_point(data = grid, colour = "red", size = 4)
 ```
+{Run code | terminal}(Rscript code/dailyFlights.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 
@@ -81,6 +93,10 @@ daily %>%
   geom_ref_line(h = 0) + 
   geom_line()
 ```
+{Run code | terminal}(Rscript code/dailyFlights.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 
@@ -147,6 +163,12 @@ Note the change in the y-axis: now we are seeing the deviation from the expected
       geom_smooth(se = FALSE, span = 0.20)
     #> `geom_smooth()` using method = 'loess' and formula 'y ~ x'
 ```
+{Run code | terminal}(Rscript code/dailyFlights.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+ 
+     \begin{center}\includegraphics[width=0.7\linewidth]{model-building_files/figure-latex/unnamed-chunk-20-1} \end{center}
+
     
     
     
@@ -172,6 +194,10 @@ daily %>%
     geom_line() +
     scale_x_date(NULL, date_breaks = "1 month", date_labels = "%b")
 ```
+{Run code | terminal}(Rscript code/dailyFlights.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 
@@ -206,6 +232,10 @@ daily %>%
   geom_line() +
   scale_x_date(NULL, date_breaks = "1 month", date_labels = "%b")
 ```
+{Run code | terminal}(Rscript code/dailyFlights.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 
@@ -242,6 +272,10 @@ daily %>%
   ggplot(aes(date, resid, colour = model)) +
     geom_line(alpha = 0.75)
 ```
+{Run code | terminal}(Rscript code/dailyFlights.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 
@@ -281,6 +315,10 @@ daily %>%
   geom_hline(yintercept = 0, size = 2, colour = "white") + 
   geom_line()
 ```
+{Run code | terminal}(Rscript code/dailyFlights.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 
@@ -305,6 +343,8 @@ compute_vars <- function(data) {
     )
 }
 ```
+{Run code | terminal}(Rscript code/dailyFlights.r)              
+
 
 Another option is to put the transformations directly in the model formula:
 
@@ -332,6 +372,10 @@ daily %>%
     geom_line() +
     geom_point()
 ```
+{Run code | terminal}(Rscript code/dailyFlights.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 

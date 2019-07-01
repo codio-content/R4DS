@@ -11,6 +11,8 @@ There are two useful function in base R that also use regular expressions:
     #> [4] "setReplaceMethod" "str_replace"      "str_replace_all" 
     #> [7] "str_replace_na"   "theme_replace"
 ```
+{Run code | terminal}(Rscript code/otherPatterns.r)
+
     
 *   `dir()` lists all the files in a directory. The `pattern` argument takes
     a regular expression and only returns file names that match the pattern.

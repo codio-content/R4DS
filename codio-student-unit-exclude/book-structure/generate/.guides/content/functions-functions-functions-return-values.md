@@ -19,6 +19,8 @@ complicated_function <- function(x, y, z) {
   # Complicated code here
 }
 ```
+{Run code | terminal}(Rscript code/return.r)              
+
 
 Another reason is because you have a `if` statement with one complex block and one simple block. For example, you might write an if statement like this:
 
@@ -78,6 +80,8 @@ show_missings <- function(df) {
   invisible(df)
 }
 ```
+{Run code | terminal}(Rscript code/return.r)              
+
 
 If we call it interactively, the `invisible()` means that the input `df` doesn't get printed out:
 

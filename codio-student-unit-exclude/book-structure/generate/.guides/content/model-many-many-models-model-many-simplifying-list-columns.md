@@ -33,6 +33,8 @@ df %>% mutate(
 #> 2 <int [3]> integer        3
 #> 3 <dbl [5]> double         5
 ```
+{Run code | terminal}(Rscript code/listCols.r)              
+
 
 This is the same basic information that you get from the default tbl print method, but now you can use it for filtering. This is a useful technique if you have a heterogeneous list, and want to filter out the parts aren't working for you.
 
@@ -72,6 +74,8 @@ tibble(x = 1:2, y = list(1:4, 1)) %>% unnest(y)
 #> 4     1     4
 #> 5     2     1
 ```
+{Run code | terminal}(Rscript code/listCols.r)              
+
 
 This means that you can't simultaneously unnest two columns that contain different number of elements:
 
@@ -113,6 +117,8 @@ df2
 df2 %>% unnest(y, z)
 #> All nested columns must have the same number of elements.
 ```
+{Run code | terminal}(Rscript code/listCols.r)              
+
 
 The same principle applies when unnesting list-columns of data frames. You can unnest multiple list-cols as long as all the data frames in each row have the same number of rows.
 

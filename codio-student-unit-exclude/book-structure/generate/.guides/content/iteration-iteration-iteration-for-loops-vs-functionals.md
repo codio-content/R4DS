@@ -12,6 +12,8 @@ df <- tibble(
   d = rnorm(10)
 )
 ```
+{Run code | terminal}(Rscript code/for.r)              
+
 
 Imagine you want to compute the mean of every column. You could do that with a for loop:
 
@@ -57,6 +59,8 @@ col_sd <- function(df) {
   output
 }
 ```
+{Run code | terminal}(Rscript code/for.r)              
+
 
 Uh oh! You've copied-and-pasted this code twice, so it's time to think about how to generalise it. Notice that most of this code is for-loop boilerplate and it's hard to see the one thing (`mean()`, `median()`, `sd()`) that is different between the functions.
 
@@ -94,6 +98,8 @@ col_summary(df, median)
 col_summary(df, mean)
 #> [1]  0.2026 -0.2068  0.1275 -0.0917
 ```
+{Run code | terminal}(Rscript code/for.r)              
+
 
 The idea of passing a function to another function is extremely powerful idea, and it's one of the behaviours that makes R a functional programming language. It might take you a while to wrap your head around the idea, but it's worth the investment. In the rest of the chapter, you'll learn about and use the __purrr__ package, which provides functions that eliminate the need for many common for loops. The apply family of functions in base R (`apply()`, `lapply()`, `tapply()`, etc) solve a similar problem, but purrr is more consistent and thus is easier to learn.
 

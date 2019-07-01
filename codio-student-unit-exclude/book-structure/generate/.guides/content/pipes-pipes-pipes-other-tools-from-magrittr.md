@@ -24,6 +24,10 @@ All packages in the tidyverse automatically make `%>%` available for you, so you
       str()
     #>  num [1:50, 1:2] -0.387 -0.785 -1.057 -0.796 -1.756 ...
 ```
+{Run code | terminal}(Rscript code/magrittr.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
     
     
     

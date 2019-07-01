@@ -19,6 +19,8 @@ flights2
 #> 6  2013     1     1     5 EWR    ORD   N39463  UA     
 #> # ... with 3.368e+05 more rows
 ```
+{Run code | terminal}(Rscript code/nycFlights.r)
+
 
 (Remember, when you're in RStudio, you can also use `View()` to avoid this problem.)
 
@@ -59,6 +61,8 @@ flights2 %>%
 #> 6  2013     1     1     5 N39463  UA      United Air Lines Inc. 
 #> # ... with 3.368e+05 more rows
 ```
+{Run code | terminal}(Rscript code/nycFlights.r)
+
 
 But this is hard to generalise when you need to match multiple variables, and takes close reading to figure out the overall intent.
 
@@ -87,6 +91,8 @@ y <- tribble(
      4, "y3"
 )
 ```
+{Run code | terminal}(Rscript code/nycFlights.r)
+
 
 The coloured column represents the "key" variable: these are used to match the rows between the tables. The grey column represents the "value" column that is carried along for the ride. In these examples I'll show a single key variable, but the idea generalises in a straightforward way to multiple keys and multiple values.
 
@@ -129,6 +135,8 @@ x %>%
 #> 1     1 x1    y1   
 #> 2     2 x2    y2
 ```
+{Run code | terminal}(Rscript code/nycFlights.r)
+
 
 The most important property of an inner join is that unmatched rows are not included in the result. This means that generally inner joins are usually not appropriate for use in analysis because it's too easy to lose observations.
 
@@ -200,6 +208,8 @@ So far all the diagrams have assumed that the keys are unique. But that's not al
     #> 3     2 x3    y2   
     #> 4     1 x4    y1
 ```
+{Run code | terminal}(Rscript code/nycFlights.r)
+
 
 1.  Both tables have duplicate keys. This is usually an error because in
     neither table do the keys uniquely identify an observation. When you join
@@ -265,6 +275,8 @@ So far, the pairs of tables have always been joined by a single variable, and th
     #> #   wind_speed <dbl>, wind_gust <dbl>, precip <dbl>, pressure <dbl>,
     #> #   visib <dbl>, time_hour <dttm>
 ```
+{Run code | terminal}(Rscript code/nycFlights.r)
+
 
   * A character vector, `by = "x"`. This is like a natural join, but uses only
     some of the common variables. For example, `flights` and `planes` have
@@ -316,6 +328,8 @@ So far, the pairs of tables have always been joined by a single variable, and th
     #> 6  2013     1     1     5 EWR    ORD   N39463  UA      Chic~  42.0 -87.9
     #> # ... with 3.368e+05 more rows, and 4 more variables: alt <int>, tz <dbl>,
     #> #   dst <chr>, tzone <chr>
+{Run code | terminal}(Rscript code/nycFlights.r)
+
     
     flights2 %>% 
       left_join(airports, c("origin" = "faa"))
@@ -347,6 +361,8 @@ So far, the pairs of tables have always been joined by a single variable, and th
         geom_point() +
         coord_quickmap()
 ```
+{Run code | terminal}(Rscript code/nycFlights.r)
+
 
     (Don't worry if you don't understand what `semi_join()` does --- you'll
     learn about it next.)

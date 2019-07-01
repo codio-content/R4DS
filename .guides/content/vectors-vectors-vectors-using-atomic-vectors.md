@@ -41,6 +41,8 @@ sum(y)  # how many are greater than 10?
 mean(y) # what proportion are greater than 10?
 #> [1] 0.44
 ```
+{Run code | terminal}(Rscript code/vector.r)              
+
 
 You may see some code (typically older) that relies on implicit coercion in the opposite direction, from integer to logical:
 
@@ -97,6 +99,8 @@ sample(10) + 100
 runif(10) > 0.5
 #>  [1]  TRUE  TRUE FALSE  TRUE  TRUE  TRUE FALSE  TRUE  TRUE  TRUE
 ```
+{Run code | terminal}(Rscript code/vector.r)              
+
 
 In R, basic mathematical operations work with vectors. That means that you should never need to perform explicit iteration when performing simple mathematical computations.
 
@@ -145,6 +149,8 @@ tibble(x = 1:4, y = rep(1:2, each = 2))
 #> 3     3     2
 #> 4     4     2
 ```
+{Run code | terminal}(Rscript code/vector.r)              
+
 
 ### Naming vectors
 
@@ -216,6 +222,8 @@ So far we've used `dplyr::filter()` to filter the rows in a tibble. `filter()` o
     x[0]
     #> character(0)
 ```
+{Run code | terminal}(Rscript code/vector.r)              
+
     
     This is not useful very often, but it can be helpful if you want to create 
     unusual data structures to test your functions with.

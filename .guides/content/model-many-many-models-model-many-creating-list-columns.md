@@ -34,6 +34,8 @@ gapminder %>%
 #> 6 Australia   Oceania   <tibble [12 x 4]>
 #> # ... with 136 more rows
 ```
+{Run code | terminal}(Rscript code/listCols.r)              
+
 
 You can also use it on an ungrouped data frame, specifying which columns you want to nest:
 
@@ -73,6 +75,8 @@ df %>%
 #> 1 a,b,c   <chr [3]>
 #> 2 d,e,f,g <chr [4]>
 ```
+{Run code | terminal}(Rscript code/listCols.r)              
+
 
 `unnest()` knows how to handle these lists of vectors:
 
@@ -115,6 +119,8 @@ sim %>%
 #> 2 rnorm <list [1]> <dbl [10]>
 #> 3 rpois <list [1]> <int [10]>
 ```
+{Run code | terminal}(Rscript code/listCols.r)              
+
 
 Note that technically `sim` isn't homogeneous because it contains both double and integer vectors. However, this is unlikely to cause many problems since integers and doubles are both numeric vectors.
 
@@ -165,6 +171,8 @@ mtcars %>%
 #> 6     6  0.01  17.8
 #> # ... with 9 more rows
 ```
+{Run code | terminal}(Rscript code/listCols.r)              
+
 
 ### From a named list
 
@@ -205,6 +213,8 @@ df %>%
 #> 2 b     <int [2]> b: 3 
 #> 3 c     <int [2]> c: 5
 ```
+{Run code | terminal}(Rscript code/listCols.r)              
+
 
 ### Exercises
 

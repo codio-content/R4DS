@@ -17,6 +17,8 @@ table3
 #> 4 Brazil       2000 80488/174504898  
 #> 5 China        1999 212258/1272915272
 #> 6 China        2000 213766/1280428583
+{Run code | terminal}(Rscript code/sepUnit.r)
+
 ```
 
 The `rate` column contains both `cases` and `population` variables, and we need to split it into two variables. `separate()` takes the name of the column to separate, and the names of the columns to separate into, as shown in Figure \@ref(fig:tidy-separate) and the code below.
@@ -47,6 +49,8 @@ By default, `separate()` will split values wherever it sees a non-alphanumeric c
 table3 %>% 
   separate(rate, into = c("cases", "population"), sep = "/")
 ```
+{Run code | terminal}(Rscript code/sepUnit.r)
+
 
 (Formally, `sep` is a regular expression, which you'll learn more about in [strings].)
 
@@ -85,6 +89,8 @@ table3 %>%
 #> 5 China       19      99    212258/1272915272
 #> 6 China       20      00    213766/1280428583
 ```
+{Run code | terminal}(Rscript code/sepUnit.r)
+
 
 ### Unite
 
@@ -112,6 +118,8 @@ table5 %>%
 ```
 
 In this case we also need to use the `sep` argument. The default will place an underscore (`_`) between the values from different columns. Here we don't want any separator so we use `""`:
+{Run code | terminal}(Rscript code/sepUnit.r)
+
 
 
 ```r
@@ -141,6 +149,8 @@ table5 %>%
     tibble(x = c("a,b,c", "d,e", "f,g,i")) %>% 
       separate(x, c("one", "two", "three"))
 ```
+{Run code | terminal}(Rscript code/sepUnit.r)
+
 
 1.  Both `unite()` and `separate()` have a `remove` argument. What does it
     do? Why would you set it to `FALSE`?

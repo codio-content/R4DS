@@ -195,9 +195,9 @@ ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +
 ```
 
 1.  Recreate the R code necessary to generate the following graphs.
-    
-    
-    ![Figure 5.11](visualize_files/figure-latex/unnamed-chunk-29-1.jpg)
+   
+   
+ ![Figure 5.11](visualize_files/figure-latex/unnamed-chunk-29-1.jpg)
 
 **Figure 5.11**
 

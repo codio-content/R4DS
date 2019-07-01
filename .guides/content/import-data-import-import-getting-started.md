@@ -32,6 +32,8 @@ heights <- read_csv("data/heights.csv")
 #>   race = col_character()
 #> )
 ```
+{Run code | terminal}(Rscript code/startImport.r)
+
 
 When you run `read_csv()` it prints out a column specification that gives the name and type of each column. That's an important part of readr, which we'll come back to in [parsing a file].
 
@@ -74,6 +76,8 @@ In both cases `read_csv()` uses the first line of the data for the column names,
     #>   <dbl> <dbl> <dbl>
     #> 1     1     2     3
 ```
+{Run code | terminal}(Rscript code/startImport.r)
+
     
 1.  The data might not have column names. You can use `col_names = FALSE` to
     tell `read_csv()` not to treat the first row as headings, and instead
@@ -104,6 +108,8 @@ In both cases `read_csv()` uses the first line of the data for the column names,
     #> 1     1     2     3
     #> 2     4     5     6
 ```
+{Run code | terminal}(Rscript code/startImport.r)
+
 
 Another option that commonly needs tweaking is `na`: this specifies the value (or values) that are used to represent missing values in your file:
 
@@ -115,6 +121,8 @@ read_csv("a,b,c\n1,2,.", na = ".")
 #>   <dbl> <dbl> <lgl>
 #> 1     1     2 NA
 ```
+{Run code | terminal}(Rscript code/startImport.r)
+
 
 This is all you need to know to read ~75% of CSV files that you'll encounter in practice. You can also easily adapt what you've learned to read tab separated files with `read_tsv()` and fixed width files with `read_fwf()`. To read in more challenging files, you'll need to learn more about how readr parses each column, turning them into R vectors.
 

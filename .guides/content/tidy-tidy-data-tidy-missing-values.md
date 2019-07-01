@@ -14,6 +14,8 @@ stocks <- tibble(
   return = c(1.88, 0.59, 0.35,   NA, 0.92, 0.17, 2.66)
 )
 ```
+{Run code | terminal}(Rscript code/missingVals.r)              
+
 
 There are two missing values in this dataset:
 
@@ -57,6 +59,8 @@ stocks %>%
 #> 5     3 2016    0.17
 #> 6     4 2016    2.66
 ```
+{Run code | terminal}(Rscript code/missingVals.r)              
+
 
 Another important tool for making missing values explicit in tidy data is `complete()`:
 
@@ -90,6 +94,8 @@ treatment <- tribble(
   "Katherine Burke",  1,           4
 )
 ```
+{Run code | terminal}(Rscript code/missingVals.r)              
+
 
 You can fill in these missing values with `fill()`. It takes a set of columns where you want missing values to be replaced by the most recent non-missing value (sometimes called last observation carried forward).
 

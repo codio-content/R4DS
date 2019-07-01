@@ -7,6 +7,8 @@ f <- function(x) {
   x + y
 } 
 ```
+{Run code | terminal}(Rscript code/env.r)              
+
 
 In many programming languages, this would be an error, because `y` is not defined inside the function. In R, this is valid code because R uses rules called __lexical scoping__ to find the value associated with a name. Since `y` is not defined inside the function, R will look in the __environment__ where the function was defined:
 
@@ -40,5 +42,7 @@ table(replicate(1000, 1 + 2))
 #> 100 900
 rm(`+`)
 ```
+{Run code | terminal}(Rscript code/env.r)              
+
 
 This is a common phenomenon in R. R places few limits on your power. You can do many things that you can't do in other programming languages. You can do many things that 99% of the time are extremely ill-advised (like overriding how addition works!). But this power and flexibility is what makes tools like ggplot2 and dplyr possible. Learning how to make best use of this flexibility is beyond the scope of this book, but you can read about in [_Advanced R_](http://adv-r.had.co.nz).

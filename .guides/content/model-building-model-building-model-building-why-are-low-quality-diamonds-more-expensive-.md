@@ -7,6 +7,10 @@ ggplot(diamonds, aes(cut, price)) + geom_boxplot()
 ggplot(diamonds, aes(color, price)) + geom_boxplot()
 ggplot(diamonds, aes(clarity, price)) + geom_boxplot()
 ```
+{Run code | terminal}(Rscript code/modelBuild.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 
@@ -27,6 +31,10 @@ It looks like lower quality diamonds have higher prices because there is an impo
 ggplot(diamonds, aes(carat, price)) + 
   geom_hex(bins = 50)
 ```
+{Run code | terminal}(Rscript code/modelBuild.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 
@@ -53,6 +61,10 @@ Together, these changes make it easier to see the relationship between `carat` a
 ggplot(diamonds2, aes(lcarat, lprice)) + 
   geom_hex(bins = 50)
 ```
+{Run code | terminal}(Rscript code/modelBuild.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 
@@ -81,6 +93,10 @@ ggplot(diamonds2, aes(carat, price)) +
   geom_hex(bins = 50) + 
   geom_line(data = grid, colour = "red", size = 1)
 ```
+{Run code | terminal}(Rscript code/modelBuild.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 
@@ -100,6 +116,10 @@ diamonds2 <- diamonds2 %>%
 ggplot(diamonds2, aes(lcarat, lresid)) + 
   geom_hex(bins = 50)
 ```
+{Run code | terminal}(Rscript code/modelBuild.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 
@@ -115,6 +135,10 @@ ggplot(diamonds2, aes(cut, lresid)) + geom_boxplot()
 ggplot(diamonds2, aes(color, lresid)) + geom_boxplot()
 ggplot(diamonds2, aes(clarity, lresid)) + geom_boxplot()
 ```
+{Run code | terminal}(Rscript code/modelBuild.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 
@@ -155,6 +179,10 @@ grid
 ggplot(grid, aes(cut, pred)) + 
   geom_point()
 ```
+{Run code | terminal}(Rscript code/modelBuild.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 
@@ -172,6 +200,10 @@ diamonds2 <- diamonds2 %>%
 ggplot(diamonds2, aes(lcarat, lresid2)) + 
   geom_hex(bins = 50)
 ```
+{Run code | terminal}(Rscript code/modelBuild.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 

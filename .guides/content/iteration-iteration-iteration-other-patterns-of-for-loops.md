@@ -24,6 +24,8 @@ iris %>%
 #>  $ Petal.Length: num  1.4 1.4 1.3 1.5 1.4 1.7 1.4 1.5 1.4 1.5 ...
 #>  $ Petal.Width : num  0.2 0.2 0.2 0.2 0.2 0.4 0.3 0.2 0.2 0.1 ...
 ```
+{Run code | terminal}(Rscript code/loops.r)
+
 
 `some()` and `every()` determine if the predicate is true for any or for all of
 the elements.
@@ -57,6 +59,8 @@ x %>%
   detect_index(~ . > 5)
 #> [1] 1
 ```
+{Run code | terminal}(Rscript code/loops.r)
+
 
 `head_while()` and `tail_while()` take elements from the start or end of a vector while a predicate is true:
 
@@ -92,6 +96,8 @@ dfs %>% reduce(full_join)
 #> 1 John     30 M     <NA>     
 #> 2 Mary     NA F     A
 ```
+{Run code | terminal}(Rscript code/loops.r)
+
 
 Or maybe you have a list of vectors, and want to find the intersection:
 
@@ -139,6 +145,8 @@ x %>% accumulate(`+`)
       sapply(df_num, f)
     }
 ```
+{Run code | terminal}(Rscript code/loops.r)
+
     
     But it has a number of bugs as illustrated with the following inputs:
     

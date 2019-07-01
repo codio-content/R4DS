@@ -2948,10 +2948,6 @@ sections:
   
           position: 110
         - add:  |
-             {Run code | terminal}(Rscript code/model.r)              
-  
-          position: 110
-        - add:  |
              {Run code | terminal}(Rscript code/model.r)
               
               [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
@@ -3494,55 +3490,322 @@ sections:
             action: close
   - name: "rmarkdown----R Markdown basics"
     type: section
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "#terminal: sudo service rstudio-server-codio start"
+          panel: 0
+          action: open
+        - path: "#preview: https://{{domain8787}}/"
+          panel: 1
+          action: open
   - name: "rmarkdown----1st Level Header"
     type: chapter
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "#terminal: sudo service rstudio-server-codio start"
+          panel: 0
+          action: open
+        - path: "#preview: https://{{domain8787}}/"
+          panel: 1
+          action: open
   - name: "rmarkdown----2nd Level Header"
     type: section
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "#terminal: sudo service rstudio-server-codio start"
+          panel: 0
+          action: open
+        - path: "#preview: https://{{domain8787}}/"
+          panel: 1
+          action: open
   - name: "rmarkdown----Troubleshooting"
     type: section
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "#terminal: sudo service rstudio-server-codio start"
+          panel: 0
+          action: open
+        - path: "#preview: https://{{domain8787}}/"
+          panel: 1
+          action: open
   - name: "rmarkdown----YAML header"
     type: section
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "#terminal: sudo service rstudio-server-codio start"
+          panel: 0
+          action: open
+        - path: "#preview: https://{{domain8787}}/"
+          panel: 1
+          action: open
   - name: "rmarkdown----Learning more"
     type: section
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "#terminal: sudo service rstudio-server-codio start"
+          panel: 0
+          action: open
+        - path: "#preview: https://{{domain8787}}/"
+          panel: 1
+          action: open
   - name: "communicate-plots----Graphics for communication"
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "communicate-plots----Introduction"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "communicate-plots----Label"
     type: section
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "#terminal: sudo service rstudio-server-codio start"
+          panel: 0
+          action: open
+        - path: "#preview: https://{{domain8787}}/"
+          panel: 1
+          action: open
   - name: "communicate-plots----Annotations"
     type: section
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "#terminal: sudo service rstudio-server-codio start"
+          panel: 0
+          action: open
+        - path: "#preview: https://{{domain8787}}/"
+          panel: 1
+          action: open
   - name: "communicate-plots----Scales"
     type: section
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "#terminal: sudo service rstudio-server-codio start"
+          panel: 0
+          action: open
+        - path: "#preview: https://{{domain8787}}/"
+          panel: 1
+          action: open
   - name: "communicate-plots----Zooming"
     type: section
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "#terminal: sudo service rstudio-server-codio start"
+          panel: 0
+          action: open
+        - path: "#preview: https://{{domain8787}}/"
+          panel: 1
+          action: open
   - name: "communicate-plots----Themes"
     type: section
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "#terminal: sudo service rstudio-server-codio start"
+          panel: 0
+          action: open
+        - path: "#preview: https://{{domain8787}}/"
+          panel: 1
+          action: open
   - name: "communicate-plots----Saving your plots"
     type: section
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "#terminal: sudo service rstudio-server-codio start"
+          panel: 0
+          action: open
+        - path: "#preview: https://{{domain8787}}/"
+          panel: 1
+          action: open
   - name: "communicate-plots----Learning more"
     type: section
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "#terminal: sudo service rstudio-server-codio start"
+          panel: 0
+          action: open
+        - path: "#preview: https://{{domain8787}}/"
+          panel: 1
+          action: open
   - name: "rmarkdown-formats----R Markdown formats"
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "rmarkdown-formats----Introduction"
     type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
   - name: "rmarkdown-formats----Output options"
     type: section
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "#terminal: sudo service rstudio-server-codio start"
+          panel: 0
+          action: open
+        - path: "#preview: https://{{domain8787}}/"
+          panel: 1
+          action: open
   - name: "rmarkdown-formats----Documents"
     type: section
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "#terminal: sudo service rstudio-server-codio start"
+          panel: 0
+          action: open
+        - path: "#preview: https://{{domain8787}}/"
+          panel: 1
+          action: open
   - name: "rmarkdown-formats----Notebooks"
     type: section
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "#terminal: sudo service rstudio-server-codio start"
+          panel: 0
+          action: open
+        - path: "#preview: https://{{domain8787}}/"
+          panel: 1
+          action: open
   - name: "rmarkdown-formats----Presentations"
     type: section
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "#terminal: sudo service rstudio-server-codio start"
+          panel: 0
+          action: open
+        - path: "#preview: https://{{domain8787}}/"
+          panel: 1
+          action: open
   - name: "rmarkdown-formats----Dashboards"
     type: section
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "#terminal: sudo service rstudio-server-codio start"
+          panel: 0
+          action: open
+        - path: "#preview: https://{{domain8787}}/"
+          panel: 1
+          action: open
   - name: "rmarkdown-formats----Interactivity"
     type: section
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "#terminal: sudo service rstudio-server-codio start"
+          panel: 0
+          action: open
+        - path: "#preview: https://{{domain8787}}/"
+          panel: 1
+          action: open
   - name: "rmarkdown-formats----Websites"
     type: section
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "#terminal: sudo service rstudio-server-codio start"
+          panel: 0
+          action: open
+        - path: "#preview: https://{{domain8787}}/"
+          panel: 1
+          action: open
   - name: "rmarkdown-formats----Other formats"
     type: section
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "#terminal: sudo service rstudio-server-codio start"
+          panel: 0
+          action: open
+        - path: "#preview: https://{{domain8787}}/"
+          panel: 1
+          action: open
   - name: "rmarkdown-formats----Learning more"
     type: section
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "#terminal: sudo service rstudio-server-codio start"
+          panel: 0
+          action: open
+        - path: "#preview: https://{{domain8787}}/"
+          panel: 1
+          action: open
   - name: "rmarkdown-workflow----R Markdown workflow"
     type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close

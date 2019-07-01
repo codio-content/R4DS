@@ -11,6 +11,10 @@ x %>%
 #> [1] "a"
 #> [1] 3
 ```
+{Run code | terminal}(Rscript code/walk.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 `walk()` is generally not that useful compared to `walk2()` or `pwalk()`. For example, if you had a list of plots and a vector of file names, you could use `pwalk()` to save each file to the corresponding location on disk:
 

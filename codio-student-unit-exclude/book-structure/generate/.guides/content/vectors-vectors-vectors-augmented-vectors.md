@@ -24,6 +24,8 @@ attributes(x)
 #> $class
 #> [1] "factor"
 ```
+{Run code | terminal}(Rscript code/aug.r)              
+
 
 ### Dates and date-times
 
@@ -61,6 +63,8 @@ attributes(x)
 #> $tzone
 #> [1] "UTC"
 ```
+{Run code | terminal}(Rscript code/aug.r)              
+
 
 The `tzone` attribute is optional. It controls how the time is printed, not what absolute time it refers to.
 
@@ -93,6 +97,8 @@ attributes(y)
 #> $tzone
 #> [1] "US/Eastern" "EST"        "EDT"
 ```
+{Run code | terminal}(Rscript code/aug.r)              
+
 
 POSIXlts are rare inside the tidyverse. They do crop up in base R, because they are needed to extract specific components of a date, like the year or month. Since lubridate provides helpers for you to do this instead, you don't need them. POSIXct's are always easier to work with, so if you find you have a POSIXlt, you should always convert it to a regular data time `lubridate::as_date_time()`.
 
@@ -135,6 +141,8 @@ attributes(df)
 #> $row.names
 #> [1] 1 2 3 4 5
 ```
+{Run code | terminal}(Rscript code/aug.r)              
+
 
 The main difference is the class. The class of tibble includes "data.frame" which means tibbles inherit the regular data frame behaviour by default.
 

@@ -29,6 +29,8 @@ mean_ci(x)
 mean_ci(x, conf = 0.99)
 #> [1] 0.480 0.628
 ```
+{Run code | terminal}(Rscript code/funArgs.r)              
+
 
 The default value should almost always be the most common value. The few exceptions to this rule are to do with safety. For example, it makes sense for `na.rm` to default to `FALSE` because missing values are important. Even though `na.rm = TRUE` is what you usually put in your code, it's a bad idea to silently ignore missing values by default.
 
@@ -87,6 +89,8 @@ wt_sd <- function(x, w) {
   sqrt(wt_var(x, w))
 }
 ```
+{Run code | terminal}(Rscript code/funArgs.r)              
+
 
 What happens if `x` and `w` are not the same length?
 
@@ -133,6 +137,8 @@ wt_mean <- function(x, w, na.rm = FALSE) {
   sum(w * x) / sum(w)
 }
 ```
+{Run code | terminal}(Rscript code/funArgs.r)              
+
 
 This is a lot of extra work for little additional gain. A useful compromise is the built-in `stopifnot()`: it checks that each argument is `TRUE`, and produces a generic error message if not.
 
@@ -185,6 +191,8 @@ rule <- function(..., pad = "-") {
 rule("Important output")
 #> Important output ------------------------------------------------------
 ```
+{Run code | terminal}(Rscript code/funArgs.r)              
+
 
 Here `...` lets me forward on any arguments that I don't want to deal with to `str_c()`. It's a very convenient technique. But it does come at a price: any misspelled arguments will not raise an error. This makes it easy for typos to go unnoticed:
 

@@ -8,6 +8,10 @@ str_view(fruit, "nana")
 # Is shorthand for
 str_view(fruit, regex("nana"))
 ```
+{Run code | terminal}(Rscript code/otherPatterns.r)
+
+{Run code | terminal}(Rscript code/otherPatterns.r)
+
 
 You can use the other arguments of `regex()` to control details of the match:
 
@@ -70,6 +74,8 @@ You can use the other arguments of `regex()` to control details of the match:
     #>      [,1]          [,2]  [,3]  [,4] 
     #> [1,] "514-791-814" "514" "791" "814"
 ```
+{Run code | terminal}(Rscript code/otherPatterns.r)
+
 
 *   `dotall = TRUE` allows `.` to match everything, including `\n`.
 
@@ -120,6 +126,8 @@ There are three other functions you can use instead of `regex()`:
     str_detect(a1, coll(a2))
     #> [1] TRUE
 ```
+{Run code | terminal}(Rscript code/otherPatterns.r)
+
     
 *   `coll()`: compare strings using standard **coll**ation rules. This is 
     useful for doing case insensitive matching. Note that `coll()` takes a
@@ -187,6 +195,8 @@ There are three other functions you can use instead of `regex()`:
     #> [[1]]
     #> [1] "This"     "is"       "a"        "sentence"
 ```
+{Run code | terminal}(Rscript code/otherPatterns.r)
+
 
 ### Exercises
 

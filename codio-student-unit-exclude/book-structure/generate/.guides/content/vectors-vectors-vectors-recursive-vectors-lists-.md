@@ -14,6 +14,8 @@ x
 #> [[3]]
 #> [1] 3
 ```
+{Run code | terminal}(Rscript code/lists.r)              
+
 
 A very useful tool for working with lists is `str()` because it focusses on the **str**ucture, not the contents.
 
@@ -60,6 +62,8 @@ str(z)
 #>   ..$ : num 3
 #>   ..$ : num 4
 ```
+{Run code | terminal}(Rscript code/lists.r)              
+
 
 ### Visualising lists
 
@@ -98,6 +102,8 @@ There are three ways to subset a list, which I'll illustrate with a list named `
 ```r
 a <- list(a = 1:3, b = "a string", c = pi, d = list(-1, -5))
 ```
+{Run code | terminal}(Rscript code/lists.r)              
+
 
 *   `[` extracts a sub-list. The result will always be a list.
 

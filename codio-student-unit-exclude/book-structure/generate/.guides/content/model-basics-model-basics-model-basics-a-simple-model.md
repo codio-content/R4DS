@@ -7,6 +7,10 @@ ggplot(sim1, aes(x, y)) +
   geom_point()
 ```
 
+{Run code | terminal}(Rscript code/model.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 ![Figure 28.1](model-basics_files/figure-latex/unnamed-chunk-2-1.jpg)
@@ -26,6 +30,10 @@ ggplot(sim1, aes(x, y)) +
   geom_abline(aes(intercept = a1, slope = a2), data = models, alpha = 1/4) +
   geom_point() 
 ```
+{Run code | terminal}(Rscript code/model.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 
@@ -56,6 +64,10 @@ model1(c(7, 1.5), sim1)
 #> [15] 14.5 16.0 16.0 16.0 17.5 17.5 17.5 19.0 19.0 19.0 20.5 20.5 20.5 22.0
 #> [29] 22.0 22.0
 ```
+{Run code | terminal}(Rscript code/model.r)              
+
+{Run code | terminal}(Rscript code/model.r)              
+
 
 Next, we need some way to compute an overall distance between the predicted and actual values. In other words, the plot above shows 30 distances: how do we collapse that into a single number?
 
@@ -105,6 +117,10 @@ ggplot(sim1, aes(x, y)) +
     data = filter(models, rank(dist) <= 10)
   )
 ```
+{Run code | terminal}(Rscript code/model.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 
@@ -142,6 +158,10 @@ grid %>%
   geom_point(data = filter(grid, rank(dist) <= 10), size = 4, colour = "red") +
   geom_point(aes(colour = -dist)) 
 ```
+{Run code | terminal}(Rscript code/model.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 
@@ -179,6 +199,10 @@ ggplot(sim1, aes(x, y)) +
   geom_point(size = 2, colour = "grey30") + 
   geom_abline(intercept = best$par[1], slope = best$par[2])
 ```
+{Run code | terminal}(Rscript code/model.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 

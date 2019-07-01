@@ -12,6 +12,8 @@ mu %>%
 #>  $ : num [1:5] 10.79 9.03 10.89 10.76 10.65
 #>  $ : num [1:5] -3.54 -3.08 -5.01 -3.51 -2.9
 ```
+{Run code | terminal}(Rscript code/map.r)              
+
 
 What if you also want to vary the standard deviation? One way to do that would be to iterate over the indices and index into vectors of means and sds:
 
@@ -59,6 +61,8 @@ map2 <- function(x, y, f, ...) {
   out
 }
 ```
+{Run code | terminal}(Rscript code/map.r)              
+
 
 You could also imagine `map3()`, `map4()`, `map5()`, `map6()` etc, but that would get tedious quickly. Instead, purrr provides `pmap()` which takes a list of arguments. You might use that if you wanted to vary the mean, standard deviation, and number of samples:
 
@@ -91,6 +95,8 @@ args2 %>%
   pmap(rnorm) %>% 
   str()
 ```
+{Run code | terminal}(Rscript code/map.r)              
+
 
 That generates longer, but safer, calls:
 
@@ -136,6 +142,8 @@ param <- list(
   list(lambda = 10)
 )
 ```
+{Run code | terminal}(Rscript code/map.r)              
+
 
 To handle this case, you can use `invoke_map()`:
 
@@ -168,3 +176,5 @@ sim <- tribble(
 sim %>% 
   mutate(sim = invoke_map(f, params, n = 10))
 ```
+{Run code | terminal}(Rscript code/map.r)              
+

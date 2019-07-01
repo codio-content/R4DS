@@ -16,6 +16,8 @@ attributes(x)
 #> $farewell
 #> [1] "Bye!"
 ```
+{Run code | terminal}(Rscript code/attr.r)              
+
 
 There are three very important attributes that are used to implement fundamental parts of R:
 
@@ -74,5 +76,7 @@ getS3method("as.Date", "numeric")
 #> <bytecode: 0x7faa8fda1f70>
 #> <environment: namespace:base>
 ```
+{Run code | terminal}(Rscript code/attr.r)              
+
 
 The most important S3 generic is `print()`: it controls how the object is printed when you type its name at the console. Other important generics are the subsetting functions `[`, `[[`, and `$`. 

@@ -16,6 +16,8 @@ h_age <- today() - ymd(19791014)
 h_age
 #> Time difference of 14423 days
 ```
+{Run code | terminal}(Rscript code/timeSpans.r)              
+
 
 A difftime class object records a time span of seconds, minutes, hours, days, or weeks. This ambiguity can make difftimes a little painful to work with, so lubridate provides an alternative which always uses seconds: the __duration__.
 
@@ -55,6 +57,8 @@ You can add and multiply durations:
 dyears(1) + dweeks(12) + dhours(15)
 #> [1] "38847600s (~1.23 years)"
 ```
+{Run code | terminal}(Rscript code/timeSpans.r)              
+
 
 You can add and subtract durations to and from days:
 
@@ -89,6 +93,8 @@ one_pm
 one_pm + days(1)
 #> [1] "2016-03-13 13:00:00 EDT"
 ```
+{Run code | terminal}(Rscript code/timeSpans.r)              
+
 
 Like durations, periods can be created with a number of friendly constructor functions. 
 
@@ -137,6 +143,8 @@ one_pm + ddays(1)
 one_pm + days(1)
 #> [1] "2016-03-13 13:00:00 EDT"
 ```
+{Run code | terminal}(Rscript code/timeSpans.r)              
+
 
 Let's use periods to fix an oddity related to our flight dates. Some planes appear to have arrived at their destination _before_ they departed from New York City.
 
@@ -181,6 +189,8 @@ flights_dt %>%
 #> #   arr_time <dttm>, sched_arr_time <dttm>, air_time <dbl>,
 #> #   overnight <lgl>
 ```
+{Run code | terminal}(Rscript code/timeSpans.r)              
+
 
 ### Intervals
 
@@ -203,6 +213,8 @@ next_year <- today() + years(1)
 (today() %--% next_year) / ddays(1)
 #> [1] 366
 ```
+{Run code | terminal}(Rscript code/timeSpans.r)              
+
 
 To find out how many periods fall into an interval, you need to use integer division:
 

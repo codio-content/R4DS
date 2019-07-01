@@ -2,4 +2,4 @@
 # for graphical output press the "Refresh Plot" link
  
 library(tidyverse)
-heights <- read_csv("data/heights.csv")
+heights <- read_csv("code/data/heights.csv")

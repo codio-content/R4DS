@@ -6,6 +6,8 @@ You can create strings with either single quotes or double quotes. Unlike other 
 string1 <- "This is a string"
 string2 <- 'If I want to include a "quote" inside a string, I use single quotes'
 ```
+{Run code | terminal}(Rscript code/stringBasics.r)
+
 
 If you forget to close a quote, you'll see `+`, the continuation character:
 
@@ -39,6 +41,8 @@ writeLines(x)
 #> "
 #> \
 ```
+{Run code | terminal}(Rscript code/stringBasics.r)
+
 
 There are a handful of other special characters. The most common are `"\n"`, newline, and `"\t"`, tab, but you can see the complete list by requesting help on `"`: `?'"'`, or `?"'"`. You'll also sometimes see strings like `"\u00b5"`, this is a way of writing non-English characters that works on all platforms:
 
@@ -66,6 +70,8 @@ Base R contains many functions to work with strings but we'll avoid them because
 str_length(c("a", "R for data science", NA))
 #> [1]  1 18 NA
 ```
+{Run code | terminal}(Rscript code/stringBasics.r)
+
 
 The common `str_` prefix is particularly useful if you use RStudio, because typing `str_` will trigger autocomplete, allowing you to see all stringr functions:
 
@@ -104,6 +110,8 @@ str_c("|-", x, "-|")
 str_c("|-", str_replace_na(x), "-|")
 #> [1] "|-abc-|" "|-NA-|"
 ```
+{Run code | terminal}(Rscript code/stringBasics.r)
+
 
 As shown above, `str_c()` is vectorised, and it automatically recycles shorter vectors to the same length as the longest:
 
@@ -150,6 +158,8 @@ str_sub(x, 1, 3)
 str_sub(x, -3, -1)
 #> [1] "ple" "ana" "ear"
 ```
+{Run code | terminal}(Rscript code/stringBasics.r)
+
 
 Note that `str_sub()` won't fail if the string is too short: it will just return as much as possible:
 
@@ -181,6 +191,8 @@ str_to_upper(c("i", "ı"))
 str_to_upper(c("i", "ı"), locale = "tr")
 #> [1] "İ" "I"
 ```
+{Run code | terminal}(Rscript code/stringBasics.r)
+
 
 The locale is specified as a ISO 639 language code, which is a two or three letter abbreviation. If you don't already know the code for your language, [Wikipedia](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) has a good list. If you leave the locale blank, it will use the current locale, as provided by your operating system.
 

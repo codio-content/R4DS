@@ -33,6 +33,8 @@ month_levels <- c(
   "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
 )
 ```
+{Run code | terminal}(Rscript code/factors.r)
+
 
 Now you can create a factor:
 
@@ -75,6 +77,8 @@ factor(x1)
 #> [1] Dec Apr Jan Mar
 #> Levels: Apr Dec Jan Mar
 ```
+{Run code | terminal}(Rscript code/factors.r)
+
 
 Sometimes you'd prefer that the order of the levels match the order of the first appearance in the data. You can do that when creating the factor by setting levels to `unique(x)`, or after the fact, with `fct_inorder()`:
 

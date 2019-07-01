@@ -13,6 +13,10 @@ relig_summary <- gss_cat %>%
 
 ggplot(relig_summary, aes(tvhours, relig)) + geom_point()
 ```
+{Run code | terminal}(Rscript code/gss.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 
@@ -64,6 +68,10 @@ rincome_summary <- gss_cat %>%
 
 ggplot(rincome_summary, aes(age, fct_reorder(rincome, age))) + geom_point()
 ```
+{Run code | terminal}(Rscript code/gss.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 
@@ -106,6 +114,10 @@ ggplot(by_age, aes(age, prop, colour = fct_reorder2(marital, age, prop))) +
   geom_line() +
   labs(colour = "marital")
 ```
+{Run code | terminal}(Rscript code/gss.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 ![Figure 18.6](factors_files/figure-latex/unnamed-chunk-21-1.jpg)

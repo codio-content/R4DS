@@ -21,6 +21,8 @@ yday(datetime)
 wday(datetime)
 #> [1] 6
 ```
+{Run code | terminal}(Rscript code/dateTime.r)              
+
 
 For `month()` and `wday()` you can set `label = TRUE` to return the abbreviated name of the month or day of the week. Set `abbr = FALSE` to return the full name.
 
@@ -43,6 +45,10 @@ flights_dt %>%
   ggplot(aes(x = wday)) +
     geom_bar()
 ```
+
+{Run code | terminal}(Rscript code/dateTime.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
 
 
 
@@ -85,6 +91,10 @@ ggplot(sched_dep, aes(minute, avg_delay)) +
   geom_line()
 ```
 
+{Run code | terminal}(Rscript code/dateTime.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 ![Figure 19.3](datetimes_files/figure-latex/unnamed-chunk-20-1.jpg)
@@ -116,6 +126,10 @@ flights_dt %>%
   ggplot(aes(week, n)) +
     geom_line()
 ```
+
+{Run code | terminal}(Rscript code/dateTime.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
 
 
 
@@ -164,6 +178,8 @@ ymd("2015-02-01") %>%
   update(hour = 400)
 #> [1] "2015-02-17 16:00:00 UTC"
 ```
+{Run code | terminal}(Rscript code/dateTime.r)              
+
 
 You can use `update()` to show the distribution of flights across the course of the day for every day of the year: 
 
@@ -174,6 +190,10 @@ flights_dt %>%
   ggplot(aes(dep_hour)) +
     geom_freqpoly(binwidth = 300)
 ```
+
+{Run code | terminal}(Rscript code/dateTime.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
 
 
 

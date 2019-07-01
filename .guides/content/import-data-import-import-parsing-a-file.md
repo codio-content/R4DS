@@ -24,6 +24,8 @@ guess_parser(c("12,352,561"))
 str(parse_guess("2010-10-10"))
 #>  Date[1:1], format: "2010-10-10"
 ```
+{Run code | terminal}(Rscript code/parseF.r)
+
 
 The heuristic tries each of the following types, stopping when it finds a match:
 
@@ -70,6 +72,8 @@ challenge <- read_csv(readr_example("challenge.csv"))
 #> .... ... .................. .......... ...............................................................
 #> See problems(...) for more details.
 ```
+{Run code | terminal}(Rscript code/parseF.r)
+
 
 (Note the use of `readr_example()` which finds the path to one of the files included with the package)
 
@@ -104,6 +108,8 @@ challenge <- read_csv(
   )
 )
 ```
+{Run code | terminal}(Rscript code/parseF.r)
+
 
 Then you can tweak the type of the `x` column:
 
@@ -156,6 +162,8 @@ tail(challenge)
 #> 5 0.270 2020-02-04
 #> 6 0.608 2019-01-06
 ```
+{Run code | terminal}(Rscript code/parseF.r)
+
 
 Every `parse_xyz()` function has a corresponding `col_xyz()` function. You use `parse_xyz()` when the data is in a character vector in R already; you use `col_xyz()` when you want to tell readr how to load the data.
 
@@ -188,6 +196,8 @@ There are a few other general strategies to help you parse files:
     #> 6  2332 NA        
     #> # ... with 1,994 more rows
 ```
+{Run code | terminal}(Rscript code/parseF.r)
+
 
 *   Sometimes it's easier to diagnose problems if you just read in all
     the columns as character vectors:
@@ -233,6 +243,8 @@ There are a few other general strategies to help you parse files:
     #> 2     2  2.32
     #> 3     3  4.56
 ```
+{Run code | terminal}(Rscript code/parseF.r)
+
     
 *   If you're reading a very large file, you might want to set `n_max` to
     a smallish number like 10,000 or 100,000. That will accelerate your 

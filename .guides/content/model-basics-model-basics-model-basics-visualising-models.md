@@ -23,6 +23,8 @@ grid
 #> 6     6
 #> # ... with 4 more rows
 ```
+{Run code | terminal}(Rscript code/vizmod.r)              
+
 
 (This will get more interesting when we start to add more variables to our model.)
 
@@ -55,6 +57,10 @@ ggplot(sim1, aes(x)) +
   geom_point(aes(y = y)) +
   geom_line(aes(y = pred), data = grid, colour = "red", size = 1)
 ```
+{Run code | terminal}(Rscript code/vizmod.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 
@@ -109,6 +115,10 @@ ggplot(sim1, aes(x, resid)) +
   geom_ref_line(h = 0) +
   geom_point() 
 ```
+{Run code | terminal}(Rscript code/vizmod.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 
 

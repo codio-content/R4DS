@@ -10,6 +10,8 @@ df <- tibble(
   d = rnorm(10)
 )
 ```
+{Run code | terminal}(Rscript code/for.r)              
+
 
 We want to compute the median of each column. You _could_ do with copy-and-paste:
 
@@ -65,6 +67,8 @@ Every for loop has three components:
     1:length(y)
     #> [1] 1 0
 ```
+{Run code | terminal}(Rscript code/for.r)              
+
     
     You probably won't create a zero-length vector deliberately, but
     it's easy to create them accidentally. If you use `1:length(x)` instead

@@ -14,6 +14,8 @@ We'll start by defining an object to represent little bunny Foo Foo:
 ```r
 foo_foo <- little_bunny()
 ```
+{Run code | terminal}(Rscript code/pipes.r)              
+
 
 And we'll use a function for each key verb: `hop()`, `scoop()`, and `bop()`. Using this object and these verbs, there are (at least) four ways we could retell the story in code:
 
@@ -58,6 +60,10 @@ pryr::object_size(diamonds2)
 pryr::object_size(diamonds, diamonds2)
 #> 3.89 MB
 ```
+{Run code | terminal}(Rscript code/pipes.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
+
 
 `pryr::object_size()` gives the memory occupied by all of its arguments. The results seem counterintuitive at first:
 
@@ -90,6 +96,8 @@ foo_foo <- hop(foo_foo, through = forest)
 foo_foo <- scoop(foo_foo, up = field_mice)
 foo_foo <- bop(foo_foo, on = head)
 ```
+{Run code | terminal}(Rscript code/pipes.r)              
+
 
 This is less typing (and less thinking), so you're less likely to make mistakes. However, there are two problems:
 
@@ -128,6 +136,8 @@ foo_foo %>%
   scoop(up = field_mice) %>%
   bop(on = head)
 ```
+{Run code | terminal}(Rscript code/pipes.r)              
+
 
 This is my favourite form, because it focusses on verbs, not nouns. You can read this series of function compositions like it's a set of imperative actions. Foo Foo hops, then scoops, then bops. The downside, of course, is that you need to be familiar with the pipe. If you've never seen `%>%` before, you'll have no idea what this code does. Fortunately, most people pick up the idea very quickly, so when you share your code with others who aren't familiar with the pipe, you can easily teach them.
 
@@ -170,6 +180,8 @@ This means that the pipe won't work for two classes of functions:
     x
     #> [1] 100
 ```
+{Run code | terminal}(Rscript code/pipes.r)              
+
     
     Other functions with this problem include `get()` and `load()`.
 

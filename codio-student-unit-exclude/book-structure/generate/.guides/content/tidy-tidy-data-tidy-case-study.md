@@ -35,6 +35,8 @@ who
 #> #   newrel_f3544 <int>, newrel_f4554 <int>, newrel_f5564 <int>,
 #> #   newrel_f65 <int>
 ```
+{Run code | terminal}(Rscript code/whoCase.r)              
+
 
 This is a very typical real-life example dataset. It contains redundant columns, odd variable codes, and many missing values. In short, `who` is messy, and we'll need multiple steps to tidy it. Like dplyr, tidyr is designed so that each function does one thing well. That means in real-life situations you'll usually need to string together multiple verbs into a pipeline. 
 
@@ -85,6 +87,8 @@ who1 %>%
 #> 6 new_ep_f5564  1017
 #> # ... with 50 more rows
 ```
+{Run code | terminal}(Rscript code/whoCase.r)              
+
 
 You might be able to parse this out by yourself with a little thought and some experimentation, but luckily we have the data dictionary handy. It tells us:
 
@@ -152,6 +156,8 @@ who3
 #> 6 Afghanistan AF    AFG    2002 new   sp    m014      90
 #> # ... with 7.604e+04 more rows
 ```
+{Run code | terminal}(Rscript code/whoCase.r)              
+
 
 Then we might as well drop the `new` column because it's constant in this dataset. While we're dropping columns, let's also drop `iso2` and `iso3` since they're redundant.
 
@@ -185,6 +191,8 @@ who5
 #> 6 Afghanistan  2002 sp    m     014      90
 #> # ... with 7.604e+04 more rows
 ```
+{Run code | terminal}(Rscript code/whoCase.r)              
+
 
 The `who` dataset is now tidy!
 

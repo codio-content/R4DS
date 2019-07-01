@@ -15,6 +15,8 @@ gss_cat
 #> 6  2000 Married      25 White $20000 -~ Strong de~ Protest~ Southe~      NA
 #> # ... with 2.148e+04 more rows
 ```
+{Run code | terminal}(Rscript code/gss.r)              
+
 
 (Remember, since this dataset is provided by a package, you can get more information about the variables with `?gss_cat`.)
 
@@ -39,6 +41,10 @@ Or with a bar chart:
 ggplot(gss_cat, aes(race)) +
   geom_bar()
 ```
+
+{Run code | terminal}(Rscript code/gss.r)
+ 
+ [Refresh plot](close_preview Rplots.pdf panel=1; open_preview Rplots.pdf panel=1)
 
 
 

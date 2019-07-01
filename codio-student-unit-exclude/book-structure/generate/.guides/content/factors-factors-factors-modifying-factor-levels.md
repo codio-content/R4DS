@@ -15,6 +15,8 @@ gss_cat %>% count(partyid)
 #> 6 Ind,near rep        1791
 #> # ... with 4 more rows
 ```
+{Run code | terminal}(Rscript code/gss.r)              
+
 
 The levels are terse and inconsistent. Let's tweak them to be longer and use a parallel construction.
 
@@ -72,6 +74,8 @@ gss_cat %>%
 #> 6 Independent, near dem  2499
 #> # ... with 2 more rows
 ```
+{Run code | terminal}(Rscript code/gss.r)              
+
 
 You must use this technique with care: if you group together categories that are truly different you will end up with misleading results.
 
@@ -134,6 +138,8 @@ gss_cat %>%
 #>  9 Moslem/islam              104
 #> 10 Orthodox-christian         95
 ```
+{Run code | terminal}(Rscript code/gss.r)              
+
 
 ### Exercises
 

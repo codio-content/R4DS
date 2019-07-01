@@ -10,6 +10,8 @@ str(parse_integer(c("1", "2", "3")))
 str(parse_date(c("2010-01-01", "1979-10-14")))
 #>  Date[1:2], format: "2010-01-01" "1979-10-14"
 ```
+{Run code | terminal}(Rscript code/parseV.r)
+
 
 These functions are useful in their own right, but are also an important building block for readr. Once you've learned how the individual parsers work in this section, we'll circle back and see how they fit together to parse a complete file in the next section.
 
@@ -57,6 +59,8 @@ problems(x)
 #> 1     3    NA an integer             abc   
 #> 2     4    NA no trailing characters .45
 ```
+{Run code | terminal}(Rscript code/parseV.r)
+
 
 Using parsers is mostly a matter of understanding what's available and how they deal with different types of input. There are eight particularly important parsers:
 
@@ -104,6 +108,8 @@ parse_double("1.23")
 parse_double("1,23", locale = locale(decimal_mark = ","))
 #> [1] 1.23
 ```
+{Run code | terminal}(Rscript code/parseV.r)
+
 
 readr's default locale is US-centric, because generally R is US-centric (i.e. the documentation of base R is written in American English). An alternative approach would be to try and guess the defaults from your operating system. This is hard to do well, and, more importantly, makes your code fragile: even if it works on your computer, it might fail when you email it to a colleague in another country.
 
@@ -135,6 +141,8 @@ parse_number("123.456.789", locale = locale(grouping_mark = "."))
 parse_number("123'456'789", locale = locale(grouping_mark = "'"))
 #> [1] 1.23e+08
 ```
+{Run code | terminal}(Rscript code/parseV.r)
+
 
 ### Strings 
 
@@ -172,6 +180,8 @@ parse_character(x1, locale = locale(encoding = "Latin1"))
 parse_character(x2, locale = locale(encoding = "Shift-JIS"))
 #> [1] "こんにちは"
 ```
+{Run code | terminal}(Rscript code/parseV.r)
+
 
 How do you find the correct encoding? If you're lucky, it'll be included somewhere in the data documentation. Unfortunately, that's rarely the case, so readr provides  `guess_encoding()` to help you figure it out. It's not foolproof, and it works better when you have lots of text (unlike here), but it's a reasonable place to start. Expect to try a few different encodings before you find the right one.
 
@@ -213,6 +223,8 @@ parse_factor(c("apple", "banana", "bananana"), levels = fruit)
 #> 1     3    NA value in level set bananana
 #> Levels: apple banana
 ```
+{Run code | terminal}(Rscript code/parseV.r)
+
 
 But if you have many problematic entries, it's often easier to leave as character vectors and then use the tools you'll learn about in [strings] and [factors] to clean them up.
 
@@ -233,6 +245,8 @@ You pick between three parsers depending on whether you want a date (the number 
     parse_datetime("20101010")
     #> [1] "2010-10-10 UTC"
 ```
+{Run code | terminal}(Rscript code/parseV.r)
+
     
     This is the most important date/time standard, and if you work with
     dates and times frequently, I recommend reading
@@ -258,6 +272,8 @@ You pick between three parsers depending on whether you want a date (the number 
     parse_time("20:10:01")
     #> 20:10:01
 ```
+{Run code | terminal}(Rscript code/parseV.r)
+
     
     Base R doesn't have a great built in class for time data, so we use 
     the one provided in the hms package.
@@ -305,6 +321,8 @@ parse_date("01/02/15", "%d/%m/%y")
 parse_date("01/02/15", "%y/%m/%d")
 #> [1] "2001-02-15"
 ```
+{Run code | terminal}(Rscript code/parseV.r)
+
 
 If you're using `%b` or `%B` with non-English month names, you'll need to set the  `lang` argument to `locale()`. See the list of built-in languages in `date_names_langs()`, or if your language is not already included, create your own with `date_names()`.
 

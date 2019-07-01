@@ -26,6 +26,8 @@ Every vector has two key properties:
     typeof(1:10)
     #> [1] "integer"
 ```
+{Run code | terminal}(Rscript code/vector.r)
+
 
 1. Its __length__, which you can determine with `length()`.
 
